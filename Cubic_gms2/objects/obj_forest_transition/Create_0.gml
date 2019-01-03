@@ -20,12 +20,12 @@ surf_end = surface_create(surface_get_width(application_surface)-2*bb, surface_g
 
 //draw surf_start
 surface_set_target(surf_start);
-draw_enable_alphablend(false);
-draw_set_colour_write_enable(true,true,true,false);
+gpu_set_blendenable(false)
+gpu_set_colorwriteenable(true,true,true,false);
 draw_clear(c_black);
 draw_surface(application_surface, -bb, 0);
-draw_enable_alphablend(true);
-draw_set_colour_write_enable(true,true,true,true);
+gpu_set_blendenable(true);
+gpu_set_colorwriteenable(true,true,true,true);
 surface_reset_target();
 
 

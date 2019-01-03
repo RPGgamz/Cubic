@@ -3,7 +3,7 @@
 if (!surface_exists(surf)) surf = surface_create(room_width, room_height);
 surface_set_target(surf);
 //draw_set_alpha(trail_alpha);
-draw_enable_alphablend(false);
+gpu_set_blendenable(false);
 
 draw_clear_alpha(c_black, 0);
 draw_set_color(c_black);
@@ -24,7 +24,7 @@ repeat(room_width) {
 }
 
 draw_set_alpha(1);
-draw_enable_alphablend(true);
+gpu_set_blendenable(true);
 surface_reset_target();
 
 //draw the surf

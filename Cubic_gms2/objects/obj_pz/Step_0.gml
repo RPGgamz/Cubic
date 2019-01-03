@@ -51,12 +51,14 @@ if (keyboard_check_pressed(vk_anykey) && alarm[0] == -1)
 if (keyboard_check_pressed(ord("R")) && alarm[0] == -1 && !instance_exists(obj_pz_camera_move)) scr_puzzle_reset(pz[current_puzzle,0])
 
 //leave puzzle
-if (keyboard_check_pressed(vk_escape) && obj_control.state == scr_idle && !instance_exists(obj_fade)) {
-    var fade = instance_create(0,0,obj_fade);
-    fade.alarm[3] = 1;
-    fade.this_exit_target_room = obj_zone_exit.target_room;
-    fade.this_exit_target_zone = obj_zone_exit.target_zone;
-    fade.traveling_cube_lvl = obj_control.traveling_cube_lvl;
+if (keyboard_check_pressed(vk_escape) && obj_control.state == scr_idle) {
+    if (!instance_exists(obj_fade)) {
+		var fade = instance_create(0,0,obj_fade);
+	    fade.alarm[3] = 1;
+	    fade.this_exit_target_room = obj_zone_exit.target_room;
+	    fade.this_exit_target_zone = obj_zone_exit.target_zone;
+	    fade.traveling_cube_lvl = obj_control.traveling_cube_lvl;
+	} else game_end();
 }
 
 
