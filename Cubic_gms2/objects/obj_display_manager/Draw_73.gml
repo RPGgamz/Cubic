@@ -1,5 +1,5 @@
 /// @description The Forest trækroner
-surface_reset_target();
+
 /*
 if (room == rm_1a) {
     draw_background(bg_1a_GUI, 0, 0);

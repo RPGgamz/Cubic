@@ -16,7 +16,6 @@ for (var i = 1; i <= room_last; i++) {
         room_set_view(i, 1, true, 0, 0, ideal_width, ideal_height, 0, 0, ideal_width, ideal_height, 0, 0, 0, 0, -1);
         room_set_view_enabled(i, true);
     }
-    
 }
 //resizing app.surface and window to calculated resolution
 surface_resize(application_surface, ideal_width, ideal_height);
@@ -26,7 +25,6 @@ window_set_size(ideal_width, ideal_height);
 //show_debug_message(string(display_get_height()));
 //show_debug_message(string(ideal_width));
 //show_debug_message(string(ideal_height));
-
 
 //"zooming"
 zoom = 1;

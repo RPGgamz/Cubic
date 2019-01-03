@@ -1,5 +1,5 @@
-/// @description draw green bar (forest)
-/// @param forest
+/// @description draw green bar (forest) and black bar
+
 if (instance_exists(obj_forest_transition)) {
     with (obj_forest_transition) {
         draw_set_color(merge_color(col_1, col_2, tick));
