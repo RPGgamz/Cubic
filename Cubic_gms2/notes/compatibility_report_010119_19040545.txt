@@ -1,0 +1,428 @@
+lyden som spiller når en cube stopper, aktiverer ikke hvis den stoppes af en anden cube
+
+GMS2
+Lyd er fjernet (nyt system)
+Particles ------ l l -------
+
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\scr_stop_check\scr_stop_check.gml
+Converted description /// @description scr_stop_check(obj)
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\scr_push\scr_push.gml
+Converted description /// @description scr_push(instance id)
+/// @param instance id
+
+Converting GML script: ${project_dir}\scripts\scr_collide_with_solid\scr_collide_with_solid.gml
+Converted description /// @description returns whether there'd be a collision with a solid, if calling instance were to move by scr_move_me
+
+Converting GML script: ${project_dir}\scripts\scr_wrong_color_stop\scr_wrong_color_stop.gml
+Converted description /// @description scr_wrong_color_stop(blocker, cube)
+/// @param blocker
+/// @param  cube
+
+Converting GML script: ${project_dir}\scripts\scr_dx\scr_dx.gml
+Converted description /// @description scr_dx(extra_size)
+/// @param extra_size
+
+Converting GML script: ${project_dir}\scripts\scr_dy\scr_dy.gml
+Converted description /// @description scr_dy(extra_size)
+/// @param extra_size
+
+Converting GML script: ${project_dir}\scripts\scr_puzzle_reset\scr_puzzle_reset.gml
+Converted description /// @description scr_puzzle_reset(camera_zone_id)
+/// @param camera_zone_id
+
+Converting GML script: ${project_dir}\scripts\scr_pz_goto\scr_pz_goto.gml
+Converted builtin - line 6: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 6: view_hview[1] -> __view_get( e__VW.HView, 1 )
+
+Converting GML script: ${project_dir}\scripts\scr_pz_complete_check\scr_pz_complete_check.gml
+Converted description /// @description scr_pz_complete_check(obj_puzzle)
+/// @param obj_puzzle
+
+Converting GML script: ${project_dir}\scripts\scr_room_goto\scr_room_goto.gml
+Converted description /// @description scr_room_goto(room, door, cube_lvl)
+/// @param room
+/// @param  door
+/// @param  cube_lvl
+
+Converting GML script: ${project_dir}\scripts\scr_move_only\scr_move_only.gml
+Converted description /// @description scr_move_only(cube)
+/// @param cube
+
+Converting GML script: ${project_dir}\objects\obj_wrong_color_stop\Create_0.gml
+Converted description /// @description init
+
+Converting GML script: ${project_dir}\objects\obj_wrong_color_stop\Step_0.gml
+Converted description /// @description disappear
+
+Converting GML script: ${project_dir}\objects\obj_wrong_color_stop\Other_7.gml
+Converted description /// @description stop animating
+
+Converting GML script: ${project_dir}\objects\obj_cube_wallhit\Create_0.gml
+Converted description /// @description animation
+
+Converting GML script: ${project_dir}\objects\obj_cube_wallhit\Step_2.gml
+Converted description /// @description follow cube
+
+Converting GML script: ${project_dir}\objects\obj_cube_wallhit\Other_7.gml
+Converted description /// @description destroy
+
+Converting GML script: ${project_dir}\objects\obj_cube_combine\Create_0.gml
+Converted description /// @description animation
+
+Converting GML script: ${project_dir}\objects\obj_cube_combine\Step_2.gml
+Converted description /// @description follow cube
+
+Converting GML script: ${project_dir}\objects\obj_cube_combine\Other_7.gml
+Converted description /// @description destroy
+
+Converting GML script: ${project_dir}\objects\obj_forest_trail\Create_0.gml
+Converted description /// @description initiate
+
+Converting GML script: ${project_dir}\objects\obj_forest_trail\Step_0.gml
+Converted description /// @description update the timer
+
+Converting GML script: ${project_dir}\objects\obj_sunlight\Alarm_0.gml
+Converted description /// @description fade in/out for each sunbeam
+
+Converting GML script: ${project_dir}\objects\obj_sunlight\Other_5.gml
+Converted description /// @description redo the light setup
+
+Converting GML script: ${project_dir}\objects\obj_sunlight\Draw_0.gml
+Converted description /// @description drawing the beams
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Create_0.gml
+Converted description /// @description variables and surfaces
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Destroy_0.gml
+Converted description /// @description destroy the surfaces
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Step_2.gml
+Converted description /// @description calculate gb (actual thickness) and transition_time
+/// @param actual thickness
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Step_1.gml
+Converted description /// @description Increment step and maybe end
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Draw_75.gml
+Converted description /// @description update surf_end
+
+Converting GML script: ${project_dir}\objects\obj_forest_transition\Draw_74.gml
+Converted description /// @description draw the surfaces
+
+Converting GML script: ${project_dir}\objects\obj_bug_zone_out\Create_0.gml
+Converted description /// @description set variables
+
+Converting GML script: ${project_dir}\objects\obj_bug_zone_out\Other_4.gml
+Converted description /// @description make bugs
+
+Converting GML script: ${project_dir}\objects\obj_bug_zone_in\Create_0.gml
+Converted description /// @description set variables
+
+Converting GML script: ${project_dir}\objects\obj_bug_zone_in\Other_4.gml
+Converted description /// @description make bugs
+
+Converting GML script: ${project_dir}\objects\obj_game_intro\Create_0.gml
+Converted description /// @description init. variables
+
+Converting GML script: ${project_dir}\objects\obj_game_intro\Other_5.gml
+Converted description /// @description når man vender tilbage skal titlen og andet tekst være væk!
+
+Converting GML script: ${project_dir}\objects\obj_game_intro\Draw_0.gml
+Converted builtin - line 5: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 9: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 13: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 18: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 13: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 18: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 5: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 9: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 13: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 18: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 9: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted builtin - line 13: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted builtin - line 18: view_hview[1] -> __view_get( e__VW.HView, 1 )
+
+Converting GML script: ${project_dir}\objects\obj_zone\Create_0.gml
+Converted description /// @description Kopier skabelon til instance_creation_code
+
+Converting GML script: ${project_dir}\objects\obj_zone\Alarm_0.gml
+Converted description /// @description alpha alarm
+
+Converting GML script: ${project_dir}\objects\obj_zone\Other_4.gml
+Converted description /// @description make visible again
+
+Converting GML script: ${project_dir}\objects\obj_zone\Draw_0.gml
+Converted description /// @description draw self w. alpha
+
+Converting GML script: ${project_dir}\objects\obj_zone_exit\Create_0.gml
+Converted description /// @description Denne kode bliver ikke kørt her. Kopier skabelon til instance_creation_code
+
+Converting GML script: ${project_dir}\objects\obj_door\Create_0.gml
+Converted description /// @description Kopier skabelon til instance_creation_code for settings
+
+Converting GML script: ${project_dir}\objects\obj_door\Alarm_0.gml
+Converted description /// @description [no code] cooldown after entering room
+
+Converting GML script: ${project_dir}\objects\obj_door\Other_4.gml
+Converted description /// @description cooldown after entering room
+
+Converting GML script: ${project_dir}\objects\obj_control\Create_0.gml
+Converted description /// @description init variables
+
+Converting GML script: ${project_dir}\objects\obj_control\Alarm_3.gml
+Converted description /// @description delaying the flash/fade to match the sound
+
+Converting GML script: ${project_dir}\objects\obj_control\Alarm_2.gml
+Converted description /// @description complete animation
+
+Converting GML script: ${project_dir}\objects\obj_control\Alarm_0.gml
+Converted description /// @description Queue move timer
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_0.gml
+Converted description /// @description state and useful hotkeys
+
+Converting GML script: ${project_dir}\objects\obj_control\Other_4.gml
+Converted builtin - line 60: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 61: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 56: view_xview[1] = obj_cube.x - view_wview[1]/2 -> __view_set( e__VW.XView, 1, obj_cube.x - view_wview[1]/2 )
+Converted builtin - line 60: view_xview[1] = -bb -> __view_set( e__VW.XView, 1, -bb )
+Converted builtin - line 61: view_xview[1] = room_width-120*obj_display_manager.view_zoom-bb -> __view_set( e__VW.XView, 1, room_width-120*obj_display_manager.view_zoom-bb )
+Converted builtin - line 62: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 63: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 57: view_yview[1] = obj_cube.y - view_hview[1]/2 -> __view_set( e__VW.YView, 1, obj_cube.y - view_hview[1]/2 )
+Converted builtin - line 62: view_yview[1] = 0 -> __view_set( e__VW.YView, 1, 0 )
+Converted builtin - line 63: view_yview[1] = room_height-108*obj_display_manager.view_zoom -> __view_set( e__VW.YView, 1, room_height-108*obj_display_manager.view_zoom )
+Converted description /// @description kom ind ad den rigtige dør (overworld)
+/// @param overworld
+Converted builtin - line 57: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 58: view_hview[1] -> __view_get( e__VW.HView, 1 )
+
+Converting GML script: ${project_dir}\objects\obj_control\Other_3.gml
+Converted description /// @description destroy ds_list: cubes
+
+Converting GML script: ${project_dir}\objects\obj_control\Draw_64.gml
+Converted builtin - line 3: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 3: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 3: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted builtin - line 3: view_hview[1] -> __view_get( e__VW.HView, 1 )
+
+Converting GML script: ${project_dir}\objects\obj_save_data\Create_0.gml
+Converted description /// @description initiate
+
+Converting GML script: ${project_dir}\objects\obj_save_data\Other_5.gml
+Converted description /// @description Save
+
+Converting GML script: ${project_dir}\objects\obj_save_data\Other_4.gml
+Converted description /// @description Load
+
+Converting GML script: ${project_dir}\objects\obj_save_data\Other_3.gml
+Converted description /// @description destroy pzones
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Create_0.gml
+Converted description /// @description calculating resolution and init. variables
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Alarm_0.gml
+Converted description /// @description centering the window, 1 step delay (necessary)
+/// @param necessary
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Step_0.gml
+Converted description /// @description changing zoom/resolution
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Other_4.gml
+Converted description /// @description resizing the view/resolution by view_zoom
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Draw_75.gml
+Converted description /// @description draw green bar (forest)
+/// @param forest
+
+Converting GML script: ${project_dir}\objects\obj_display_manager\Draw_73.gml
+Converted description /// @description The Forest trækroner
+
+Converting GML script: ${project_dir}\objects\obj_music\Alarm_0.gml
+Converted description /// @description stop zone when gain = 0
+
+Converting GML script: ${project_dir}\objects\obj_music\Other_5.gml
+Converted description /// @description ensuring zone sounds aren't played when entering af zone-room
+
+Converting GML script: ${project_dir}\objects\obj_music\Other_4.gml
+Converted description /// @description zone sound
+
+Converting GML script: ${project_dir}\objects\obj_fade\Create_0.gml
+Converted description /// @description fade and flash variables
+
+Converting GML script: ${project_dir}\objects\obj_fade\Alarm_3.gml
+Converted description /// @description fade out alarm
+
+Converting GML script: ${project_dir}\objects\obj_fade\Alarm_2.gml
+Converted description /// @description fade in alarm
+
+Converting GML script: ${project_dir}\objects\obj_fade\Alarm_1.gml
+Converted description /// @description fade out alarm (into pz)
+/// @param into pz
+
+Converting GML script: ${project_dir}\objects\obj_fade\Alarm_0.gml
+Converted description /// @description flash alarm (into fade)
+/// @param into fade
+
+Converting GML script: ${project_dir}\objects\obj_fade\Draw_64.gml
+Converted builtin - line 7: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 13: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 18: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 7: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted builtin - line 13: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted builtin - line 18: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted description /// @description drawing the fade and flash
+
+Converting GML script: ${project_dir}\objects\obj_cube\Create_0.gml
+Converted description /// @description init. variables
+
+Converting GML script: ${project_dir}\objects\obj_locked_wall\Alarm_0.gml
+Converted description /// @description start unlocking
+
+Converting GML script: ${project_dir}\objects\obj_locked_wall\Other_7.gml
+Converted description /// @description disappear and allow player to move
+
+Converting GML script: ${project_dir}\objects\obj_main_menu_1\Create_0.gml
+Converted description /// @description variables
+
+Converting GML script: ${project_dir}\objects\obj_main_menu_1\Alarm_1.gml
+Converted description /// @description flash + spinning and zooming
+
+Converting GML script: ${project_dir}\objects\obj_main_menu_1\Alarm_0.gml
+Converted description /// @description making "press any..."-text pulse
+
+Converting GML script: ${project_dir}\objects\obj_main_menu_1\Draw_0.gml
+Converted description /// @description drawing the cube, text, etc.
+
+Converting GML script: ${project_dir}\objects\obj_teleport\Create_0.gml
+Converted description /// @description variables
+
+Converting GML script: ${project_dir}\objects\obj_teleport\Alarm_0.gml
+Converted description /// @description flash -> fade out -> room change -> fade in
+
+Converting GML script: ${project_dir}\objects\obj_pz\Create_0.gml
+Converted builtin - line 58: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 59: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted description /// @description initiate
+
+Converting GML script: ${project_dir}\objects\obj_pz\Alarm_1.gml
+Converted description /// @description update solved_pzs variable
+
+Converting GML script: ${project_dir}\objects\obj_pz\Alarm_0.gml
+Converted description /// @description pz-complete-pause
+
+Converting GML script: ${project_dir}\objects\obj_pz\Step_0.gml
+Converted description /// @description initiate camera movements
+
+Converting GML script: ${project_dir}\objects\obj_pz\Other_5.gml
+Converted description /// @description destroy map_surf
+
+Converting GML script: ${project_dir}\objects\obj_pz\Other_4.gml
+Converted builtin - line 5: view_xview[1] = cam.x - view_wview[1]/2 -> __view_set( e__VW.XView, 1, cam.x - view_wview[1]/2 )
+Converted builtin - line 6: view_yview[1] = cam.y - view_hview[1]/2 -> __view_set( e__VW.YView, 1, cam.y - view_hview[1]/2 )
+Converted description /// @description go to the next puzzle
+Converted builtin - line 5: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 6: view_hview[1] -> __view_get( e__VW.HView, 1 )
+
+Converting GML script: ${project_dir}\objects\obj_pz\Draw_64.gml
+Converted builtin - line 30: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 30: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 30: view_wview[1] -> __view_get( e__VW.WView, 1 )
+Converted builtin - line 30: view_hview[1] -> __view_get( e__VW.HView, 1 )
+Converted description /// @description mini-map
+
+Converting GML script: ${project_dir}\objects\obj_camera_zone\Other_4.gml
+Converted description /// @description list cubes
+
+Converting GML script: ${project_dir}\objects\obj_pz_camera_move\Create_0.gml
+Converted builtin - line 3: view_xview[1] -> __view_get( e__VW.XView, 1 )
+Converted builtin - line 4: view_yview[1] -> __view_get( e__VW.YView, 1 )
+Converted builtin - line 18: view_wview[2] = room_width -> __view_set( e__VW.WView, 2, room_width )
+Converted builtin - line 19: view_hview[2] = room_height -> __view_set( e__VW.HView, 2, room_height )
+Converted builtin - line 16: view_visible[1] = false -> __view_set( e__VW.Visible, 1, false )
+Converted builtin - line 17: view_visible[2] = true -> __view_set( e__VW.Visible, 2, true )
+Converted description /// @description initiate
+
+Converting GML script: ${project_dir}\objects\obj_pz_camera_move\Destroy_0.gml
+Converted builtin - line 7: view_xview[1] = x -> __view_set( e__VW.XView, 1, x )
+Converted builtin - line 8: view_yview[1] = y -> __view_set( e__VW.YView, 1, y )
+Converted builtin - line 5: view_visible[2] = false -> __view_set( e__VW.Visible, 2, false )
+Converted builtin - line 6: view_visible[1] = true -> __view_set( e__VW.Visible, 1, true )
+Converted description /// @description clean up
+
+Converting GML script: ${project_dir}\objects\obj_pz_camera_move\Step_2.gml
+Converted builtin - line 34: view_xview[1] = x -> __view_set( e__VW.XView, 1, x )
+Converted builtin - line 35: view_yview[1] = y -> __view_set( e__VW.YView, 1, y )
+Converted description /// @description calculate the position of the camera
+
+Converting GML script: ${project_dir}\objects\obj_pz_camera_move\Draw_76.gml
+Converted builtin - line 5: view_surface_id[2] = surf_room -> __view_set( e__VW.SurfaceID, 2, surf_room )
+Converted description /// @description create surf_room, and set it as view_surface
+
+Converting GML script: ${project_dir}\objects\obj_pz_camera_move\Draw_74.gml
+Converted description /// @description draw surf_room to the GUI layer
+
+Converting GML script: ${project_dir}\objects\obj_pz_complete_animation\Create_0.gml
+Converted description /// @description initiate
+
+Converting GML script: ${project_dir}\objects\obj_pz_complete_animation\Destroy_0.gml
+Converted description /// @description make walls visible again
+
+Converting GML script: ${project_dir}\objects\obj_pz_complete_animation\Step_0.gml
+Converted description /// @description calculate vertex positions
+
+Converting GML script: ${project_dir}\objects\obj_pz_complete_animation\Draw_0.gml
+Converted description /// @description create surf_start and surf_effect
+
+Missing audiogroup for sound: 'snd_ost_entering_green' - setting to default audio group
+Missing audiogroup for sound: 'snd_move' - setting to default audio group
+Missing audiogroup for sound: 'snd_move_while' - setting to default audio group
+Missing audiogroup for sound: 'snd_move_end' - setting to default audio group
+Missing audiogroup for sound: 'snd_puzzle_complete' - setting to default audio group
+Missing audiogroup for sound: 'snd_puzzle_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_puzzle_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_puzzle_3' - setting to default audio group
+Missing audiogroup for sound: 'snd_puzzle_4' - setting to default audio group
+Missing audiogroup for sound: 'snd_zone' - setting to default audio group
+Missing audiogroup for sound: 'snd_teleport' - setting to default audio group
+Missing audiogroup for sound: 'snd_wing_flaps_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_wing_flaps_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_great_wing_flap_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_great_wing_flap_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_crow_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_owls_short_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_bush_short' - setting to default audio group
+Missing audiogroup for sound: 'snd_bush_long' - setting to default audio group
+Missing audiogroup for sound: 'snd_unlock' - setting to default audio group
+Missing audiogroup for sound: 'snd_zone_heavy' - setting to default audio group
+Missing audiogroup for sound: 'snd_zone_light' - setting to default audio group
+Missing audiogroup for sound: 'snd_combine' - setting to default audio group
+Missing audiogroup for sound: 'snd_star' - setting to default audio group
+Missing audiogroup for sound: 'snd_star_bass' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_birds_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_birds_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_birds_3' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_birds_long_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_bird_chatter_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_amb_bird_chatter_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_pc_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_pc_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_pc_3' - setting to default audio group
+Missing audiogroup for sound: 'snd_pc_4' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'draw/draw_enable_alphablend.gml'
+Added compatibility script 'draw/draw_set_colour_write_enable.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/room_set_view.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

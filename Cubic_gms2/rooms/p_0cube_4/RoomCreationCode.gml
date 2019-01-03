@@ -1,0 +1,1 @@
+//mirror world? måske med et felt hvor alt går den modsatte retning
