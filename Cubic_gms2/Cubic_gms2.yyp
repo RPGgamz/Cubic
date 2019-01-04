@@ -2543,6 +2543,14 @@
             }
         },
         {
+            "Key": "8e052d28-7bb3-4a03-bc9a-42608abdec14",
+            "Value": {
+                "id": "bdac1429-5f3d-4b31-b710-67ee8bf8a5b4",
+                "resourcePath": "views\\8e052d28-7bb3-4a03-bc9a-42608abdec14.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e92c733-814a-4bc0-8273-8e06e4985b6f",
             "Value": {
                 "id": "e828ccee-37aa-4c9e-b636-418c78ad3ccd",
@@ -3055,14 +3063,6 @@
             }
         },
         {
-            "Key": "ae0a6c75-3c64-4894-a9f8-cedeb0da48ed",
-            "Value": {
-                "id": "82a952bd-de7b-4674-9853-ec07bd32f32c",
-                "resourcePath": "scripts\\@__init_global\\__init_global.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ae645a0b-06ba-48bd-bc02-8ac09ec8e54b",
             "Value": {
                 "id": "d16a5151-49f9-405b-914c-053aed9e0502",
@@ -3516,14 +3516,6 @@
                 "id": "ba845bd6-edf6-4305-98e9-d85c7337f4f5",
                 "resourcePath": "rooms\\rm_green_forest_11a\\rm_green_forest_11a.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "c6d9f0c6-5dee-4291-9e68-cd713fd04059",
-            "Value": {
-                "id": "5c0bf15c-0a89-4994-a582-afa8f610a1a4",
-                "resourcePath": "views\\c6d9f0c6-5dee-4291-9e68-cd713fd04059.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -4207,14 +4199,6 @@
             }
         },
         {
-            "Key": "eea7c219-cc60-4e2a-8c57-965bb6009cb2",
-            "Value": {
-                "id": "7dcceaec-7f2e-47c6-a295-57dbcb4edba2",
-                "resourcePath": "views\\eea7c219-cc60-4e2a-8c57-965bb6009cb2.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "eebeb871-fd9c-4dc6-bf53-0b4e603774af",
             "Value": {
                 "id": "a2be7d45-2697-4f42-91f0-80f49febeac9",
@@ -4624,13 +4608,12 @@
         "a98bd6cc-4530-41b5-83aa-62ee8b7c66e0",
         "4d0a628e-67d1-4d83-ab0c-ebbfcce554f1",
         "50ee9bc4-d771-4c99-a505-52923e911724",
+        "b5fa1720-6207-4bd4-91a9-4cc1f2c4cdb9",
         "79ee8228-bab1-4218-8a18-8a0a53bf847a",
         "7eddbd2f-e34b-47a7-900c-2ee026b27f1b",
         "7bd6e8db-6dd7-4099-a0ef-6f25379a422e",
         "b2914d5e-5352-417a-8662-e2bf16dd6a96",
-        "8531f3a6-ea89-47f2-be5d-7a325cae4448",
-        "ae0a6c75-3c64-4894-a9f8-cedeb0da48ed",
-        "b5fa1720-6207-4bd4-91a9-4cc1f2c4cdb9"
+        "8531f3a6-ea89-47f2-be5d-7a325cae4448"
     ],
     "tutorial": ""
 }

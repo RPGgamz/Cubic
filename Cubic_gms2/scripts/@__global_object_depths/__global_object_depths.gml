@@ -1,167 +1,32 @@
 // Initialise the global array that allows the lookup of the depth of a given object
 // GM2.0 does not have a depth on objects so on import from 1.x a global array is created
 // NOTE: MacroExpansion is used to insert the array initialisation at import time
+
 gml_pragma( "global", "__global_object_depths()");
 
-// insert the generated arrays here
-global.__objectDepths[0] = 0; // obj_wall_h
-global.__objectDepths[1] = 0; // obj_wall_v
-global.__objectDepths[2] = 0; // obj_wall_h_1
-global.__objectDepths[3] = 0; // obj_wall_v_1
-global.__objectDepths[4] = 0; // obj_wall_h_2
-global.__objectDepths[5] = 0; // obj_wall_v_2
-global.__objectDepths[6] = 0; // obj_wall_h_3
-global.__objectDepths[7] = 0; // obj_wall_v_3
-global.__objectDepths[8] = 0; // obj_wall_h_4
-global.__objectDepths[9] = 0; // obj_wall_v_4
-global.__objectDepths[10] = 0; // obj_wall_h_5
-global.__objectDepths[11] = 0; // obj_wall_v_5
-global.__objectDepths[12] = 0; // obj_solid_1
-global.__objectDepths[13] = 0; // obj_solid_2
-global.__objectDepths[14] = 0; // obj_solid_3
-global.__objectDepths[15] = 0; // obj_solid_4
-global.__objectDepths[16] = 0; // obj_solid_5
-global.__objectDepths[17] = 0; // obj_locked_wall_h
-global.__objectDepths[18] = 0; // obj_locked_wall_v
-global.__objectDepths[19] = 0; // obj_pusher
-global.__objectDepths[20] = 0; // obj_cube_0
-global.__objectDepths[21] = 0; // obj_cube_1
-global.__objectDepths[22] = 0; // obj_cube_2
-global.__objectDepths[23] = 0; // obj_cube_3
-global.__objectDepths[24] = 0; // obj_cube_4
-global.__objectDepths[25] = 0; // obj_cube_5
-global.__objectDepths[26] = 0; // obj_frozen_1
-global.__objectDepths[27] = 0; // obj_frozen_2
-global.__objectDepths[28] = 0; // obj_frozen_3
-global.__objectDepths[29] = 0; // obj_frozen_4
-global.__objectDepths[30] = 0; // obj_trash_1
-global.__objectDepths[31] = 0; // obj_trash_2
-global.__objectDepths[32] = 0; // obj_trash_3
-global.__objectDepths[33] = -1; // obj_wrong_color_stop
-global.__objectDepths[34] = -2; // obj_cube_wallhit
-global.__objectDepths[35] = -2; // obj_cube_combine
-global.__objectDepths[36] = -2; // obj_icebreak
-global.__objectDepths[37] = 0; // obj_forest
-global.__objectDepths[38] = 3; // obj_forest_trail
-global.__objectDepths[39] = -300; // obj_sunlight
-global.__objectDepths[40] = 0; // obj_forest_transition
-global.__objectDepths[41] = 0; // obj_bug_zone_out
-global.__objectDepths[42] = 2; // obj_worm_outside
-global.__objectDepths[43] = 0; // obj_worm_arc
-global.__objectDepths[44] = 0; // obj_fly_parent
-global.__objectDepths[45] = 0; // obj_flysaw
-global.__objectDepths[46] = 0; // obj_flyswoop
-global.__objectDepths[47] = 0; // obj_flysmooth
-global.__objectDepths[48] = 0; // obj_flypew
-global.__objectDepths[49] = 0; // obj_bug_zone_in
-global.__objectDepths[50] = 2; // obj_slug
-global.__objectDepths[51] = 2; // obj_worm_inside
-global.__objectDepths[52] = -100000; // obj_game_intro
-global.__objectDepths[53] = 0; // obj_zone
-global.__objectDepths[54] = 0; // obj_zone_exit
-global.__objectDepths[55] = 0; // obj_puzzle
-global.__objectDepths[56] = 0; // obj_door
-global.__objectDepths[57] = 0; // obj_star
-global.__objectDepths[58] = 0; // obj_control
-global.__objectDepths[59] = 0; // obj_save_data
-global.__objectDepths[60] = 0; // obj_display_manager
-global.__objectDepths[61] = 0; // obj_music
-global.__objectDepths[62] = -1000000; // obj_fade
-global.__objectDepths[63] = 0; // obj_cube
-global.__objectDepths[64] = 0; // obj_solid
-global.__objectDepths[65] = 0; // obj_locked_wall
-global.__objectDepths[66] = 0; // obj_trash
-global.__objectDepths[67] = 0; // obj_frozen
-global.__objectDepths[68] = -1000; // obj_main_menu_1
-global.__objectDepths[69] = -1000000; // obj_teleport
-global.__objectDepths[70] = 0; // obj_pz
-global.__objectDepths[71] = 0; // obj_camera_zone
-global.__objectDepths[72] = 0; // obj_pz_camera_move
-global.__objectDepths[73] = 0; // obj_pz_complete_animation
+// IMPORTANT: no depths outside range [-16000, 16000] will actually be rendered by GMS2
+var __objectDepths = [];
+var __objectNames = [];
+__objectDepths[0]  =	 -1;	/**/	__objectNames[0] = "obj_wrong_color_stop";
+__objectDepths[1]  =	 -2;	/**/	__objectNames[1] = "obj_cube_wallhit";
+__objectDepths[2]  =	 -2;	/**/	__objectNames[2] = "obj_cube_combine";
+__objectDepths[3]  =	 -2;	/**/	__objectNames[3] = "obj_icebreak";
+__objectDepths[4]  =	  3;	/**/	__objectNames[4] = "obj_forest_trail";
+__objectDepths[5]  =   -300;	/**/	__objectNames[5] = "obj_sunlight";
+__objectDepths[6]  =	  2;	/**/	__objectNames[6] = "obj_worm_outside";
+__objectDepths[7]  =      2;	/**/	__objectNames[7] = "obj_slug";
+__objectDepths[8]  =      2;	/**/	__objectNames[8] = "obj_worm_inside";
+__objectDepths[9]  = -10000;	/**/	__objectNames[9] = "obj_game_intro";
+__objectDepths[10] = -10000;	/**/	__objectNames[10] = "obj_fade";
+__objectDepths[11] =  -1000;	/**/	__objectNames[11] = "obj_main_menu_1";
+__objectDepths[12] = -10000;	/**/	__objectNames[12] = "obj_teleport";
 
-
-global.__objectNames[0] = "obj_wall_h";
-global.__objectNames[1] = "obj_wall_v";
-global.__objectNames[2] = "obj_wall_h_1";
-global.__objectNames[3] = "obj_wall_v_1";
-global.__objectNames[4] = "obj_wall_h_2";
-global.__objectNames[5] = "obj_wall_v_2";
-global.__objectNames[6] = "obj_wall_h_3";
-global.__objectNames[7] = "obj_wall_v_3";
-global.__objectNames[8] = "obj_wall_h_4";
-global.__objectNames[9] = "obj_wall_v_4";
-global.__objectNames[10] = "obj_wall_h_5";
-global.__objectNames[11] = "obj_wall_v_5";
-global.__objectNames[12] = "obj_solid_1";
-global.__objectNames[13] = "obj_solid_2";
-global.__objectNames[14] = "obj_solid_3";
-global.__objectNames[15] = "obj_solid_4";
-global.__objectNames[16] = "obj_solid_5";
-global.__objectNames[17] = "obj_locked_wall_h";
-global.__objectNames[18] = "obj_locked_wall_v";
-global.__objectNames[19] = "obj_pusher";
-global.__objectNames[20] = "obj_cube_0";
-global.__objectNames[21] = "obj_cube_1";
-global.__objectNames[22] = "obj_cube_2";
-global.__objectNames[23] = "obj_cube_3";
-global.__objectNames[24] = "obj_cube_4";
-global.__objectNames[25] = "obj_cube_5";
-global.__objectNames[26] = "obj_frozen_1";
-global.__objectNames[27] = "obj_frozen_2";
-global.__objectNames[28] = "obj_frozen_3";
-global.__objectNames[29] = "obj_frozen_4";
-global.__objectNames[30] = "obj_trash_1";
-global.__objectNames[31] = "obj_trash_2";
-global.__objectNames[32] = "obj_trash_3";
-global.__objectNames[33] = "obj_wrong_color_stop";
-global.__objectNames[34] = "obj_cube_wallhit";
-global.__objectNames[35] = "obj_cube_combine";
-global.__objectNames[36] = "obj_icebreak";
-global.__objectNames[37] = "obj_forest";
-global.__objectNames[38] = "obj_forest_trail";
-global.__objectNames[39] = "obj_sunlight";
-global.__objectNames[40] = "obj_forest_transition";
-global.__objectNames[41] = "obj_bug_zone_out";
-global.__objectNames[42] = "obj_worm_outside";
-global.__objectNames[43] = "obj_worm_arc";
-global.__objectNames[44] = "obj_fly_parent";
-global.__objectNames[45] = "obj_flysaw";
-global.__objectNames[46] = "obj_flyswoop";
-global.__objectNames[47] = "obj_flysmooth";
-global.__objectNames[48] = "obj_flypew";
-global.__objectNames[49] = "obj_bug_zone_in";
-global.__objectNames[50] = "obj_slug";
-global.__objectNames[51] = "obj_worm_inside";
-global.__objectNames[52] = "obj_game_intro";
-global.__objectNames[53] = "obj_zone";
-global.__objectNames[54] = "obj_zone_exit";
-global.__objectNames[55] = "obj_puzzle";
-global.__objectNames[56] = "obj_door";
-global.__objectNames[57] = "obj_star";
-global.__objectNames[58] = "obj_control";
-global.__objectNames[59] = "obj_save_data";
-global.__objectNames[60] = "obj_display_manager";
-global.__objectNames[61] = "obj_music";
-global.__objectNames[62] = "obj_fade";
-global.__objectNames[63] = "obj_cube";
-global.__objectNames[64] = "obj_solid";
-global.__objectNames[65] = "obj_locked_wall";
-global.__objectNames[66] = "obj_trash";
-global.__objectNames[67] = "obj_frozen";
-global.__objectNames[68] = "obj_main_menu_1";
-global.__objectNames[69] = "obj_teleport";
-global.__objectNames[70] = "obj_pz";
-global.__objectNames[71] = "obj_camera_zone";
-global.__objectNames[72] = "obj_pz_camera_move";
-global.__objectNames[73] = "obj_pz_complete_animation";
-
-
-// create another array that has the correct entries
-var len = array_length_1d(global.__objectDepths);
+// create array used for associating id to depth
+var len = array_length_1d(__objectDepths);
 global.__objectID2Depth = [];
 for( var i=0; i<len; ++i ) {
-	var objID = asset_get_index( global.__objectNames[i] );
+	var objID = asset_get_index( __objectNames[i] );
 	if (objID >= 0) {
-		global.__objectID2Depth[ objID ] = global.__objectDepths[i];
-	} // end if
-} // end for
+		global.__objectID2Depth[ objID ] = __objectDepths[i];
+	}
+}
