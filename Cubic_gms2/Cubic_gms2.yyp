@@ -3519,6 +3519,14 @@
             }
         },
         {
+            "Key": "c664a3de-d090-4fb9-95b1-d052e68e081a",
+            "Value": {
+                "id": "1b21523c-8434-4fd3-991b-5d8e4278de0d",
+                "resourcePath": "rooms\\puzzle_stone_1_61\\puzzle_stone_1_61.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c76bfee5-d4d0-4f73-a792-9aff0bb924d3",
             "Value": {
                 "id": "5a6ebc05-35be-4733-beb2-88f6cf508d9a",
