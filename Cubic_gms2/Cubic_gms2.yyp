@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0c8ff3fd-2ea5-45a9-a9df-c8abada7aba3",
+            "Value": {
+                "id": "7bc0560d-60e9-4c63-889c-c2c69109c85f",
+                "resourcePath": "views\\0c8ff3fd-2ea5-45a9-a9df-c8abada7aba3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0c91685a-37ac-49db-973e-4a1495963264",
             "Value": {
                 "id": "283f551c-af2b-4b5c-b516-534b7ec74c3c",
@@ -735,6 +743,14 @@
             }
         },
         {
+            "Key": "2cf3eddd-6183-4c2f-b4ee-b0dcccec99e4",
+            "Value": {
+                "id": "c0f3873d-e0b2-4f1e-8566-9e8fdbe62a7a",
+                "resourcePath": "rooms\\puzzle_stone_A_111112\\puzzle_stone_A_111112.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2d47c21b-a62e-42f0-ae27-5f68b1cd3a38",
             "Value": {
                 "id": "bd8b9680-3368-488b-bed6-a866b6b5d352",
@@ -1116,14 +1132,6 @@
                 "id": "7ce915e4-5b7f-4202-866a-11fe0dee1bc5",
                 "resourcePath": "objects\\obj_wall_v_3\\obj_wall_v_3.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3c07baea-37c3-4e78-9eee-680f1680fca2",
-            "Value": {
-                "id": "adca5b7f-b501-4624-b4e7-107d470bbbd2",
-                "resourcePath": "rooms\\room138\\room138.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1623,6 +1631,14 @@
             }
         },
         {
+            "Key": "5e083c51-071a-4283-8bce-251a68d3d59f",
+            "Value": {
+                "id": "cbd07382-06fe-49ea-9f69-16861de5ccc8",
+                "resourcePath": "rooms\\puzzle_stone_A_1\\puzzle_stone_A_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6021ce06-77e9-4fe8-9fe4-658a418709e0",
             "Value": {
                 "id": "5825b62a-e6a0-40a9-b053-53d2209957e7",
@@ -1660,6 +1676,14 @@
                 "id": "4a7934f1-b3cf-4f52-a932-ff972b73353d",
                 "resourcePath": "sprites\\bg_tree_top_lvl2_b\\bg_tree_top_lvl2_b.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "628dae0a-ceff-48bc-ae63-603322b0c046",
+            "Value": {
+                "id": "4f610d94-ed05-4eac-aaf5-88b98479776b",
+                "resourcePath": "rooms\\puzzle_stone_A_11\\puzzle_stone_A_11.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2404,6 +2428,14 @@
                 "id": "015888a1-1d54-4f0e-9685-afd379f815cd",
                 "resourcePath": "tilesets\\bg_green_forest_3e_tileset\\bg_green_forest_3e_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "88bf2cd1-aa2f-452d-ab90-7453bb045c54",
+            "Value": {
+                "id": "3012d334-5e89-4d96-a4bf-311674065adc",
+                "resourcePath": "rooms\\puzzle_stone_A_111111\\puzzle_stone_A_111111.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3215,6 +3247,14 @@
             }
         },
         {
+            "Key": "b6b12e3c-60e4-4972-80f8-8e9063ae80ee",
+            "Value": {
+                "id": "10735598-555a-4986-8e82-bd2dd84b4ae6",
+                "resourcePath": "rooms\\puzzle_stone_A_111\\puzzle_stone_A_111.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b6efe487-5afe-4e49-bb07-856f5d86c479",
             "Value": {
                 "id": "1c0bd7c9-4288-47f6-b089-7d51593186f1",
@@ -3236,6 +3276,14 @@
                 "id": "41f5d545-df81-4f8b-b3ad-1a9211b65da5",
                 "resourcePath": "sprites\\bg_tree_top_lvl1_a\\bg_tree_top_lvl1_a.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b857c1f4-2a30-4661-ab12-86c132439a4f",
+            "Value": {
+                "id": "817fc1a6-8bb8-4608-b51f-959881458cb9",
+                "resourcePath": "views\\b857c1f4-2a30-4661-ab12-86c132439a4f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3620,6 +3668,14 @@
                 "id": "ef9202b8-7918-48de-a66b-2e1fdaa060a7",
                 "resourcePath": "rooms\\rm_green_forest_2b\\rm_green_forest_2b.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cc1101bd-6a68-42ee-a753-6bac04f63da9",
+            "Value": {
+                "id": "a5adb1ae-467b-44df-a2e6-e370182ca15e",
+                "resourcePath": "views\\cc1101bd-6a68-42ee-a753-6bac04f63da9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4199,11 +4255,27 @@
             }
         },
         {
+            "Key": "eddea963-f639-41fe-beee-274ed515006c",
+            "Value": {
+                "id": "0202732b-0d99-4813-9391-e1b6afa2dd1b",
+                "resourcePath": "rooms\\puzzle_stone_A_1111\\puzzle_stone_A_1111.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "ee331da9-270b-4aad-9a15-d68f5e11d102",
             "Value": {
                 "id": "d94d3960-df79-4dfb-8aff-93c28b095075",
                 "resourcePath": "views\\ee331da9-270b-4aad-9a15-d68f5e11d102.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee7f5244-4206-4538-be4d-636761450f83",
+            "Value": {
+                "id": "ab71aec2-2bd2-4bc7-8d89-f80be07859cb",
+                "resourcePath": "rooms\\puzzle_stone_A_11111\\puzzle_stone_A_11111.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
