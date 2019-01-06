@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "3e27ceec-0421-4a16-913c-6096bbab5e79",
+            "Value": {
+                "id": "8109388e-1fea-494b-91c3-ed4b1826ffcb",
+                "resourcePath": "rooms\\puzzle_stone_1_71\\puzzle_stone_1_71.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3e50d34f-8da7-4a55-b739-faca4ca67d70",
             "Value": {
                 "id": "826e12d9-7827-44c6-85fd-c3eccaa9a450",
@@ -1860,6 +1868,14 @@
                 "id": "a38a86ee-78ac-493d-943b-73eedc981237",
                 "resourcePath": "sprites\\spr_solid_5\\spr_solid_5.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6de17962-42a0-4012-aa59-f5e96a96195f",
+            "Value": {
+                "id": "f3cb7b42-ecc9-43fd-923e-6bcc6e3f7ed9",
+                "resourcePath": "rooms\\puzzle_stone_1_7\\puzzle_stone_1_7.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3570,7 +3586,7 @@
             "Key": "c664a3de-d090-4fb9-95b1-d052e68e081a",
             "Value": {
                 "id": "1b21523c-8434-4fd3-991b-5d8e4278de0d",
-                "resourcePath": "rooms\\puzzle_stone_1_61\\puzzle_stone_1_61.yy",
+                "resourcePath": "rooms\\puzzle_stone_2_4\\puzzle_stone_2_4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4540,6 +4556,14 @@
                 "id": "d101a23e-c044-4305-93a7-e03bc8973776",
                 "resourcePath": "objects\\obj_flysaw\\obj_flysaw.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f905e3f3-21ec-41a3-81f1-6f25939fdf3b",
+            "Value": {
+                "id": "e3adb43b-9763-4201-b20c-3fb0f057a381",
+                "resourcePath": "rooms\\puzzle_stone_1_711\\puzzle_stone_1_711.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
