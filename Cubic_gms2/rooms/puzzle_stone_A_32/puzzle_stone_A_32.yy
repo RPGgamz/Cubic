@@ -1,6 +1,6 @@
 
 {
-    "name": "puzzle_stone_A_11112",
+    "name": "puzzle_stone_A_32",
     "id": "c2c67bce-b1bb-4630-80cd-1f28bc843edb",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
