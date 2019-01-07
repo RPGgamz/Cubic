@@ -226,7 +226,7 @@
             "Key": "0ffccd95-8f7a-4fc4-90e8-480306695e2c",
             "Value": {
                 "id": "4ed8efec-33d4-4622-998d-790163f41f64",
-                "resourcePath": "rooms\\puzzle_stone_A_52\\puzzle_stone_A_52.yy",
+                "resourcePath": "rooms\\puzzle_stone_A_51\\puzzle_stone_A_51.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1511,6 +1511,14 @@
             }
         },
         {
+            "Key": "52c4f007-0c89-4354-a40a-4e2a62025ce0",
+            "Value": {
+                "id": "ece99fa4-23a9-4f50-8d44-64393a9a12e4",
+                "resourcePath": "rooms\\puzzle_stone_A_61\\puzzle_stone_A_61.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "530d6ccc-3065-44b3-8cbf-7b0c3345b179",
             "Value": {
                 "id": "5a3e6031-03e6-45f4-ac37-0b1ad87deb73",
@@ -2466,7 +2474,7 @@
             "Key": "87221377-5c1f-43c5-a169-7649559b9b6b",
             "Value": {
                 "id": "23e5b874-0840-4ee5-98e5-32e44222c0c4",
-                "resourcePath": "rooms\\puzzle_stone_A_51\\puzzle_stone_A_51.yy",
+                "resourcePath": "rooms\\puzzle_stone_A_53\\puzzle_stone_A_53.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3362,7 +3370,7 @@
             "Key": "b8b3677d-56e8-47da-b212-54fc79d3748c",
             "Value": {
                 "id": "6a5ff60b-052a-43e8-80f8-b45f3f887d6a",
-                "resourcePath": "rooms\\puzzle_stone_A_53\\puzzle_stone_A_53.yy",
+                "resourcePath": "rooms\\puzzle_stone_A_52\\puzzle_stone_A_52.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4067,14 +4075,6 @@
             "Value": {
                 "id": "7391936f-f0c2-415d-88c9-dcb3730e6605",
                 "resourcePath": "rooms\\puzzle_stone_3_2\\puzzle_stone_3_2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "dce79095-46a3-4db2-811d-7e9458790cae",
-            "Value": {
-                "id": "31d7a92d-2783-48e8-a241-e01d0ad2ea3a",
-                "resourcePath": "rooms\\puzzle_stone_A_55godmode\\puzzle_stone_A_55godmode.yy",
                 "resourceType": "GMRoom"
             }
         },
