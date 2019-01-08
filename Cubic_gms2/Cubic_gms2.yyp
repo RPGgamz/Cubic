@@ -1170,7 +1170,7 @@
             "Key": "3e27ceec-0421-4a16-913c-6096bbab5e79",
             "Value": {
                 "id": "8109388e-1fea-494b-91c3-ed4b1826ffcb",
-                "resourcePath": "rooms\\puzzle_stone_1_71\\puzzle_stone_1_71.yy",
+                "resourcePath": "rooms\\puzzle_stone_1_8\\puzzle_stone_1_8.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4636,14 +4636,6 @@
                 "id": "d101a23e-c044-4305-93a7-e03bc8973776",
                 "resourcePath": "objects\\obj_flysaw\\obj_flysaw.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f905e3f3-21ec-41a3-81f1-6f25939fdf3b",
-            "Value": {
-                "id": "e3adb43b-9763-4201-b20c-3fb0f057a381",
-                "resourcePath": "rooms\\puzzle_stone_1_711\\puzzle_stone_1_711.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
