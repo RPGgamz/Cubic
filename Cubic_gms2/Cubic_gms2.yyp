@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "1cb55e1c-72d9-4aa6-80aa-17cca58b467e",
+            "Value": {
+                "id": "ec3aaede-65b5-44be-9d59-678b06052ea4",
+                "resourcePath": "sprites\\bg_red_mountains_3d\\bg_red_mountains_3d.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d676c01-db3b-4831-bc10-7971c8f6f055",
             "Value": {
                 "id": "88b61ae1-b0b1-4ab5-8e40-398a4dbadbad",
@@ -580,6 +588,14 @@
                 "id": "79c0b6b9-e10b-4790-a667-072a11e80f50",
                 "resourcePath": "objects\\obj_wrong_color_stop\\obj_wrong_color_stop.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1fd7fa6e-e7d7-4c58-bf6b-120a39282e00",
+            "Value": {
+                "id": "ee2e6d2b-0363-4cde-bbc9-034c05fb445c",
+                "resourcePath": "sprites\\bg_red_mountains_2e\\bg_red_mountains_2e.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -708,6 +724,14 @@
                 "id": "2000fe37-9c67-4fbc-8459-a186a7b42151",
                 "resourcePath": "tilesets\\bg_green_forest_15a_tileset\\bg_green_forest_15a_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "2b4d00cc-05a2-4938-aff7-9caa7b781d55",
+            "Value": {
+                "id": "56c4b470-0d6d-4743-b72c-4f6dd828b0b5",
+                "resourcePath": "sprites\\bg_red_mountains_4d\\bg_red_mountains_4d.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1151,6 +1175,14 @@
             }
         },
         {
+            "Key": "3c551fb2-de99-4a08-aacb-82ff1e3addd5",
+            "Value": {
+                "id": "78079d52-a6bb-40e5-9144-37b69fb2eb57",
+                "resourcePath": "sprites\\bg_red_mountains_4ea\\bg_red_mountains_4ea.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ca290c9-113d-4043-9b51-abb0f6e495ef",
             "Value": {
                 "id": "9dc98365-2f0c-45d4-ba0b-9a298874c83a",
@@ -1535,6 +1567,14 @@
             }
         },
         {
+            "Key": "5465ece5-7aad-4f38-aa2b-bcf41da9c8ea",
+            "Value": {
+                "id": "b7e237b6-f461-4893-bd1f-0d61e5899b06",
+                "resourcePath": "sprites\\bg_red_mountains_7e\\bg_red_mountains_7e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "554d9b39-0bcd-4f71-ba51-2f2bc0f2102c",
             "Value": {
                 "id": "628f81b1-a4d6-45b2-bf52-fbf987869ffd",
@@ -1652,6 +1692,14 @@
                 "id": "8121ca6c-53a4-4748-99ae-19d3d195714b",
                 "resourcePath": "views\\5b370dc4-7d64-4ad8-8436-a06a5aed1330.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c0289cc-ee3c-4c18-9e99-e93c514e7866",
+            "Value": {
+                "id": "1aa0f0fc-bf7b-441e-b533-c8041d5b0934",
+                "resourcePath": "sprites\\bg_red_mountains_2ea\\bg_red_mountains_2ea.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2031,6 +2079,14 @@
             }
         },
         {
+            "Key": "74930eef-2010-465b-8d41-cfd42dc4225e",
+            "Value": {
+                "id": "e7dab565-3daa-4659-a79f-737c085a8e15",
+                "resourcePath": "rooms\\rm_red_mountains_2b\\rm_red_mountains_2b.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "75242ffb-2da4-46ad-8e81-0d0fb03f573e",
             "Value": {
                 "id": "ffd1120a-13eb-49b6-a7d7-6a8a11576b3e",
@@ -2075,6 +2131,14 @@
             "Value": {
                 "id": "5d1f235d-b015-4dab-8e77-b27f49a38f8f",
                 "resourcePath": "sprites\\spr_wall_v\\spr_wall_v.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76d336f8-6424-4ee7-a1a3-1c42e36233d6",
+            "Value": {
+                "id": "8da267f2-3053-44cc-87ed-6423bc82786d",
+                "resourcePath": "sprites\\bg_red_mountains_1c\\bg_red_mountains_1c.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2479,11 +2543,27 @@
             }
         },
         {
+            "Key": "8724e08b-f539-41f7-8cef-024282672f4d",
+            "Value": {
+                "id": "d70cb5c5-24a9-4080-b2b0-b8e1e9e68b01",
+                "resourcePath": "sprites\\bg_red_mountains_3e\\bg_red_mountains_3e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8775f9a8-8792-4edb-974c-bcf5a1f08ee0",
             "Value": {
                 "id": "3ca1e2c4-9554-4993-9585-c553ae06ccb9",
                 "resourcePath": "sounds\\snd_star\\snd_star.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "87d6fc25-29fb-4921-b3cd-170937382ce7",
+            "Value": {
+                "id": "c3440786-8247-4a7b-ab39-3fb7e7e879ce",
+                "resourcePath": "sprites\\bg_red_mountains_1d\\bg_red_mountains_1d.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2666,7 +2746,7 @@
             "Key": "8f75e533-bdcc-4ad8-be1d-8c3dd123e61a",
             "Value": {
                 "id": "862bd077-1c49-4430-953d-79b88938552b",
-                "resourcePath": "rooms\\rm_green_forest_9c\\rm_green_forest_9c.yy",
+                "resourcePath": "rooms\\rm_red_mountains_1a\\rm_red_mountains_1a.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2807,11 +2887,35 @@
             }
         },
         {
+            "Key": "95762c9d-9382-4edf-93fd-8b9ff963298f",
+            "Value": {
+                "id": "d6b5546e-69b4-4e2c-84a7-8673a6940df0",
+                "resourcePath": "rooms\\rm_red_mountains_1b\\rm_red_mountains_1b.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "95f5bf89-9bfd-407c-8501-ff8a28362e9d",
+            "Value": {
+                "id": "fcc59f2d-13ff-42f2-951d-64d96264ffd2",
+                "resourcePath": "sprites\\bg_red_mountains_6e\\bg_red_mountains_6e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9635aa30-8b46-45f1-9e7f-c81c2a7d22ef",
             "Value": {
                 "id": "bcb3fe2f-842f-4fcb-bd49-c4078e00708a",
                 "resourcePath": "tilesets\\bg_green_forest_5c_tileset\\bg_green_forest_5c_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9637ebf1-cfef-4733-b7f0-4e1d4f692830",
+            "Value": {
+                "id": "2efd36ba-009e-4355-b44f-991f76141877",
+                "resourcePath": "sprites\\bg_red_mountains_2c\\bg_red_mountains_2c.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2827,6 +2931,14 @@
             "Value": {
                 "id": "da374aeb-6f47-4d99-a0b0-71a71171481e",
                 "resourcePath": "sprites\\bg_green_forest_6a\\bg_green_forest_6a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97f9b11a-7cd1-4062-a64e-b5ac108c6b4a",
+            "Value": {
+                "id": "ecfb23b5-7e45-4f62-8c8e-d6eff02edc16",
+                "resourcePath": "sprites\\bg_red_mountains_2a\\bg_red_mountains_2a.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3079,6 +3191,14 @@
             }
         },
         {
+            "Key": "a834c69f-3167-4ae1-82df-61f058276c28",
+            "Value": {
+                "id": "acbe6e49-3120-4618-adaa-732e44b97684",
+                "resourcePath": "sprites\\bg_red_mountains_4eb\\bg_red_mountains_4eb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fcd04b58-4098-4786-a9d6-77a8c7b6d8a7",
@@ -3119,6 +3239,14 @@
             }
         },
         {
+            "Key": "aab9f627-6c4e-4528-8ae1-d00747eb06e6",
+            "Value": {
+                "id": "e8cc0cb9-b189-417c-9ab6-db39daa97920",
+                "resourcePath": "sprites\\bg_red_mountains_1e\\bg_red_mountains_1e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab0dd01f-c613-4d53-84a9-943a9b84b47c",
             "Value": {
                 "id": "ba507ecc-4482-4438-bcce-e4cb7b2fea4b",
@@ -3140,6 +3268,14 @@
                 "id": "4ba12971-10cc-49ec-aa41-fbd772d434ef",
                 "resourcePath": "views\\ac275dbb-278f-4346-93bb-54bb1e42d555.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad0f5ada-285b-4daa-bdea-926811b0429a",
+            "Value": {
+                "id": "410e49de-624a-46b0-9d90-f33376e7d8d1",
+                "resourcePath": "sprites\\bg_red_mountains_2b\\bg_red_mountains_2b.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3171,6 +3307,14 @@
             "Value": {
                 "id": "d16a5151-49f9-405b-914c-053aed9e0502",
                 "resourcePath": "sprites\\spr_worminside\\spr_worminside.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae932715-dbef-4156-b204-e72e801c4de0",
+            "Value": {
+                "id": "524fed76-45a3-4bfa-8c01-c551e7e8cc09",
+                "resourcePath": "sprites\\bg_red_mountains_4c\\bg_red_mountains_4c.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3487,6 +3631,14 @@
             }
         },
         {
+            "Key": "bd318b42-ac45-4f53-9ab8-264eda50f60d",
+            "Value": {
+                "id": "e606374c-e2c5-4fac-a7d4-2bfb0dcecad3",
+                "resourcePath": "sprites\\bg_red_mountains_1ea\\bg_red_mountains_1ea.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd880bc2-5098-46d2-80da-d4925fb230cc",
             "Value": {
                 "id": "168a9b2f-0aff-4ddb-8ba5-e2d98c277477",
@@ -3751,6 +3903,14 @@
             }
         },
         {
+            "Key": "cb896a4e-bc45-4b9e-b230-7e39458aa56e",
+            "Value": {
+                "id": "d8db3fa2-f70a-41ac-bb42-361b44becfba",
+                "resourcePath": "sprites\\bg_red_mountains_2d\\bg_red_mountains_2d.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb8fec27-99a1-4fcb-8e8f-4cdffeb03f9f",
             "Value": {
                 "id": "ad0aa5ce-cf0f-4143-b76a-8077c5cfc6ba",
@@ -3859,6 +4019,14 @@
             "Value": {
                 "id": "5927d785-f044-40a9-ae99-3059c1455c72",
                 "resourcePath": "rooms\\p_wall_1\\p_wall_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d1a17afb-0320-4ed8-8522-8f7d4cbdd9fe",
+            "Value": {
+                "id": "8be29c5c-ccef-4222-b498-05b65f04a24d",
+                "resourcePath": "rooms\\rm_red_mountains_2a\\rm_red_mountains_2a.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4023,6 +4191,14 @@
             }
         },
         {
+            "Key": "da69f31a-4583-42d3-883a-9a9354941b82",
+            "Value": {
+                "id": "e0c375fa-93de-49b8-b27a-4042062ea08a",
+                "resourcePath": "sprites\\bg_red_mountains_6c\\bg_red_mountains_6c.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "db94b5f7-fc44-4b91-82e0-5a1e6eb3311d",
             "Value": {
                 "id": "453bb969-1aac-4de3-853d-0a2b8a3b4a12",
@@ -4103,11 +4279,27 @@
             }
         },
         {
+            "Key": "e0dc5d40-aa51-4200-b100-93100353e6a6",
+            "Value": {
+                "id": "cc0642e1-51dc-4bff-827d-f341a54f8d8d",
+                "resourcePath": "sprites\\bg_red_mountains_3da\\bg_red_mountains_3da.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e11b2c73-5af5-4647-a3f7-cef8d230be88",
             "Value": {
                 "id": "e335c5c4-f0ff-45a2-81b5-662bdc02234e",
                 "resourcePath": "scripts\\scr_push\\scr_push.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e16d4b64-d9ce-4661-aa0e-2f33462a5f51",
+            "Value": {
+                "id": "46ea3d8e-8dd9-4241-8765-1fa789e08bd2",
+                "resourcePath": "sprites\\bg_red_mountains_5e\\bg_red_mountains_5e.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4236,6 +4428,14 @@
                 "id": "ca4bbb51-4d92-428b-bf21-de63a9f65e0b",
                 "resourcePath": "sounds\\snd_move\\snd_move.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e6a3da7e-5f70-4c8d-9863-cc114471d0e9",
+            "Value": {
+                "id": "871915d1-40e5-432f-8f76-01241f0f25db",
+                "resourcePath": "sprites\\bg_red_mountains_1b\\bg_red_mountains_1b.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4479,6 +4679,14 @@
             }
         },
         {
+            "Key": "f351f1c2-4b98-4beb-8933-52606dfb3595",
+            "Value": {
+                "id": "07a2e5e2-b296-467d-abfa-4487b3ff90bc",
+                "resourcePath": "sprites\\bg_red_mountains_1a\\bg_red_mountains_1a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3adf3fe-fa77-400a-84c5-cad08ac0a8d4",
             "Value": {
                 "id": "49084851-261e-4dab-91f0-b835315e81ee",
@@ -4711,6 +4919,14 @@
             }
         },
         {
+            "Key": "fcb52c95-8f74-4a39-9ec5-aa9d1f843c4f",
+            "Value": {
+                "id": "96d116a4-b9d8-4418-9f21-125fefa7567f",
+                "resourcePath": "sprites\\bg_red_mountains_3c\\bg_red_mountains_3c.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fd3e3682-61bd-4db7-ae76-8687fde7a957",
             "Value": {
                 "id": "a66f31b3-3a53-4982-acc6-909403a1bb08",
@@ -4735,11 +4951,27 @@
             }
         },
         {
+            "Key": "fe6c0d2c-a72f-4418-824f-3bc7b034f203",
+            "Value": {
+                "id": "b28c3bbb-d40b-4a78-a30e-9353c5a73924",
+                "resourcePath": "sprites\\bg_red_mountains_5c\\bg_red_mountains_5c.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fea87275-663e-4813-856d-0d1ae7b78424",
             "Value": {
                 "id": "351a8d81-6924-455a-8136-f54a2d321cc6",
                 "resourcePath": "sounds\\snd_puzzle_4\\snd_puzzle_4.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fee76b4d-0139-4e80-825c-910945f9fd69",
+            "Value": {
+                "id": "c99946be-30fb-4ee5-ae67-36bc3a488dfa",
+                "resourcePath": "sprites\\bg_red_mountains_4e\\bg_red_mountains_4e.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
