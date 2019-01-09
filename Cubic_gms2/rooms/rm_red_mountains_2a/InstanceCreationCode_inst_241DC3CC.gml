@@ -1,5 +1,5 @@
-target_room = rm_red_mountains_2a;
+target_room = rm_red_mountains_1b;
 target_door = 0;
 
 ID = 1;
-dir = "up";
+dir = "right";

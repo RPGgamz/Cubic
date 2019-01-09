@@ -61,7 +61,8 @@
         "8f75e533-bdcc-4ad8-be1d-8c3dd123e61a",
         "d1a17afb-0320-4ed8-8522-8f7d4cbdd9fe",
         "95762c9d-9382-4edf-93fd-8b9ff963298f",
-        "74930eef-2010-465b-8d41-cfd42dc4225e"
+        "74930eef-2010-465b-8d41-cfd42dc4225e",
+        "0390a3bb-112f-49fc-a767-db6a37d2f369"
     ],
     "filterType": "GMRoom",
     "folderName": "open world",

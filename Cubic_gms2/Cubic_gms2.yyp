@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0390a3bb-112f-49fc-a767-db6a37d2f369",
+            "Value": {
+                "id": "f9df6c74-7509-4565-a5cd-59c105d77d37",
+                "resourcePath": "rooms\\rm_red_mountains_1c\\rm_red_mountains_1c.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "03f48f56-772b-42ef-b7e0-5a8714f8c86e",
             "Value": {
                 "id": "99409cfc-a4c3-4aa4-a865-2d1c5ca9d75c",
