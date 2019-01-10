@@ -23,7 +23,7 @@ if (obj_control.state == scr_move && instance_exists(pz[current_puzzle,1]) && sc
     one_to_four++;
     
     //play the animation
-    instance_create(0, 0, obj_pz_complete_animation);
+    //(actually do not)  instance_create(0, 0, obj_pz_complete_animation);
 }
 
 //Cycle

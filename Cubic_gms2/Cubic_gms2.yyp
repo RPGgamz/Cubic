@@ -1703,14 +1703,6 @@
             }
         },
         {
-            "Key": "5a8e08ed-80e6-4ef6-a6eb-efddeb8828e9",
-            "Value": {
-                "id": "c355ddc5-5b57-44fa-8c19-09e4abe52d97",
-                "resourcePath": "views\\5a8e08ed-80e6-4ef6-a6eb-efddeb8828e9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "5b370dc4-7d64-4ad8-8436-a06a5aed1330",
             "Value": {
                 "id": "8121ca6c-53a4-4748-99ae-19d3d195714b",
@@ -2116,6 +2108,14 @@
                 "id": "e7dab565-3daa-4659-a79f-737c085a8e15",
                 "resourcePath": "rooms\\rm_red_mountains_2b\\rm_red_mountains_2b.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "74fa8aae-9090-493b-977b-007c5a1b68aa",
+            "Value": {
+                "id": "61239a66-2311-4715-a7ad-3c49596fdd84",
+                "resourcePath": "objects\\obj_camera_follow\\obj_camera_follow.yy",
+                "resourceType": "GMObject"
             }
         },
         {

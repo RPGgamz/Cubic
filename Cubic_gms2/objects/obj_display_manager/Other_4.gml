@@ -14,8 +14,14 @@ if (room == rm_red_mountains_1c) {
 
 //if the view_zoom has changed, the app.surface has to increase/decrease resolution:
 if (current_view_room != view_zoom) {
-	view_hview[1] = ideal_height*view_zoom;
-	view_wview[1] = ideal_width*view_zoom;
-
+	__view_set( e__VW.HView, 1, ideal_height*view_zoom );
+	__view_set( e__VW.WView, 1, ideal_width*view_zoom );
+	
 	surface_resize(application_surface, ideal_width*view_zoom, ideal_height*view_zoom);
+}
+	show_debug_message(room_get_name(room) + " displaymanager")
+/// make a camera_follow object
+if (obj_control.target_door != -1 && !instance_exists(obj_pz)) {
+    instance_create(0, 0, obj_camera_follow);
+	show_debug_message("made followobj")
 }
