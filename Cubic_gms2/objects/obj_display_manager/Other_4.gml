@@ -11,10 +11,11 @@ if (room == rm_red_mountains_1c) {
                                     //checks if its size is double, and then put the id and zoom_view
                                     //value into an array. -Victor
                                     
-view_hview[1] = ideal_height*view_zoom;
-view_wview[1] = ideal_width*view_zoom;
 
 //if the view_zoom has changed, the app.surface has to increase/decrease resolution:
 if (current_view_room != view_zoom) {
+	view_hview[1] = ideal_height*view_zoom;
+	view_wview[1] = ideal_width*view_zoom;
+
 	surface_resize(application_surface, ideal_width*view_zoom, ideal_height*view_zoom);
 }
