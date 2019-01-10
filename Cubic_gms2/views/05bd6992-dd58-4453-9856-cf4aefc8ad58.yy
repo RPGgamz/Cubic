@@ -67,7 +67,12 @@
         "af790bc7-2f39-4499-8710-ad889103a2f0",
         "3960b2cd-18b9-42d6-adfd-e56cbe5407bd",
         "8cf8a9bd-9558-4513-b701-c847daa692a6",
-        "f936cf49-7b2e-4bcc-b727-3ff6beb112b9"
+        "f936cf49-7b2e-4bcc-b727-3ff6beb112b9",
+        "ccae6373-54c5-4fb2-a7a3-e77fd516dc87",
+        "b97001a7-985e-4d5b-8e6b-0cc26d8cd0b5",
+        "d2550b14-a47c-40e1-9584-9d72a6684f2d",
+        "30ddb2ae-8af6-409d-b757-473d5a40681a",
+        "1398310b-de55-4925-a708-987bfb8f486e"
     ],
     "filterType": "GMRoom",
     "folderName": "open world",
