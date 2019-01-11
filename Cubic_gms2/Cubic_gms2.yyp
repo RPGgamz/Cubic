@@ -1303,6 +1303,14 @@
             }
         },
         {
+            "Key": "41793615-89d9-4806-b391-7011be324bb9",
+            "Value": {
+                "id": "e4275d74-be03-4022-b9b3-ee771786d554",
+                "resourcePath": "rooms\\pz_red_mountains_2\\pz_red_mountains_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "41b58634-59c0-428e-a674-7b1461e16985",
             "Value": {
                 "id": "261c2e4f-1e3d-4092-b7bf-e131177913a2",
