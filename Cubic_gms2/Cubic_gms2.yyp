@@ -2007,6 +2007,14 @@
             }
         },
         {
+            "Key": "6d94051b-386a-4cd1-aa10-9f7aaceeaad9",
+            "Value": {
+                "id": "4e09dc7a-9053-416b-a5d0-d6edc0371d90",
+                "resourcePath": "rooms\\pz_red_mountains_1\\pz_red_mountains_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6dcbe1a7-686b-45e4-bf8c-2991daeb25f4",
             "Value": {
                 "id": "a38a86ee-78ac-493d-943b-73eedc981237",
@@ -2732,6 +2740,14 @@
                 "id": "fabe8471-2051-4426-bf72-5adb4659a28a",
                 "resourcePath": "sprites\\spr_sunlight_1\\spr_sunlight_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c600ae7-3673-4dd0-ac84-801fb0105e93",
+            "Value": {
+                "id": "291aa03a-ced0-4b4b-ab1c-b81a6fb4153c",
+                "resourcePath": "rooms\\pz_red_mountains_\\pz_red_mountains_.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

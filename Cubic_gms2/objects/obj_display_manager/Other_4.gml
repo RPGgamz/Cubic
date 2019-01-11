@@ -21,6 +21,7 @@ if (current_view_room != view_zoom) {
 }
 	show_debug_message(room_get_name(room) + " displaymanager")
 /// make a camera_follow object
+/*
 if (obj_control.target_door != -1 && !instance_exists(obj_pz)) {
     instance_create(0, 0, obj_camera_follow);
 	show_debug_message("made followobj")

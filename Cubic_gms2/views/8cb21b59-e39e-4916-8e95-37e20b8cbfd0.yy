@@ -10,7 +10,9 @@
         "f0c4cc38-af61-4905-a76d-ad7e94303671",
         "b92c93f5-b96b-4ad2-99eb-83455bb1b37f",
         "949dbfc0-2da2-4cbf-8559-7a432a684ec6",
-        "67b1b80f-5cc9-4f4b-9123-00babfeddd5c"
+        "67b1b80f-5cc9-4f4b-9123-00babfeddd5c",
+        "8c600ae7-3673-4dd0-ac84-801fb0105e93",
+        "6d94051b-386a-4cd1-aa10-9f7aaceeaad9"
     ],
     "filterType": "GMRoom",
     "folderName": "puzzles",
