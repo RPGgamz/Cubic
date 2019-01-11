@@ -1,5 +1,5 @@
 /// @description put the camera on the cube
-if (!instance_exists(player_cube)) { instance_destroy(); exit;}
+if (!instance_exists(player_cube)) {instance_destroy(); exit;}
 
 __view_set( e__VW.XView, 1, player_cube.x - __view_get( e__VW.WView, 1 )/2 );
 __view_set( e__VW.YView, 1, player_cube.y - __view_get( e__VW.HView, 1 )/2 );

@@ -2,6 +2,7 @@
 /// @param overworld
 room_persistent = false;
 
+var new_cube = noone;
 if (target_door != -1) {
     var entrance = noone;
     //find døren, hvis den er en dør
@@ -35,7 +36,7 @@ if (target_door != -1) {
     
     if (entrance != noone) {
         //lav en cube
-        var new_cube = instance_create(entrance.x, entrance.y, obj_cube);
+        new_cube = instance_create(entrance.x, entrance.y, obj_cube);
         new_cube.lvl = traveling_cube_lvl;
         new_cube.image_index = new_cube.lvl;
         
@@ -54,6 +55,7 @@ if (instance_exists(obj_camera_follow)) {
 	obj_camera_follow.player_cube = new_cube;
 }
 
+//keep camera inside room bounds
 bb = (obj_display_manager.ideal_width-120)/2*obj_display_manager.view_zoom;
 if (__view_get( e__VW.XView, 1 ) < -bb) __view_set( e__VW.XView, 1, -bb );
 if (__view_get( e__VW.XView, 1 ) > room_width-120*obj_display_manager.view_zoom-bb) __view_set( e__VW.XView, 1, room_width-120*obj_display_manager.view_zoom-bb );
