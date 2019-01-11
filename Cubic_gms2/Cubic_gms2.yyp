@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "22c56054-9e4e-49ab-904e-a662197f49c9",
+            "Value": {
+                "id": "50e5b967-3a37-4126-ab24-0638730e00b4",
+                "resourcePath": "rooms\\rm_red_mountains_3e\\rm_red_mountains_3e.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "233878d6-d089-49d6-af4b-10affbb57ffe",
             "Value": {
                 "id": "af84d52d-028c-4c2b-9716-9c8e8d475d9a",
@@ -1991,6 +1999,14 @@
             }
         },
         {
+            "Key": "6d8190ff-26f8-4667-8c40-2f1a2b36f0d6",
+            "Value": {
+                "id": "80305876-cc6b-4acc-9c30-29942fa722b5",
+                "resourcePath": "rooms\\rm_red_mountains_1ea\\rm_red_mountains_1ea.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6dcbe1a7-686b-45e4-bf8c-2991daeb25f4",
             "Value": {
                 "id": "a38a86ee-78ac-493d-943b-73eedc981237",
@@ -3031,6 +3047,14 @@
             }
         },
         {
+            "Key": "9a1ee006-e14f-4c4f-9f3f-e1af6d5710a0",
+            "Value": {
+                "id": "dacf0fe6-728f-49ca-b162-36b9ba529fbe",
+                "resourcePath": "rooms\\rm_red_mountains_2e\\rm_red_mountains_2e.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9a53be8c-279c-459f-99ce-364abf5d84c1",
             "Value": {
                 "id": "b8382a5f-3bab-42c9-bcbf-dd3c8055c9a2",
@@ -3067,6 +3091,14 @@
             "Value": {
                 "id": "fa24b734-c565-44d9-8b04-36dc48fa8046",
                 "resourcePath": "rooms\\rm_green_forest_1b\\rm_green_forest_1b.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9c9909d5-2555-4fad-afad-10a8717d209e",
+            "Value": {
+                "id": "2ccce79d-5db5-41fc-bf4d-c46c74cbef25",
+                "resourcePath": "rooms\\rm_red_mountains_2ea\\rm_red_mountains_2ea.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3188,6 +3220,14 @@
                 "id": "422add1a-ff66-4c7c-b55a-3777247b2f2c",
                 "resourcePath": "sprites\\bg_green_forest_4ca\\bg_green_forest_4ca.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a395e24f-a6b7-4e58-b3ab-06af8748353d",
+            "Value": {
+                "id": "c07f2172-75d7-4371-bd30-e487d9fc1a5c",
+                "resourcePath": "rooms\\rm_red_mountains_4ea\\rm_red_mountains_4ea.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3487,11 +3527,27 @@
             }
         },
         {
+            "Key": "b3ad684d-fdf8-4994-813f-0e84489eb1ec",
+            "Value": {
+                "id": "789973e9-7670-4a40-b77a-13f5cb335208",
+                "resourcePath": "rooms\\rm_red_mountains_1e\\rm_red_mountains_1e.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b3c5277e-c58f-4987-a02c-a2558c6351b5",
             "Value": {
                 "id": "fd0f372c-0592-429f-aeb4-181b8e2e1aa1",
                 "resourcePath": "sprites\\spr_title_2\\spr_title_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4c51986-cd17-4208-a5df-e16950c2f460",
+            "Value": {
+                "id": "0c1c6761-7b5a-47a6-8912-11c582ecb26d",
+                "resourcePath": "rooms\\rm_red_mountains_6e\\rm_red_mountains_6e.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3735,6 +3791,14 @@
             }
         },
         {
+            "Key": "be8444e6-ea5e-4505-97b5-ad6731c6c698",
+            "Value": {
+                "id": "270c59ab-320c-4df4-83f6-f8d35f27de2e",
+                "resourcePath": "rooms\\rm_red_mountains_4e\\rm_red_mountains_4e.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bed28924-529d-476f-a995-59258dd63efb",
             "Value": {
                 "id": "936a8f35-bfdd-4980-91a6-e35efc6eb4ff",
@@ -3812,6 +3876,14 @@
                 "id": "8e49f05c-f6ea-473e-b75a-c83b5e163917",
                 "resourcePath": "objects\\obj_forest_trail\\obj_forest_trail.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c16f2067-a4f4-4422-ad48-cb1a82ec1ec3",
+            "Value": {
+                "id": "7349d3b1-3277-446f-a2fe-55e7682f53c2",
+                "resourcePath": "rooms\\rm_red_mountains_5e\\rm_red_mountains_5e.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -4271,6 +4343,14 @@
             }
         },
         {
+            "Key": "d8e82967-db3e-4213-9a4d-fd5691c2109b",
+            "Value": {
+                "id": "3ec4b4d3-3dd6-47cc-8658-a935ffde1f6c",
+                "resourcePath": "sprites\\bg_red_mountains_7e_big\\bg_red_mountains_7e_big.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9470b70-61a1-4754-8b91-1904a0b28f97",
             "Value": {
                 "id": "daec0e1a-7645-49fe-a55c-c6cc0b718b73",
@@ -4347,6 +4427,14 @@
             "Value": {
                 "id": "7391936f-f0c2-415d-88c9-dcb3730e6605",
                 "resourcePath": "rooms\\puzzle_stone_3_2\\puzzle_stone_3_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd94139f-6570-4261-8744-127a84b0af85",
+            "Value": {
+                "id": "72efd83b-3f5e-4e0e-8ef2-cf5d1c1a6aa1",
+                "resourcePath": "rooms\\rm_red_mountains_7e\\rm_red_mountains_7e.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4740,6 +4828,14 @@
                 "id": "1ffe496c-190a-4f45-99b7-7d1a6df412d6",
                 "resourcePath": "sprites\\bg_green_forest_10a\\bg_green_forest_10a.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f195c1f5-1f0c-49ea-a2de-e6f73424659e",
+            "Value": {
+                "id": "034acdd8-b768-491d-9d7b-fd5cee63a229",
+                "resourcePath": "rooms\\rm_red_mountains_4eb\\rm_red_mountains_4eb.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

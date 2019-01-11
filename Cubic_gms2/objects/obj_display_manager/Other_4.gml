@@ -2,7 +2,7 @@
 
 var current_view_room = view_zoom;
 
-if (room == rm_red_mountains_1c or room == rm_red_mountains_3c or room == rm_red_mountains_6c) {
+if (room == rm_red_mountains_1c or room == rm_red_mountains_3c or room == rm_red_mountains_6c or room == rm_red_mountains_7e) {
     view_zoom = 2;   
 } else {                            //with this code we would have to put every room thats normal/big
     view_zoom = 1;                  //on a list here. Maybe change it -Victor
