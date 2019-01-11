@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "264295ab-febd-40e2-b185-441fa54b16c6",
+            "Value": {
+                "id": "01877af4-da6d-4122-b022-c3dacfdb12b4",
+                "resourcePath": "views\\264295ab-febd-40e2-b185-441fa54b16c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "27017951-7e9f-4aeb-9add-3b7f2c5c6cbb",
             "Value": {
                 "id": "54e68271-d337-4c26-8b83-5b1a5ab61fc1",
@@ -3279,6 +3287,14 @@
             }
         },
         {
+            "Key": "a4ecc05a-b703-4acb-b978-ecad55fa77a3",
+            "Value": {
+                "id": "13e03137-92aa-49d9-b09c-54f887f6352a",
+                "resourcePath": "views\\a4ecc05a-b703-4acb-b978-ecad55fa77a3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a54945d0-0651-496a-b9ac-f2e52592c13d",
             "Value": {
                 "id": "fb68b298-648f-4cbd-93d4-442268b93335",
@@ -4524,6 +4540,14 @@
                 "id": "1285aac7-5288-4812-8d5a-44fa8b53487b",
                 "resourcePath": "tilesets\\bg_green_forest_2e_tileset\\bg_green_forest_2e_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e1da3ab3-d5d0-49f5-8719-9a157de2796a",
+            "Value": {
+                "id": "623a9ee1-cfbe-4715-87d7-2241087aaf69",
+                "resourcePath": "views\\e1da3ab3-d5d0-49f5-8719-9a157de2796a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

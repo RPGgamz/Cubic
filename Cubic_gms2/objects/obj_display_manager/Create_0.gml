@@ -30,7 +30,7 @@ window_set_size(ideal_width, ideal_height);
 zoom = 1;
 view_zoom = 1;
 
-//scaling the window as big as possible (almost)
+//scaling the window as big as possible (minus one)
 max_zoom = floor(display_get_width()/ideal_width);
 
 zoom = max_zoom-1;
