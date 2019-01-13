@@ -1,6 +1,6 @@
 
 {
-    "name": "puzzle_stone_A_72",
+    "name": "puzzle_stone_A_72_mbdontuse",
     "id": "2c2e4524-3576-49ad-a050-b25df87c0b05",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
