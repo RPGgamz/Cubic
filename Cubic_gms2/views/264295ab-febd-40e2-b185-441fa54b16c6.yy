@@ -29,10 +29,11 @@
         "f195c1f5-1f0c-49ea-a2de-e6f73424659e",
         "c16f2067-a4f4-4422-ad48-cb1a82ec1ec3",
         "b4c51986-cd17-4208-a5df-e16950c2f460",
-        "dd94139f-6570-4261-8744-127a84b0af85"
+        "dd94139f-6570-4261-8744-127a84b0af85",
+        "e1da3ab3-d5d0-49f5-8719-9a157de2796a"
     ],
     "filterType": "GMRoom",
-    "folderName": "open world",
+    "folderName": "Red Mountains",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

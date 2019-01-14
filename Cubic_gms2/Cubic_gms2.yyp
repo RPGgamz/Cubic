@@ -1330,7 +1330,7 @@
             "Key": "41793615-89d9-4806-b391-7011be324bb9",
             "Value": {
                 "id": "e4275d74-be03-4022-b9b3-ee771786d554",
-                "resourcePath": "rooms\\pz_red_mountains_2\\pz_red_mountains_2.yy",
+                "resourcePath": "rooms\\pz_red_mountains_3d\\pz_red_mountains_3d.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1667,6 +1667,14 @@
             "Value": {
                 "id": "11c155f7-ed0f-4c74-aba9-dfca55d6c993",
                 "resourcePath": "rooms\\p_0cube_5\\p_0cube_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "56905f4f-5e4b-4301-95d0-4bc27db4c5c2",
+            "Value": {
+                "id": "173523f4-3132-4f7d-9245-86d0aaf94166",
+                "resourcePath": "rooms\\pz_red_mountains_4ea\\pz_red_mountains_4ea.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2058,7 +2066,7 @@
             "Key": "6d94051b-386a-4cd1-aa10-9f7aaceeaad9",
             "Value": {
                 "id": "4e09dc7a-9053-416b-a5d0-d6edc0371d90",
-                "resourcePath": "rooms\\pz_red_mountains_1\\pz_red_mountains_1.yy",
+                "resourcePath": "rooms\\pz_red_mountains_4e\\pz_red_mountains_4e.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2794,7 +2802,7 @@
             "Key": "8c600ae7-3673-4dd0-ac84-801fb0105e93",
             "Value": {
                 "id": "291aa03a-ced0-4b4b-ab1c-b81a6fb4153c",
-                "resourcePath": "rooms\\pz_red_mountains_\\pz_red_mountains_.yy",
+                "resourcePath": "rooms\\pz_red_mountains_2b\\pz_red_mountains_2b.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -3324,14 +3332,6 @@
                 "id": "dd8c3167-4ded-42f1-9b22-40016e6db4f1",
                 "resourcePath": "rooms\\p_frozen_10\\p_frozen_10.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "a4ecc05a-b703-4acb-b978-ecad55fa77a3",
-            "Value": {
-                "id": "13e03137-92aa-49d9-b09c-54f887f6352a",
-                "resourcePath": "views\\a4ecc05a-b703-4acb-b978-ecad55fa77a3.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5060,14 +5060,6 @@
                 "id": "2a6515ae-588a-4109-b0cc-6c71f6007619",
                 "resourcePath": "scripts\\scr_move_me\\scr_move_me.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f65643d0-b4b1-4c74-abd0-b789202e922d",
-            "Value": {
-                "id": "6af58e15-991d-4b0a-a14a-f25a902efd2f",
-                "resourcePath": "rooms\\room140\\room140.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
