@@ -142,9 +142,9 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 1,
+    "playbackSpeed": 0.01,
     "playbackSpeedType": 1,
     "premultiplyAlpha": false,
     "sepmasks": false,

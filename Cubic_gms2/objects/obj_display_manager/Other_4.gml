@@ -3,7 +3,7 @@
 //var prev_view_room = view_zoom;
 
 //determine view_zoom. The default is based on room size, other zooms can be set as case sta
-switch (room) {
+if (!instance_exists(obj_pz)) switch (room) {
 	//case [Room name]: view_zoom = [val]; break;
 	default: view_zoom = max(room_width div 120, room_height div 108);
 }

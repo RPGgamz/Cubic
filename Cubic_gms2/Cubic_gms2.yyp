@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "29904239-9e38-420c-9ea8-e3a64cfda4c6",
+            "Value": {
+                "id": "de880612-4bdf-49d2-b1d6-489c40aab767",
+                "resourcePath": "views\\29904239-9e38-420c-9ea8-e3a64cfda4c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2b1ff0d5-5b62-4580-9579-ac1a24933dc8",
             "Value": {
                 "id": "a90e62aa-77de-4626-942c-bb7396cd21ff",
@@ -940,6 +948,14 @@
                 "id": "cbace95d-c86f-4e45-b955-776cc08d95ac",
                 "resourcePath": "sprites\\spr_tutorial\\spr_tutorial.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32d945ed-3c77-49fa-98b2-54b0c2fdb4c6",
+            "Value": {
+                "id": "793129f6-2623-40c3-8ce7-f83ef2c875ab",
+                "resourcePath": "objects\\obj_rpg_character\\obj_rpg_character.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2479,6 +2495,14 @@
             }
         },
         {
+            "Key": "7d7a52de-2128-44df-bc53-2d8b11a4c9db",
+            "Value": {
+                "id": "0260e9be-8e38-4016-92ac-c5b4f8f9b68b",
+                "resourcePath": "rooms\\rm_a_room\\rm_a_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7df4f466-d5b0-4c02-bb8c-16abb574d256",
             "Value": {
                 "id": "e866118a-83a9-4d9a-87b1-6ff63d3cea32",
@@ -2604,6 +2628,14 @@
                 "id": "d1aa822e-9e96-4ae5-8f3a-b71e27cda184",
                 "resourcePath": "views\\84003923-b5c6-4219-aac8-04702ffde175.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "84820f02-a5c4-458f-9dc4-d54fe1667933",
+            "Value": {
+                "id": "14ad5171-6775-4ccd-b613-5f070f03a745",
+                "resourcePath": "objects\\obj_goblin\\obj_goblin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2903,6 +2935,14 @@
             }
         },
         {
+            "Key": "8fbd6530-aff7-45f3-82df-37af4cc42b49",
+            "Value": {
+                "id": "fbe0c5a0-052d-441c-aa6d-f599dfed859b",
+                "resourcePath": "sprites\\spr_gobling\\spr_gobling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ff8c3cc-289e-49e5-9d21-3bfa79bb36d8",
             "Value": {
                 "id": "db384d6a-86ff-495f-854d-ee0eedb9aa36",
@@ -3044,6 +3084,14 @@
                 "id": "fcc59f2d-13ff-42f2-951d-64d96264ffd2",
                 "resourcePath": "sprites\\bg_red_mountains_6e\\bg_red_mountains_6e.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "963175cb-2c10-4b9d-888e-6cedac872c97",
+            "Value": {
+                "id": "3455ee8c-5be8-436a-9c8f-a53cc1d26601",
+                "resourcePath": "views\\963175cb-2c10-4b9d-888e-6cedac872c97.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3815,6 +3863,14 @@
             }
         },
         {
+            "Key": "bbef89b9-8f09-45a9-a650-a25c71de9aeb",
+            "Value": {
+                "id": "cffec68b-02e2-430d-b4bd-9ff8d3f15d93",
+                "resourcePath": "rooms\\rm_a_room1\\rm_a_room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bc1627ee-6e2d-4494-bc69-4800a716dd79",
             "Value": {
                 "id": "1d13a5ec-0702-4394-9544-fe44ed1d919b",
@@ -3943,6 +3999,14 @@
             }
         },
         {
+            "Key": "c096d4e7-3cbd-45ab-8f6d-b15205b4dbd5",
+            "Value": {
+                "id": "9720cb0d-f133-4f5a-a247-5c2c05fea538",
+                "resourcePath": "objects\\obj_rpg_player\\obj_rpg_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c09be8c4-e00a-46f4-8fab-3da4bab27eac",
             "Value": {
                 "id": "9762afdb-4499-487b-9d6f-8fb4663d33b0",
@@ -4044,6 +4108,14 @@
                 "id": "1b21523c-8434-4fd3-991b-5d8e4278de0d",
                 "resourcePath": "rooms\\puzzle_stone_2_4\\puzzle_stone_2_4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c6d84485-3fe5-4bb8-a278-4b2fec17437e",
+            "Value": {
+                "id": "1f0b2a91-b14d-4241-85fa-d49276bc4b32",
+                "resourcePath": "sprites\\spr_rpg_player\\spr_rpg_player.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

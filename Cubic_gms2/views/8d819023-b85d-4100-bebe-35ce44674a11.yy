@@ -20,7 +20,8 @@
         "88d7753e-acbf-4918-b4c0-fd72f0f81485",
         "7ecfd1da-7505-4cd2-859e-e569183b83a6",
         "e8cf1a78-a3b9-458f-b22d-3b121f4b7499",
-        "530d6ccc-3065-44b3-8cbf-7b0c3345b179"
+        "530d6ccc-3065-44b3-8cbf-7b0c3345b179",
+        "c6d84485-3fe5-4bb8-a278-4b2fec17437e"
     ],
     "filterType": "GMSprite",
     "folderName": "game sprites",
