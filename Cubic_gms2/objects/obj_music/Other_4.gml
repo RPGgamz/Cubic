@@ -1,6 +1,6 @@
 /// @description zone sound
 if (instance_exists(obj_zone)) {
-    if !(room == pz_tutorial or room == pz_green_forest_6a or room == pz_green_forest_9a or room == pz_green_forest_11a or room == pz_green_forest_7c or room == pz_green_forest_4d or room == pz_green_forest_9d) {
+    if !(room == pz_tutorial or room == pz_green_forest_6a or room == pz_green_forest_9a or room == pz_green_forest_11a or room == pz_green_forest_7c or room == pz_green_forest_4d or room == pz_green_forest_9d or room == pz_red_mountains_2b or room == pz_red_mountains_3d or room == pz_red_mountains_4e or room == pz_red_mountains_4ea) {
         if (audio_is_playing(snd_zone_light)) {
             audio_stop_sound(snd_zone_light);
         }
