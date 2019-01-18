@@ -1,5 +1,4 @@
 /// @description kom ind ad den rigtige dør (overworld)
-/// @param overworld
 room_persistent = false;
 
 var new_cube = noone;

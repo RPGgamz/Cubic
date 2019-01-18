@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "1f23c0f3-1f34-439b-b662-509966122afc",
+            "Value": {
+                "id": "0ce3bacb-b217-46a6-b8cc-e8bfc6c50f0a",
+                "resourcePath": "objects\\obj_rpg_lock_v\\obj_rpg_lock_v.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f955585-e179-44ce-819f-26fae3fad5be",
             "Value": {
                 "id": "fb83e24f-a9f5-4c70-877b-28d4ee0faf64",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "2366dc9b-54c3-44ac-ac82-93cfb66c2aae",
+            "Value": {
+                "id": "fa0690e4-00dc-40d8-9529-5b71626de907",
+                "resourcePath": "views\\2366dc9b-54c3-44ac-ac82-93cfb66c2aae.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "239a0a20-c5d9-452a-87bf-67950b9eec37",
             "Value": {
                 "id": "4aabaf9b-d5da-4aba-9407-f80ba1f47fb4",
@@ -684,6 +700,14 @@
                 "id": "3fde9485-1fd5-4744-9a54-56d0014aa78f",
                 "resourcePath": "scripts\\scr_collide_with_solid\\scr_collide_with_solid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2480a974-056d-4010-be09-4a64b6eee72c",
+            "Value": {
+                "id": "d84d89e0-58ce-42b7-bfb8-24d8d50200a4",
+                "resourcePath": "objects\\obj_rpg_lock_h\\obj_rpg_lock_h.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1044,6 +1068,14 @@
                 "id": "858a593c-276f-4c07-98e3-130de8a6cec3",
                 "resourcePath": "sprites\\spr_wall_h_3\\spr_wall_h_3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "35e9ac91-931b-4a3d-afb3-e99c56603f88",
+            "Value": {
+                "id": "0940f26f-fd98-4595-acfc-3295754b67a1",
+                "resourcePath": "objects\\obj_rpg_coin\\obj_rpg_coin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1791,6 +1823,14 @@
             }
         },
         {
+            "Key": "5bc9b198-916e-457c-b73a-fb8a576d7cf9",
+            "Value": {
+                "id": "d59cb29b-2a8a-49de-a23c-f628726ca9cb",
+                "resourcePath": "sprites\\spr_rpgenemy1\\spr_rpgenemy1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c0289cc-ee3c-4c18-9e99-e93c514e7866",
             "Value": {
                 "id": "1aa0f0fc-bf7b-441e-b533-c8041d5b0934",
@@ -1804,6 +1844,14 @@
                 "id": "f61983d2-fe89-4683-97fc-b9613a668034",
                 "resourcePath": "rooms\\room186\\room186.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5c8acbcf-44b1-4650-a586-05ac635e2856",
+            "Value": {
+                "id": "d3e1f6a8-6ba3-4c72-b786-519b9765c723",
+                "resourcePath": "sprites\\spr_rpg_lock_v\\spr_rpg_lock_v.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2039,6 +2087,14 @@
             }
         },
         {
+            "Key": "6c14ee0c-7d02-462d-b651-97451b9b8b7a",
+            "Value": {
+                "id": "4e20cdc8-d869-438c-a4d2-5e1107485c8a",
+                "resourcePath": "sprites\\spr_rpg_biglock_h\\spr_rpg_biglock_h.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c3847cf-a0fe-477e-8cf2-9c4eba4ec912",
             "Value": {
                 "id": "036f38a2-d57d-4ce4-8cd5-b31c063a0e6b",
@@ -2199,6 +2255,14 @@
             }
         },
         {
+            "Key": "73f8ed4c-b63d-4848-9d49-460ce090ecb2",
+            "Value": {
+                "id": "ac5c9d9d-fc33-4ef9-aa99-fa9b081e568c",
+                "resourcePath": "views\\73f8ed4c-b63d-4848-9d49-460ce090ecb2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "745042fd-b61a-4619-9cb2-5fb9f9268c8a",
             "Value": {
                 "id": "7cd44415-2c1e-4863-81aa-cee1015fab33",
@@ -2276,6 +2340,14 @@
                 "id": "5d1f235d-b015-4dab-8e77-b27f49a38f8f",
                 "resourcePath": "sprites\\spr_wall_v\\spr_wall_v.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "761068cf-6db6-42dd-918e-a283def37d5d",
+            "Value": {
+                "id": "f22aae8d-ace0-4a24-9d95-8fa0d1e2ccb8",
+                "resourcePath": "objects\\obj_rpg_control\\obj_rpg_control.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2495,14 +2567,6 @@
             }
         },
         {
-            "Key": "7d7a52de-2128-44df-bc53-2d8b11a4c9db",
-            "Value": {
-                "id": "0260e9be-8e38-4016-92ac-c5b4f8f9b68b",
-                "resourcePath": "rooms\\rm_a_room\\rm_a_room.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "7df4f466-d5b0-4c02-bb8c-16abb574d256",
             "Value": {
                 "id": "e866118a-83a9-4d9a-87b1-6ff63d3cea32",
@@ -2548,6 +2612,14 @@
                 "id": "585e587c-5cd9-46db-9829-26cbc9838e4e",
                 "resourcePath": "objects\\obj_frozen\\obj_frozen.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7fc4a317-50b4-46bc-8166-f20fda88ba9b",
+            "Value": {
+                "id": "1b0441ca-3d41-45bb-953a-d7af7a6600eb",
+                "resourcePath": "sprites\\spr_rpg_bigkey\\spr_rpg_bigkey.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2634,7 +2706,7 @@
             "Key": "84820f02-a5c4-458f-9dc4-d54fe1667933",
             "Value": {
                 "id": "14ad5171-6775-4ccd-b613-5f070f03a745",
-                "resourcePath": "objects\\obj_goblin\\obj_goblin.yy",
+                "resourcePath": "objects\\obj_rpg_enemy1\\obj_rpg_enemy1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2887,6 +2959,14 @@
             }
         },
         {
+            "Key": "8dd13044-f624-4eae-bf05-83b4a30b4275",
+            "Value": {
+                "id": "1ad8d53a-989f-4932-946f-df007108d137",
+                "resourcePath": "objects\\obj_rpg_key\\obj_rpg_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8de29a44-72e7-4536-ba10-af27c8520c1a",
             "Value": {
                 "id": "8d552dbb-4a18-4ef1-bf14-074856b7b196",
@@ -2938,7 +3018,7 @@
             "Key": "8fbd6530-aff7-45f3-82df-37af4cc42b49",
             "Value": {
                 "id": "fbe0c5a0-052d-441c-aa6d-f599dfed859b",
-                "resourcePath": "sprites\\spr_gobling\\spr_gobling.yy",
+                "resourcePath": "sprites\\spr_rpgenemy2\\spr_rpgenemy2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3060,6 +3140,14 @@
                 "id": "e50e7415-be6a-41e0-8076-5d71cb5a7572",
                 "resourcePath": "rooms\\pz_green_forest_4d\\pz_green_forest_4d.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "950bea5b-67f7-44fb-bd2a-a231b3a135db",
+            "Value": {
+                "id": "81cefe6b-a490-4bbe-9321-3ddd79627a2a",
+                "resourcePath": "sprites\\spr_rpg_lock_h\\spr_rpg_lock_h.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3239,6 +3327,14 @@
             }
         },
         {
+            "Key": "9de8afa2-e68d-4c1e-a62b-a808bddf7f19",
+            "Value": {
+                "id": "316e18e7-e121-447e-9040-8d03571b1977",
+                "resourcePath": "objects\\obj_rpg_enemy2\\obj_rpg_enemy2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9dff25da-a0fd-4c9a-b17e-b14a08d9cb80",
             "Value": {
                 "id": "08e17232-9f81-4ef7-85af-e2ab754fde95",
@@ -3259,6 +3355,14 @@
             "Value": {
                 "id": "0b0c36f9-41f6-4abd-b04d-37f2881d43e1",
                 "resourcePath": "sprites\\spr_wall_h_5\\spr_wall_h_5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ea1a9a6-ff8f-4439-ab3e-81a9f73e24cd",
+            "Value": {
+                "id": "f8cb98b9-c2d9-4664-ae56-dc366c3f3350",
+                "resourcePath": "sprites\\spr_rpg_biglock_v\\spr_rpg_biglock_v.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3340,6 +3444,14 @@
                 "id": "f085fc7a-6aee-4c0a-9994-506109a7958e",
                 "resourcePath": "sprites\\bg_grid\\bg_grid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2cc62ec-cf03-4655-a027-10a2e870bc36",
+            "Value": {
+                "id": "ce5670cd-a87d-4f7a-bf17-331480eacfdf",
+                "resourcePath": "objects\\obj_rpg_biglock_v\\obj_rpg_biglock_v.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3455,6 +3567,14 @@
             }
         },
         {
+            "Key": "aa5058c1-0473-4c7d-b020-2e7d5ad0265c",
+            "Value": {
+                "id": "7a10ff4e-dc46-4f93-96ce-89d50b77cc81",
+                "resourcePath": "sprites\\spr_rpg_key\\spr_rpg_key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aaa1662e-9244-4cdf-98c1-e87f43dc00b1",
             "Value": {
                 "id": "3a87bcc9-d98f-4117-bb08-36aeb642f274",
@@ -3495,11 +3615,27 @@
             }
         },
         {
+            "Key": "acfcd098-d483-4378-aff4-f178f0faa382",
+            "Value": {
+                "id": "c4cd8d95-f7ca-43f6-9ec1-1c5598a201a7",
+                "resourcePath": "sprites\\spr_rpg_coin\\spr_rpg_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad0f5ada-285b-4daa-bdea-926811b0429a",
             "Value": {
                 "id": "410e49de-624a-46b0-9d90-f33376e7d8d1",
                 "resourcePath": "sprites\\bg_red_mountains_2b\\bg_red_mountains_2b.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ad1d0776-f559-4fc3-bba9-c95051de62ca",
+            "Value": {
+                "id": "11a97fef-23ed-4cd2-8f40-e38f508209b3",
+                "resourcePath": "views\\ad1d0776-f559-4fc3-bba9-c95051de62ca.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3866,7 +4002,7 @@
             "Key": "bbef89b9-8f09-45a9-a650-a25c71de9aeb",
             "Value": {
                 "id": "cffec68b-02e2-430d-b4bd-9ff8d3f15d93",
-                "resourcePath": "rooms\\rm_a_room1\\rm_a_room1.yy",
+                "resourcePath": "rooms\\rm_rpg_1\\rm_rpg_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4884,6 +5020,14 @@
                 "id": "ffe0ab5f-0e2c-4407-ae37-57195d4d7666",
                 "resourcePath": "rooms\\p_trash_2\\p_trash_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ea3b5241-0567-4d11-a11a-dbad5d940499",
+            "Value": {
+                "id": "e339194e-d349-4c48-a9f7-a33ccf427b22",
+                "resourcePath": "objects\\obj_rpg_biglock_h\\obj_rpg_biglock_h.yy",
+                "resourceType": "GMObject"
             }
         },
         {
