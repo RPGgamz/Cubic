@@ -91,10 +91,6 @@ for (var i = 0; i < ds_list_size(cubes); i++) {
         }
     }
 }
-var rpg_pl = instance_find(obj_rpg_player,0);
-if (instance_exists(rpg_pl)) {
-	scr_push(rpg_pl);
-}
 
 //Queue moves
 if (queued_dir = "NOT YET") {
@@ -131,13 +127,6 @@ for (var i = 0; i < ds_list_size(cubes); i++) {
         break;
     }
 }
-/*if (stop_move_state) for (var i = 0; i < instance_number(obj_rpg_character); i++) {
-    var this_cube = instance_find(obj_rpg_character, i);
-    if (this_cube.step != this_cube.max_steps) {
-        stop_move_state = false;
-        break;
-    }
-}*/
 if (stop_move_state) {
     state = scr_idle;
     //queue move

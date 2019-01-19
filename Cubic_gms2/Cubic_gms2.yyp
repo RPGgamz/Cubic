@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "287c7aa7-d27d-44fc-a6c3-4c58b0a56202",
+            "Value": {
+                "id": "e25aa3b0-dfc9-4558-8bed-e537e12c527f",
+                "resourcePath": "rooms\\rm_rpg_3\\rm_rpg_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "294eceee-2b9f-465c-a162-80fb11dc2a4d",
             "Value": {
                 "id": "890f9551-0428-457b-ab78-1d2ff8e169af",
@@ -1727,6 +1735,14 @@
             }
         },
         {
+            "Key": "56973a51-904b-4142-b0b6-8b121eb8a22f",
+            "Value": {
+                "id": "33afd991-9b03-44aa-a6f5-bff0785f8384",
+                "resourcePath": "rooms\\rm_rpg_4\\rm_rpg_4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "58b71510-fcbe-4154-8302-1455fa04c64a",
             "Value": {
                 "id": "43d8f403-f6ba-4706-8e92-d3fc1bd48aae",
@@ -2575,6 +2591,14 @@
             }
         },
         {
+            "Key": "7e1f583b-6cdd-4ba4-8684-977bb0df21b9",
+            "Value": {
+                "id": "45eee91b-fcb5-45e2-b716-da28fdc5c2e6",
+                "resourcePath": "rooms\\rm_rpg_1\\rm_rpg_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7e6244ed-0690-4b9a-b9b1-57825ee44575",
             "Value": {
                 "id": "b3cd0961-98c4-4567-9dd8-0f6ddc24f4ef",
@@ -2820,6 +2844,14 @@
                 "id": "476c086d-a8e6-493f-b32f-c20a79d74ccd",
                 "resourcePath": "sprites\\spr_sunlight_4\\spr_sunlight_4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "89340549-1a18-48d6-ac1e-4bb95180fb3f",
+            "Value": {
+                "id": "07a3a19d-cfee-4e28-958b-ac48f810aa33",
+                "resourcePath": "rooms\\rm_rpg_2\\rm_rpg_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -3995,14 +4027,6 @@
             "Value": {
                 "id": "3a72438d-31c6-405a-b270-71dfea4ecb1b",
                 "resourcePath": "rooms\\puzzle_stone_A_12\\puzzle_stone_A_12.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "bbef89b9-8f09-45a9-a650-a25c71de9aeb",
-            "Value": {
-                "id": "cffec68b-02e2-430d-b4bd-9ff8d3f15d93",
-                "resourcePath": "rooms\\rm_rpg_1\\rm_rpg_1.yy",
                 "resourceType": "GMRoom"
             }
         },

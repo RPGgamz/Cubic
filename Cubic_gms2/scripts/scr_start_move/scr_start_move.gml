@@ -19,7 +19,7 @@ for (var i = 0; i < instance_number(obj_cube); i++) {
         }
     }
 }
-//list the pushers
+//reset pushers
 for (var i = 0; i < instance_number(obj_pusher); i++) {
     var pusher = instance_find(obj_pusher, i);
     pusher.step = 0;
