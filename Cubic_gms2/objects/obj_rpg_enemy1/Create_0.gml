@@ -1,6 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-// Inherit the parent event
 event_inherited();
-max_steps = 0;
+
+turn_nr = -1;
+
+moves[3] = "down";
+moves[2] = "right";
+moves[1] = "up";
+moves[0] = "left";

@@ -5,13 +5,23 @@
     "name": "obj_rpg_enemy1",
     "eventList": [
         {
-            "id": "63b6abb0-b85d-4e6e-8fe9-2b0bead2ba63",
+            "id": "6f13536f-588e-47f4-9934-8488cba62a62",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "84820f02-a5c4-458f-9dc4-d54fe1667933"
+        },
+        {
+            "id": "31078e2e-946d-4af7-b3b0-989bc52443b0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "84820f02-a5c4-458f-9dc4-d54fe1667933"
         }
     ],

@@ -12,7 +12,8 @@
         "9ea1a9a6-ff8f-4439-ab3e-81a9f73e24cd",
         "6c14ee0c-7d02-462d-b651-97451b9b8b7a",
         "aa5058c1-0473-4c7d-b020-2e7d5ad0265c",
-        "7fc4a317-50b4-46bc-8166-f20fda88ba9b"
+        "7fc4a317-50b4-46bc-8166-f20fda88ba9b",
+        "acfcd098-d483-4378-aff4-f178f0faa382"
     ],
     "filterType": "GMSprite",
     "folderName": "RPG",

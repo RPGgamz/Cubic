@@ -6,10 +6,10 @@
 //with pusher blocks, do this
 with (argument0) {
     move = obj_control.movespeed;
-    
+    stop_check_done = true;
+	
     //track step-number
     if (step == max_steps) {
-        stop_check_done = true;
         exit;
     }
     
@@ -19,7 +19,6 @@ with (argument0) {
     }
     if (move != obj_control.movespeed) {
         scr_move_me();
-        stop_check_done = true;
         step = max_steps;
         exit;
     }
@@ -36,7 +35,6 @@ with (argument0) {
             }
             if (move != obj_control.movespeed) {
                 scr_move_me();
-                stop_check_done = true;
                 step = max_steps;
                 exit;
             }
@@ -55,13 +53,10 @@ with (argument0) {
             }
             if (move != obj_control.movespeed) {
                 scr_move_me();
-                stop_check_done = true;
                 step = max_steps;
                 exit;
             }
         }
     }
-    
-    stop_check_done = true;
 }
 

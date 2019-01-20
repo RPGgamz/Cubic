@@ -986,7 +986,7 @@
             "Key": "32d945ed-3c77-49fa-98b2-54b0c2fdb4c6",
             "Value": {
                 "id": "793129f6-2623-40c3-8ce7-f83ef2c875ab",
-                "resourcePath": "objects\\obj_rpg_character\\obj_rpg_character.yy",
+                "resourcePath": "objects\\obj_rpg_enemy\\obj_rpg_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3180,6 +3180,14 @@
                 "id": "81cefe6b-a490-4bbe-9321-3ddd79627a2a",
                 "resourcePath": "sprites\\spr_rpg_lock_h\\spr_rpg_lock_h.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9514d1c4-90ca-49db-9992-5642b362836f",
+            "Value": {
+                "id": "8b754219-6ac7-4d08-a39a-2f34b8537b7e",
+                "resourcePath": "objects\\obj_rpg_character\\obj_rpg_character.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "264295ab-febd-40e2-b185-441fa54b16c6",
     "children": [
+        "e1da3ab3-d5d0-49f5-8719-9a157de2796a",
         "8f75e533-bdcc-4ad8-be1d-8c3dd123e61a",
         "d1a17afb-0320-4ed8-8522-8f7d4cbdd9fe",
         "95762c9d-9382-4edf-93fd-8b9ff963298f",
@@ -29,8 +30,7 @@
         "f195c1f5-1f0c-49ea-a2de-e6f73424659e",
         "c16f2067-a4f4-4422-ad48-cb1a82ec1ec3",
         "b4c51986-cd17-4208-a5df-e16950c2f460",
-        "dd94139f-6570-4261-8744-127a84b0af85",
-        "e1da3ab3-d5d0-49f5-8719-9a157de2796a"
+        "dd94139f-6570-4261-8744-127a84b0af85"
     ],
     "filterType": "GMRoom",
     "folderName": "Red Mountains",

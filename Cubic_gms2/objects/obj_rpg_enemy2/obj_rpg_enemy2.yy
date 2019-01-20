@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_rpg_enemy2",
     "eventList": [
-        {
-            "id": "1aba0e22-ae21-4315-92fe-df8dd8018a29",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "9de8afa2-e68d-4c1e-a62b-a808bddf7f19"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

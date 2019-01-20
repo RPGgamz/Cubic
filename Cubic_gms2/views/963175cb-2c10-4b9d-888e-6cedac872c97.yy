@@ -14,7 +14,8 @@
         "a2cc62ec-cf03-4655-a027-10a2e870bc36",
         "ea3b5241-0567-4d11-a11a-dbad5d940499",
         "761068cf-6db6-42dd-918e-a283def37d5d",
-        "32d945ed-3c77-49fa-98b2-54b0c2fdb4c6"
+        "32d945ed-3c77-49fa-98b2-54b0c2fdb4c6",
+        "9514d1c4-90ca-49db-9992-5642b362836f"
     ],
     "filterType": "GMObject",
     "folderName": "RPG",
