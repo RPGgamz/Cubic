@@ -5,6 +5,7 @@
 gml_pragma( "global", "__global_object_depths()");
 
 // IMPORTANT: no depths outside range [-16000, 16000] will actually be rendered by GMS2
+// depth of objects not assigned here defaults to 0
 var __objectDepths = [];
 var __objectNames = [];
 __objectDepths[0]  =	 -1;	/**/	__objectNames[0] = "obj_wrong_color_stop";
@@ -20,6 +21,12 @@ __objectDepths[9]  = -10000;	/**/	__objectNames[9] = "obj_game_intro";
 __objectDepths[10] = -10000;	/**/	__objectNames[10] = "obj_fade";
 __objectDepths[11] =  -1000;	/**/	__objectNames[11] = "obj_main_menu_1";
 __objectDepths[12] = -10000;	/**/	__objectNames[12] = "obj_teleport";
+__objectDepths[13] =  -2;	/**/	__objectNames[13] = "obj_rpg_lock_v";
+__objectDepths[14] = -2;	/**/	__objectNames[14] = "obj_rpg_lock_h";
+__objectDepths[13] =  -2;	/**/	__objectNames[15] = "obj_rpg_biglock_v";
+__objectDepths[14] = -2;	/**/	__objectNames[16] = "obj_rpg_biglock_h";
+__objectDepths[13] =  -2;	/**/	__objectNames[17] = "obj_rpg_key";
+__objectDepths[14] = -2;	/**/	__objectNames[18] = "obj_rpg_coin";
 
 // create array used for associating id to depth
 var len = array_length_1d(__objectDepths);
