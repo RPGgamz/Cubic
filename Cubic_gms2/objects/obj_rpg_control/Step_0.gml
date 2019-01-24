@@ -2,8 +2,8 @@
 
 switch (state) {
 	case idle:
-		#region
 		
+			#region
 			//go to playermove state
 			if (scr_save_dir_key()) {
 				obj_control.slide_dir = queued_dir;
@@ -21,12 +21,12 @@ switch (state) {
 					alarm[0] = 1;
 				}
 			}
-			
-		#endregion
+			#endregion
+		
 		break;
 	case playermove:
-		#region
-			
+		
+			#region
 			with (player) {
 				move = other.player_spd;
 				//collide with solids
@@ -34,7 +34,17 @@ switch (state) {
 			        move -= 1;
 			    }
 			    if (move != other.player_spd) {
-			        scr_move_me();
+					scr_move_me();
+					
+			        move = other.player_spd;
+					if (other.keys > 0) {
+						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock)
+						if instance_exists(lock) {
+							other.keys --;
+							lock.alarm[0] = 1;
+						}
+					}
+					
 			        step = max_steps;
 			    } else if (step < max_steps) {
 		            scr_move_me();
@@ -42,19 +52,26 @@ switch (state) {
 		        }
 			}
 		
-			//go to enemymove state
-			 if (player.step >= player.max_steps) {
+			//end playermove state
+			if (player.step >= player.max_steps) {
+				 //pick up items
+				 with (player) {
+					var item = instance_place(x, y, obj_rpg_collectible);
+					if instance_exists(item) item.alarm[0] = 1;
+				 }
+				 //go to enemymove state
 				 state = enemymove
 					with (obj_rpg_enemy) {
-					    step = 0;
+						if position_meeting(x, y, other.cam) step = 0;
+						else step = max_steps;
 					}
 				}
-				
-		#endregion
+				#endregion
+		
 		break;
 	case enemymove:
-		#region
-			
+		
+			#region
 			for (var i = 0; i < instance_number(obj_rpg_enemy); i++) {
 			    var enemy = instance_find(obj_rpg_enemy, i);
 			    if (enemy.step < enemy.max_steps) {
@@ -71,6 +88,7 @@ switch (state) {
 					}
 				}
 			}
+			
 			var stop_enemymove = true;
 			for (var i = 0; i < instance_number(obj_rpg_enemy); i++) {
 			    var enemy = instance_find(obj_rpg_enemy, i);
@@ -79,12 +97,16 @@ switch (state) {
 				}
 			}
 			if (stop_enemymove) {
+				//end enemymove
 				state = idle;
+				cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
+				camera_set_begin_script()
+				
 			} else with (obj_rpg_enemy) if (step < max_steps) {
 		        scr_move_me();
 		        step++;
 		    }
+			#endregion
 		
-		#endregion
 		break;
 }

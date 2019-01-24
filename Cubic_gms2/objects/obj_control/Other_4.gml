@@ -1,6 +1,8 @@
 /// @description kom ind ad den rigtige dør (overworld)
 room_persistent = false;
 
+if (instance_exists(obj_rpg_control)) exit;
+
 var new_cube = noone;
 if (target_door != -1) {
     var entrance = noone;

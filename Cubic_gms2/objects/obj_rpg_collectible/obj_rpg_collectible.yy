@@ -1,14 +1,14 @@
 {
-    "id": "1f23c0f3-1f34-439b-b662-509966122afc",
+    "id": "24b3d972-2470-4c5f-9494-b72073846deb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rpg_lock_v",
+    "name": "obj_rpg_collectible",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5c8acbcf-44b1-4650-a586-05ac635e2856",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

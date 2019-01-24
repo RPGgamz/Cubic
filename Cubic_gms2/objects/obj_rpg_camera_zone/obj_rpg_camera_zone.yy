@@ -1,14 +1,14 @@
 {
-    "id": "1f23c0f3-1f34-439b-b662-509966122afc",
+    "id": "0a942b63-b936-48e1-90c5-c9802de4ecb8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rpg_lock_v",
+    "name": "obj_rpg_camera_zone",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5c8acbcf-44b1-4650-a586-05ac635e2856",
-    "visible": true
+    "spriteId": "3a204744-7bef-4a71-98d0-472b9013304c",
+    "visible": false
 }

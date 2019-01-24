@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "0a942b63-b936-48e1-90c5-c9802de4ecb8",
+            "Value": {
+                "id": "bd66dfcb-fa12-409c-83c6-3e9126b19b5e",
+                "resourcePath": "objects\\obj_rpg_camera_zone\\obj_rpg_camera_zone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c186230-5bfa-4c69-a8fe-acf4ef8dad6d",
             "Value": {
                 "id": "9ccfc304-eb62-4b7e-8186-dd0c0ef34b49",
@@ -716,6 +724,14 @@
                 "id": "705674d3-8b28-477b-85fc-d73b75d0e102",
                 "resourcePath": "rooms\\p_snail_2\\p_snail_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "24b3d972-2470-4c5f-9494-b72073846deb",
+            "Value": {
+                "id": "c020221f-8aa5-4024-af2b-627cf58e4b76",
+                "resourcePath": "objects\\obj_rpg_collectible\\obj_rpg_collectible.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4764,6 +4780,14 @@
                 "id": "470efd31-5cb8-4bcc-92b6-4bc39f238b9a",
                 "resourcePath": "rooms\\p_0cube_2\\p_0cube_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
+            "Value": {
+                "id": "7dfff49c-dd75-4a04-984d-f6d64ab222ac",
+                "resourcePath": "objects\\obj_rpg_lock\\obj_rpg_lock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
