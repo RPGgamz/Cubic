@@ -100,7 +100,7 @@ switch (state) {
 				//end enemymove
 				state = idle;
 				cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
-				camera_set_begin_script()
+				//camera_set_begin_script()
 				
 			} else with (obj_rpg_enemy) if (step < max_steps) {
 		        scr_move_me();
