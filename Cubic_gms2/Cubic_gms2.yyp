@@ -2207,6 +2207,14 @@
             }
         },
         {
+            "Key": "6ec345f0-b871-4a8b-b990-47a62ed55e72",
+            "Value": {
+                "id": "528e82b1-0260-442d-894a-23b55f238886",
+                "resourcePath": "views\\6ec345f0-b871-4a8b-b990-47a62ed55e72.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6f8bf2f0-922e-4b9b-bf3f-4752767417ed",
             "Value": {
                 "id": "986790c4-4d65-4e46-b846-886afde616f7",
@@ -4447,6 +4455,14 @@
             }
         },
         {
+            "Key": "cd796efc-240d-42be-a453-9da81c251b3e",
+            "Value": {
+                "id": "6bf13ff7-7684-4c8d-9217-c45018203b13",
+                "resourcePath": "scripts\\scr_rpg_cam_focus\\scr_rpg_cam_focus.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cdf35300-b923-4a70-8ba6-3026a2db2fc8",
             "Value": {
                 "id": "31851f8a-fa36-4769-984d-77e2ef198bc7",
@@ -5589,7 +5605,8 @@
         "7eddbd2f-e34b-47a7-900c-2ee026b27f1b",
         "7bd6e8db-6dd7-4099-a0ef-6f25379a422e",
         "b2914d5e-5352-417a-8662-e2bf16dd6a96",
-        "8531f3a6-ea89-47f2-be5d-7a325cae4448"
+        "8531f3a6-ea89-47f2-be5d-7a325cae4448",
+        "cd796efc-240d-42be-a453-9da81c251b3e"
     ],
     "tutorial": ""
 }

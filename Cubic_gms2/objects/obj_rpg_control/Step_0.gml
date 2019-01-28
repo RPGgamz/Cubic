@@ -6,19 +6,14 @@ switch (state) {
 			#region
 			//go to playermove state
 			if (scr_save_dir_key()) {
+				state = playermove
 				obj_control.slide_dir = queued_dir;
 				player.move = player_spd;
-				
-				//unlock doors
-				//var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj)
-				
-				state = playermove
-				
 				player.step = 0;
 				
 				//prepare enemies dir variable for their move
 				with (obj_rpg_enemy) {
-					alarm[0] = 1;
+					if position_meeting(x, y, other.cam) alarm[0] = 1;
 				}
 			}
 			#endregion
@@ -35,7 +30,9 @@ switch (state) {
 			    }
 			    if (move != other.player_spd) {
 					scr_move_me();
+			        step = max_steps;
 					
+					//unlock doors
 			        move = other.player_spd;
 					if (other.keys > 0) {
 						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock)
@@ -45,13 +42,12 @@ switch (state) {
 						}
 					}
 					
-			        step = max_steps;
 			    } else if (step < max_steps) {
 		            scr_move_me();
 		            step++;
 		        }
 			}
-		
+			
 			//end playermove state
 			if (player.step >= player.max_steps) {
 				 //pick up items
@@ -59,6 +55,15 @@ switch (state) {
 					var item = instance_place(x, y, obj_rpg_collectible);
 					if instance_exists(item) item.alarm[0] = 1;
 				 }
+				 //move to other rooms
+				 var prev_cam = cam;
+				 cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
+				 if (prev_cam != cam) {
+					 scr_rpg_cam_focus();
+					 state = idle;
+					 break;
+				 }
+				 
 				 //go to enemymove state
 				 state = enemymove
 					with (obj_rpg_enemy) {
@@ -99,8 +104,6 @@ switch (state) {
 			if (stop_enemymove) {
 				//end enemymove
 				state = idle;
-				cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
-				//camera_set_begin_script()
 				
 			} else with (obj_rpg_enemy) if (step < max_steps) {
 		        scr_move_me();
