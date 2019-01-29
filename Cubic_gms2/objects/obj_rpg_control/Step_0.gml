@@ -83,13 +83,16 @@ switch (state) {
 					with (enemy) {
 						move = other.enemy_spd;
 						obj_control.slide_dir = dir;
-						show_debug_message("move " + string(id) + " " + string(obj_control.slide_dir))
 						while (scr_collide_with_solid() && move > 0) {
 					        move -= 1;
 					    }
 					    if (move != other.enemy_spd) {
 					        scr_move_me();
 					        step = max_steps;
+					    }
+						if (step < max_steps) {
+					        scr_move_me();
+					        step++;
 					    }
 					}
 				}
@@ -105,11 +108,7 @@ switch (state) {
 			if (stop_enemymove) {
 				//end enemymove
 				state = idle;
-				
-			} else with (obj_rpg_enemy) if (step < max_steps) {
-		        scr_move_me();
-		        step++;
-		    }
+			}
 			#endregion
 		
 		break;

@@ -20,7 +20,6 @@ switch (dir) {
 
 
 if ( place_meeting( x+dx , y+dy , obj_solid) ) {
-	show_debug_message(string(id) + dir)
 	switch (dir) {
 		case "up":
 			dir = "down"; break;
@@ -31,6 +30,4 @@ if ( place_meeting( x+dx , y+dy , obj_solid) ) {
 		case "right":
 			dir = "left"; break;
 	}
-	
-	show_debug_message(dir)
 }

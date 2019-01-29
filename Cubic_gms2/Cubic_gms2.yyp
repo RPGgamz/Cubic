@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "527776bd-9b16-4c58-9050-029e8fea1a70",
+            "Value": {
+                "id": "cf4825ba-76af-4b4c-97dd-16fa69def569",
+                "resourcePath": "objects\\obj_rpg_enemyF\\obj_rpg_enemyF.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "52c4f007-0c89-4354-a40a-4e2a62025ce0",
             "Value": {
                 "id": "ece99fa4-23a9-4f50-8d44-64393a9a12e4",
@@ -4556,6 +4564,14 @@
                 "id": "be1c8ecc-d8af-440b-bacf-18a8e7b317c4",
                 "resourcePath": "rooms\\rm_red_mountains_3d\\rm_red_mountains_3d.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d268de7a-9fa1-4522-95c1-34423acd9843",
+            "Value": {
+                "id": "ce652dcd-9bb9-4973-b6e8-770b73f5f54f",
+                "resourcePath": "sprites\\spr_rpgenemyF\\spr_rpgenemyF.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
