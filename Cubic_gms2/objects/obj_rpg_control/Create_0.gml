@@ -11,4 +11,4 @@ keys = 0;
 coins = 0;
 
 //setup
-state = idle;
+state = idle; 

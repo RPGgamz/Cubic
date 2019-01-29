@@ -83,6 +83,7 @@ switch (state) {
 					with (enemy) {
 						move = other.enemy_spd;
 						obj_control.slide_dir = dir;
+						show_debug_message("move " + string(id) + " " + string(obj_control.slide_dir))
 						while (scr_collide_with_solid() && move > 0) {
 					        move -= 1;
 					    }

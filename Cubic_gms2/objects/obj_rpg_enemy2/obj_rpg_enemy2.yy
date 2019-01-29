@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_rpg_enemy2",
     "eventList": [
-        
+        {
+            "id": "1b9c8e50-be72-47bb-9281-e9526c933d5e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9de8afa2-e68d-4c1e-a62b-a808bddf7f19"
+        },
+        {
+            "id": "2ff9fdfa-1992-4f79-832d-f6f47eba26af",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "9de8afa2-e68d-4c1e-a62b-a808bddf7f19"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
