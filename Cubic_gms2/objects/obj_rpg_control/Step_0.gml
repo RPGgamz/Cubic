@@ -1,13 +1,46 @@
 ///@description state
 
+if (scr_save_dir_key()) alarm[0] = 10;
+
+
+
+
 switch (state) {
 	case idle:
 		
 			#region
-			//go to playermove state
-			if (scr_save_dir_key()) {
-				state = playermove
+			//attempt to go to playermove state
+			if (queued_dir = "left" || queued_dir = "right" || queued_dir = "up"|| queued_dir = "down") {
 				obj_control.slide_dir = queued_dir;
+				queued_dir = "";
+				with (player) {
+					move = other.player_spd;
+					//collide with solids
+				    if (scr_collide_with_solid()) {
+						//unlock doors
+						if (other.keys > 0) {
+							var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock)
+							if instance_exists(lock) {
+								other.keys --;
+								lock.alarm[0] = 1;
+							}
+						}
+						move = 0;
+					} else {
+						//collide with enemies (attack)
+						var enemy = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_enemy);
+						if instance_exists(enemy) {
+							instance_destroy(enemy);
+							move = 0;
+						}
+					}
+					
+				}
+				//don't go to playermove state
+				if (player.move == 0) break;
+				
+				//go to playermove state
+				state = playermove
 				player.move = player_spd;
 				player.step = 0;
 				
@@ -27,26 +60,7 @@ switch (state) {
 		
 			#region
 			with (player) {
-				move = other.player_spd;
-				//collide with solids
-			    while (scr_collide_with_solid() && move > 0) {
-			        move -= 1;
-			    }
-			    if (move != other.player_spd) {
-					scr_move_me();
-			        step = max_steps;
-					
-					//unlock doors
-			        move = other.player_spd;
-					if (other.keys > 0) {
-						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock)
-						if instance_exists(lock) {
-							other.keys --;
-							lock.alarm[0] = 1;
-						}
-					}
-					
-			    } else if (step < max_steps) {
+				if (step < max_steps) {
 		            scr_move_me();
 		            step++;
 		        }
@@ -71,8 +85,26 @@ switch (state) {
 				 //go to enemymove state
 				 state = enemymove
 					with (obj_rpg_enemy) {
-						if position_meeting(x, y, other.cam) step = 0;
-						else step = max_steps;
+						if position_meeting(x, y, other.cam) {
+							obj_control.slide_dir = dir;
+							move = other.enemy_spd;
+							step = 0;
+							//collide with solid
+							if (scr_collide_with_solid()) {
+						        step = max_steps;
+						    } else {
+								//collide with others (attack)
+								var col = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_character);
+								if instance_exists(col) {
+									if (col.object_index == obj_rpg_player) {
+										//reset room
+										//other.state = other.idle;
+									} else instance_destroy(col);
+									step = max_steps;
+								}
+							
+							}
+						} else step = max_steps;
 					}
 				}
 				#endregion
@@ -87,13 +119,7 @@ switch (state) {
 					with (enemy) {
 						move = other.enemy_spd;
 						obj_control.slide_dir = dir;
-						while (scr_collide_with_solid() && move > 0) {
-					        move -= 1;
-					    }
-					    if (move != other.enemy_spd) {
-					        scr_move_me();
-					        step = max_steps;
-					    }
+						
 						if (step < max_steps) {
 					        scr_move_me();
 					        step++;
@@ -102,6 +128,7 @@ switch (state) {
 				}
 			}
 			
+			//check if all have stopped
 			var stop_enemymove = true;
 			for (var i = 0; i < instance_number(obj_rpg_enemy); i++) {
 			    var enemy = instance_find(obj_rpg_enemy, i);

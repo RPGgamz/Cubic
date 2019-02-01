@@ -1,7 +1,7 @@
 /// @description update dir
 var tilesize = 12 // Change the number if we change tilesize
-var x_dist = round((p_x-x))/tilesize;
-var y_dist = round((p_y-y))/tilesize;
+var x_dist = round(p_x-x)/tilesize;
+var y_dist = round(p_y-y)/tilesize;
 
 
 
@@ -17,5 +17,9 @@ if ((abs(x_dist)+abs(y_dist)) == 1) {
 		if (y_dist == 1) dir = "down";
 		else dir = "up"
 	}
-} else dir = "";
-
+	
+	image_index = 1;
+} else {
+	dir = "";
+	image_index = 0;
+}
