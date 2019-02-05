@@ -47,10 +47,6 @@ switch (state) {
 				//prepare enemies for their move
 				with (obj_rpg_enemy) {
 					if position_meeting(x, y, other.cam) alarm[0] = 1;
-					if (object_index == obj_rpg_enemyF) {
-						p_x = (other.player).x;
-						p_y = (other.player).y;
-					}
 				}
 			}
 			#endregion
