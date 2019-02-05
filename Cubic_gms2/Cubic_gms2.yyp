@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "4b22e518-3efd-4531-baa8-089b47969733",
+            "Value": {
+                "id": "95d5d86e-fd5d-417b-a9cc-fe34003d2eb8",
+                "resourcePath": "scripts\\scr_rpg_save\\scr_rpg_save.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4bb84d3d-d6b8-44fc-b2c4-ef80f1cc06b5",
             "Value": {
                 "id": "0f8fede9-a68e-4472-961b-90507d1b2117",
@@ -4991,6 +4999,14 @@
             }
         },
         {
+            "Key": "e625c471-3d60-46bc-9b5c-cca6e36fe888",
+            "Value": {
+                "id": "ce7fb5c9-001c-486d-8d91-89c246159817",
+                "resourcePath": "scripts\\scr_rpg_load\\scr_rpg_load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6510900-5c6c-4bb3-8e02-36bf587654e8",
             "Value": {
                 "id": "e8dfbbf9-56af-409c-a192-e53439145b9f",
@@ -5622,7 +5638,9 @@
         "7bd6e8db-6dd7-4099-a0ef-6f25379a422e",
         "b2914d5e-5352-417a-8662-e2bf16dd6a96",
         "8531f3a6-ea89-47f2-be5d-7a325cae4448",
-        "cd796efc-240d-42be-a453-9da81c251b3e"
+        "cd796efc-240d-42be-a453-9da81c251b3e",
+        "4b22e518-3efd-4531-baa8-089b47969733",
+        "e625c471-3d60-46bc-9b5c-cca6e36fe888"
     ],
     "tutorial": ""
 }
