@@ -7,3 +7,5 @@ with (all) {
 	if (collision_rectangle(x-1, y-1, x, y, other.cam, false, true)) visible = true;
 	else visible = false;
 }
+
+with (cam) scr_rpg_cam_save();

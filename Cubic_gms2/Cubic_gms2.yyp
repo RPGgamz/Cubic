@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0759ee08-ae83-412f-9785-d6f730f3c0d3",
+            "Value": {
+                "id": "8bf12d8e-9d9f-4a98-8475-ab218dee2357",
+                "resourcePath": "scripts\\scr_rpg_room_save\\scr_rpg_room_save.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "07718bc7-a0cb-4f02-a938-8aa599c89940",
             "Value": {
                 "id": "5979b624-e663-44f1-a44b-284b7d295f96",
@@ -284,6 +292,14 @@
                 "id": "6abfdabd-f849-4921-bafb-86e5b93b6789",
                 "resourcePath": "sprites\\bg_green_forest_6d\\bg_green_forest_6d.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12611cfe-e50d-4ad4-a6ad-35232ae96986",
+            "Value": {
+                "id": "8d145704-49c0-4f6a-874d-7b1289a9994c",
+                "resourcePath": "scripts\\scr_rpg_room_load\\scr_rpg_room_load.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1610,7 +1626,7 @@
             "Key": "4b22e518-3efd-4531-baa8-089b47969733",
             "Value": {
                 "id": "95d5d86e-fd5d-417b-a9cc-fe34003d2eb8",
-                "resourcePath": "scripts\\scr_rpg_save\\scr_rpg_save.yy",
+                "resourcePath": "scripts\\scr_rpg_cam_save\\scr_rpg_cam_save.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5002,7 +5018,7 @@
             "Key": "e625c471-3d60-46bc-9b5c-cca6e36fe888",
             "Value": {
                 "id": "ce7fb5c9-001c-486d-8d91-89c246159817",
-                "resourcePath": "scripts\\scr_rpg_load\\scr_rpg_load.yy",
+                "resourcePath": "scripts\\scr_rpg_cam_load\\scr_rpg_cam_load.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5627,8 +5643,8 @@
         "1371e52a-63fd-45cb-8348-d26c2f544a59",
         "db94b5f7-fc44-4b91-82e0-5a1e6eb3311d",
         "79df9ea7-42a4-41e8-9cc6-b9aa97a88f78",
-        "f4966e5c-02cf-40c7-a514-c54c63127053",
         "d21fb3e5-dd4b-40d8-ad0b-888431dc05a8",
+        "f4966e5c-02cf-40c7-a514-c54c63127053",
         "a98bd6cc-4530-41b5-83aa-62ee8b7c66e0",
         "4d0a628e-67d1-4d83-ab0c-ebbfcce554f1",
         "50ee9bc4-d771-4c99-a505-52923e911724",
@@ -5640,7 +5656,9 @@
         "8531f3a6-ea89-47f2-be5d-7a325cae4448",
         "cd796efc-240d-42be-a453-9da81c251b3e",
         "4b22e518-3efd-4531-baa8-089b47969733",
-        "e625c471-3d60-46bc-9b5c-cca6e36fe888"
+        "e625c471-3d60-46bc-9b5c-cca6e36fe888",
+        "0759ee08-ae83-412f-9785-d6f730f3c0d3",
+        "12611cfe-e50d-4ad4-a6ad-35232ae96986"
     ],
     "tutorial": ""
 }
