@@ -1,10 +1,9 @@
 ///@description state
 
+//move queue
 if (scr_save_dir_key()) alarm[0] = 10;
 
-
-
-
+//STATES
 switch (state) {
 	case idle:
 		
@@ -43,14 +42,10 @@ switch (state) {
 				state = playermove
 				player.move = player_spd;
 				player.step = 0;
-				
-				//prepare enemies for their move
-				with (obj_rpg_enemy) {
-					if position_meeting(x, y, other.cam) alarm[0] = 1;
-				}
 			}
 			#endregion
 		
+		prev_state = idle; 
 		break;
 	case playermove:
 		
@@ -64,47 +59,49 @@ switch (state) {
 			
 			//end playermove state
 			if (player.step >= player.max_steps) {
-				 //pick up items
-				 with (player) {
+				//move to other rooms
+				var prev_cam = cam;
+				cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
+				if (prev_cam != cam) {
+					scr_rpg_cam_focus();
+					state = idle;
+					break;
+				}
+				//pick up items
+				with (player) {
 					var item = instance_place(x, y, obj_rpg_collectible);
 					if instance_exists(item) item.alarm[0] = 1;
-				 }
-				 //move to other rooms
-				 var prev_cam = cam;
-				 cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
-				 if (prev_cam != cam) {
-					 scr_rpg_cam_focus();
-					 state = idle;
-					 break;
-				 }
-				 
-				 //go to enemymove state
-				 state = enemymove
-					with (obj_rpg_enemy) {
-						if position_meeting(x, y, other.cam) {
-							obj_control.slide_dir = dir;
-							move = other.enemy_spd;
-							step = 0;
-							//collide with solid
-							if (scr_collide_with_solid()) {
-						        step = max_steps;
-						    } else {
-								//collide with others (attack)
-								var col = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_character);
-								if instance_exists(col) {
-									if (col.object_index == obj_rpg_player) {
-										//reset room
-										//other.state = other.idle;
-									} else instance_destroy(col);
-									step = max_steps;
-								}
-							
-							}
-						} else step = max_steps;
-					}
 				}
-				#endregion
+				//go to enemymove state
+				state = enemymove
+				with (obj_rpg_enemy) {
+					if ((object_index == obj_rpg_enemyF) && !visible) image_index = 0;
+					if position_meeting(x, y, other.cam) {
+						script_execute(updatedir);
+						obj_control.slide_dir = dir;
+						move = other.enemy_spd;
+						step = 0;
+						//collide with solid
+						if (scr_collide_with_solid()) {
+						    step = max_steps;
+						} else {
+							//collide with others (attack)
+							var col = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_character);
+							if instance_exists(col) {
+								if (col.object_index == obj_rpg_player) {
+									with (other.cam) scr_rpg_cam_load();
+									other.state = other.idle;
+								} else instance_destroy(col);
+								step = max_steps;
+							}
+							
+						}
+					} else step = max_steps;
+				}
+			}
+			#endregion
 		
+		prev_state = playermove; 
 		break;
 	case enemymove:
 		
@@ -138,5 +135,6 @@ switch (state) {
 			}
 			#endregion
 		
+		prev_state = enemymove; 
 		break;
 }

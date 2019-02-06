@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0413222b-35d7-4702-92db-c2437c45bbf4",
+            "Value": {
+                "id": "a593b386-f5cc-42b9-91ee-1d6c135ccda0",
+                "resourcePath": "scripts\\scr_rpg_enemy2_updatedir\\scr_rpg_enemy2_updatedir.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "041ef42b-829c-4362-b235-e1f906b8ad9e",
             "Value": {
                 "id": "bfd659e3-726a-4f43-9dec-2f40ed6ab103",
@@ -172,6 +180,14 @@
                 "id": "75e7ea5e-016f-4066-b77c-417b30badfb4",
                 "resourcePath": "rooms\\rm_green_forest_6d\\rm_green_forest_6d.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "09db37c3-829e-4605-ae9a-e5851076ef76",
+            "Value": {
+                "id": "c5ef5068-702f-4fa3-ac1a-681226bf9d25",
+                "resourcePath": "scripts\\scr_rpg_enemy1_updatedir\\scr_rpg_enemy1_updatedir.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4255,6 +4271,14 @@
             }
         },
         {
+            "Key": "c1be70d7-c552-4e08-a0a7-506c8b335b20",
+            "Value": {
+                "id": "708be192-a1d4-4650-a0a4-f7c981ceec7b",
+                "resourcePath": "scripts\\scr_rpg_enemyF_updatedir\\scr_rpg_enemyF_updatedir.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c25b39a5-94e1-4ac9-ae81-4e0c58ba2245",
             "Value": {
                 "id": "98ce3031-d162-4d8e-8535-a5b6cfb3cd22",
@@ -5658,7 +5682,10 @@
         "4b22e518-3efd-4531-baa8-089b47969733",
         "e625c471-3d60-46bc-9b5c-cca6e36fe888",
         "0759ee08-ae83-412f-9785-d6f730f3c0d3",
-        "12611cfe-e50d-4ad4-a6ad-35232ae96986"
+        "12611cfe-e50d-4ad4-a6ad-35232ae96986",
+        "c1be70d7-c552-4e08-a0a7-506c8b335b20",
+        "09db37c3-829e-4605-ae9a-e5851076ef76",
+        "0413222b-35d7-4702-92db-c2437c45bbf4"
     ],
     "tutorial": ""
 }

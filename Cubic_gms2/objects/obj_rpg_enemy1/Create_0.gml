@@ -1,4 +1,7 @@
 event_inherited();
+updatedir = scr_rpg_enemy1_updatedir;
+
+dir = "up";
 
 turn_nr = -1;
 
