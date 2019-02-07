@@ -3807,6 +3807,14 @@
             }
         },
         {
+            "Key": "aed5a742-c2d1-4429-ab32-057447757c87",
+            "Value": {
+                "id": "24460334-40df-4c9e-82e4-d34467bae87b",
+                "resourcePath": "sprites\\spr_rpg_hp\\spr_rpg_hp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af672d28-a1f4-4f29-99e6-07540c2b2c89",
             "Value": {
                 "id": "7af90ffb-850e-447b-a4d0-2fe6f718623f",
@@ -4987,6 +4995,14 @@
             "Value": {
                 "id": "0703f951-a644-48c2-bd5f-7cc034cee353",
                 "resourcePath": "sprites\\spr_zone_rdy\\spr_zone_rdy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e40cfe59-7174-4442-baa2-43dcc917d5d3",
+            "Value": {
+                "id": "e83efce8-494d-46a6-8dfc-228242ddaf64",
+                "resourcePath": "sprites\\spr_rpg_ui_coin\\spr_rpg_ui_coin.yy",
                 "resourceType": "GMSprite"
             }
         },
