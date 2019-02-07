@@ -1,7 +1,10 @@
 //"R" restarting the room
 if (keyboard_check_pressed(ord("R")) && !instance_exists(obj_pz)) {
-    state = scr_idle;
-    room_restart();
+	if (instance_exists(obj_rpg_roomsave)) with (obj_rpg_roomsave) scr_rpg_room_load();
+    else {
+		state = scr_idle;
+	    room_restart();
+	}
 }
 
 //"ESCAPE" quitting the game

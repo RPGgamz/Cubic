@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "137b47ff-2a08-4606-8291-deb210e9666c",
+            "Value": {
+                "id": "b3c5eba5-ab13-42cc-81cb-2422dd3c2f91",
+                "resourcePath": "objects\\obj_rpg_roomsave\\obj_rpg_roomsave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1398310b-de55-4925-a708-987bfb8f486e",
             "Value": {
                 "id": "6ca1d2e5-7c48-49ae-a5ed-d4d32547ff76",
