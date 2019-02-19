@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "0bd34fe3-b93b-4247-8883-1bbeec484b4e",
+            "Value": {
+                "id": "7385c777-7722-4416-9491-89716dddfeac",
+                "resourcePath": "objects\\obj_rpg_bigkey\\obj_rpg_bigkey.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c186230-5bfa-4c69-a8fe-acf4ef8dad6d",
             "Value": {
                 "id": "9ccfc304-eb62-4b7e-8186-dd0c0ef34b49",
@@ -299,6 +307,14 @@
             "Value": {
                 "id": "6ffda8f5-76c7-4929-92cc-5d6fb0e0cde6",
                 "resourcePath": "objects\\obj_icebreak\\obj_icebreak.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "10d93b93-882f-4f52-a0d7-8bfddcc12d22",
+            "Value": {
+                "id": "30e87ff5-5b75-469d-9a0c-783e78240880",
+                "resourcePath": "objects\\obj_rpg_sword\\obj_rpg_sword.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2335,6 +2351,14 @@
             }
         },
         {
+            "Key": "736c2d51-4a5a-4ec2-80cd-f91105cec0df",
+            "Value": {
+                "id": "44ed21e7-8bfc-4ccb-819f-a29907eedf0d",
+                "resourcePath": "sprites\\spr_rpg_sword\\spr_rpg_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73a83951-9920-4eb5-8854-6ac0f454122e",
             "Value": {
                 "id": "85a5af85-ca76-422b-b386-e9822e3dbe9d",
@@ -2843,6 +2867,14 @@
             "Value": {
                 "id": "1f220d51-2fd3-40f8-8b54-7527fa16834f",
                 "resourcePath": "objects\\obj_trash_2\\obj_trash_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "85968acc-7d2a-4c20-b279-5a256fd066fd",
+            "Value": {
+                "id": "39c048ef-f6e6-42f6-a3b7-5ac72c23a032",
+                "resourcePath": "objects\\obj_rpg_lock\\obj_rpg_lock.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4890,7 +4922,7 @@
             "Key": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
             "Value": {
                 "id": "7dfff49c-dd75-4a04-984d-f6d64ab222ac",
-                "resourcePath": "objects\\obj_rpg_lock\\obj_rpg_lock.yy",
+                "resourcePath": "objects\\obj_rpg_lock_general\\obj_rpg_lock_general.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4908,6 +4940,14 @@
                 "id": "0cfa0283-06bd-4539-b0db-09c614239747",
                 "resourcePath": "objects\\obj_frozen_3\\obj_frozen_3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0cd2c24-b471-4dee-9e59-8572a94f69f3",
+            "Value": {
+                "id": "962e464b-56ec-4da8-80a0-523aa10a913b",
+                "resourcePath": "scripts\\scr_rpg_damage_player\\scr_rpg_damage_player.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -5255,6 +5295,14 @@
             }
         },
         {
+            "Key": "eeeec47a-c052-4179-852a-5ab0c267bc8a",
+            "Value": {
+                "id": "7d121cab-1a5f-466e-a4dc-0be27a000e28",
+                "resourcePath": "objects\\obj_rpg_biglock\\obj_rpg_biglock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ef0443b7-c45a-497c-9db8-bff155645039",
             "Value": {
                 "id": "51bffde3-00f0-4b94-b9f3-7f52ba3636d2",
@@ -5276,6 +5324,14 @@
                 "id": "6634abf3-34da-4c8e-b6b3-1a2430a6c719",
                 "resourcePath": "sprites\\spr_cube_3\\spr_cube_3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef2697f1-5ef5-4cf5-8891-c7a63a5f6af1",
+            "Value": {
+                "id": "394e47a3-69af-4e28-8732-58b725285b14",
+                "resourcePath": "scripts\\scr_rpg_damage_enemy\\scr_rpg_damage_enemy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -5714,6 +5770,8 @@
         "09db37c3-829e-4605-ae9a-e5851076ef76",
         "0413222b-35d7-4702-92db-c2437c45bbf4",
         "cd796efc-240d-42be-a453-9da81c251b3e",
+        "e0cd2c24-b471-4dee-9e59-8572a94f69f3",
+        "ef2697f1-5ef5-4cf5-8891-c7a63a5f6af1",
         "4b22e518-3efd-4531-baa8-089b47969733",
         "e625c471-3d60-46bc-9b5c-cca6e36fe888",
         "0759ee08-ae83-412f-9785-d6f730f3c0d3",

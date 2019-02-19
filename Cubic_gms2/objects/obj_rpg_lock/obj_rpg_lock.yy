@@ -1,23 +1,14 @@
 {
-    "id": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
+    "id": "85968acc-7d2a-4c20-b279-5a256fd066fd",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_rpg_lock",
     "eventList": [
-        {
-            "id": "96597237-476a-4b20-a9e0-e0eb177eeb90",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "501604cf-4f60-49f4-a655-39a627f4ec57",
+    "parentObjectId": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

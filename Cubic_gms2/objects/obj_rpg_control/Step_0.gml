@@ -17,20 +17,32 @@ switch (state) {
 					//collide with solids
 				    if (scr_collide_with_solid()) {
 						//unlock doors
-						if (other.keys > 0) {
-							var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock)
-							if instance_exists(lock) {
-								other.keys --;
-								lock.alarm[0] = 1;
+						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock_general)
+						if instance_exists(lock) {
+							if (object_is_ancestor(lock.object_index, obj_rpg_biglock)) {
+								if (other.bigkeys > 0) {
+									other.bigkeys --;
+									lock.alarm[0] = 1;
+								}
+							}
+							else {
+								if (other.keys > 0) {
+									other.keys --;
+									lock.alarm[0] = 1;
+								}
 							}
 						}
+						
 						move = 0;
 					} else {
 						//collide with enemies (attack)
 						var enemy = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_enemy);
-						if instance_exists(enemy) {
-							instance_destroy(enemy);
-							move = 0;
+						if (instance_exists(enemy)) {
+							if (other.swordlvl == 0) scr_rpg_damage_player();
+							else {
+								scr_rpg_damage_enemy(enemy);
+								move = 0;
+							}
 						}
 					}
 					
@@ -39,7 +51,7 @@ switch (state) {
 				if (player.move == 0) break;
 				
 				//go to playermove state
-				state = playermove
+				state = playermove;
 				player.move = player_spd;
 				player.step = 0;
 			}
@@ -89,14 +101,7 @@ switch (state) {
 							var col = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_character);
 							if instance_exists(col) {
 								if (col.object_index == obj_rpg_player) {
-									with (other.cam) scr_rpg_cam_load();
-									with (other) {
-										hp--;
-										if (hp == 0) {
-											with (roomsaver) scr_rpg_room_load();
-										}
-									}
-									other.state = other.idle;
+									scr_rpg_damage_player();
 								} else instance_destroy(col);
 								step = max_steps;
 							}

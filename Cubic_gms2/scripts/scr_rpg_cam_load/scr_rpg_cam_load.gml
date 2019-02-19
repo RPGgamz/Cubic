@@ -31,4 +31,5 @@ save_pl[0].x = save_pl[1];
 save_pl[0].y = save_pl[2];
 obj_rpg_control.keys = save_pl[3];
 obj_rpg_control.coins = save_pl[4];
+obj_rpg_control.swordlvl = save_pl[5];
 

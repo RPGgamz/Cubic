@@ -1,14 +1,23 @@
 {
-    "id": "a2cc62ec-cf03-4655-a027-10a2e870bc36",
+    "id": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_rpg_biglock_v",
+    "name": "obj_rpg_lock_general",
     "eventList": [
-        
+        {
+            "id": "96597237-476a-4b20-a9e0-e0eb177eeb90",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "de2ea0ba-12d0-4d70-bda0-d59d53a0960b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "eeeec47a-c052-4179-852a-5ab0c267bc8a",
+    "parentObjectId": "501604cf-4f60-49f4-a655-39a627f4ec57",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9ea1a9a6-ff8f-4439-ab3e-81a9f73e24cd",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
