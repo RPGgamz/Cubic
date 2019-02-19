@@ -14,5 +14,5 @@ hp = max_hp;
 
 //setup
 state = idle;
-prev_state = idle;
+//prev_state = idle;
 queued_dir = "";

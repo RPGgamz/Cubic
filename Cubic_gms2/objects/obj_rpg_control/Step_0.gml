@@ -45,7 +45,7 @@ switch (state) {
 			}
 			#endregion
 		
-		prev_state = idle; 
+		//prev_state = idle; 
 		break;
 	case playermove:
 		
@@ -90,6 +90,12 @@ switch (state) {
 							if instance_exists(col) {
 								if (col.object_index == obj_rpg_player) {
 									with (other.cam) scr_rpg_cam_load();
+									with (other) {
+										hp--;
+										if (hp == 0) {
+											with (roomsaver) scr_rpg_room_load();
+										}
+									}
 									other.state = other.idle;
 								} else instance_destroy(col);
 								step = max_steps;
@@ -101,7 +107,7 @@ switch (state) {
 			}
 			#endregion
 		
-		prev_state = playermove; 
+		//prev_state = playermove; 
 		break;
 	case enemymove:
 		
@@ -135,6 +141,6 @@ switch (state) {
 			}
 			#endregion
 		
-		prev_state = enemymove; 
+		//prev_state = enemymove; 
 		break;
 }

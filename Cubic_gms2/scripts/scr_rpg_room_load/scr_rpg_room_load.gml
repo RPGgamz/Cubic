@@ -1,27 +1,27 @@
 
 
 //load collectibles
+with (obj_rpg_collectible) instance_destroy();
 var i = array_height_2d(save_col);
 repeat(i) {
 	i--;
-	if (instance_exists(save_col[i, 0])) instance_destroy(save_col[i, 0]);
 	save_col[i, 0] = instance_create( save_col[i, 1], save_col[i, 2], save_col[i, 3] );
 }
 
 //load enemies
+with (obj_rpg_enemy) instance_destroy();
 var i = array_height_2d(save_enem);
 repeat(i) {
 	i--;
-	if (instance_exists(save_enem[i, 0])) instance_destroy(save_enem[i, 0]);
 	save_enem[i, 0] = instance_create( save_enem[i, 1], save_enem[i, 2], save_enem[i, 3] );
 	save_enem[i, 0].dir = save_enem[i, 4]
 }
 
 //load locks
+with (obj_rpg_lock) instance_destroy();
 var i = array_height_2d(save_lock);
 repeat(i) {
 	i--;
-	if (instance_exists(save_lock[i, 0])) instance_destroy(save_lock[i, 0]);
 	save_lock[i, 0] = instance_create( save_lock[i, 1], save_lock[i, 2], save_lock[i, 3] );
 }
 
@@ -36,3 +36,6 @@ with (obj_rpg_control) {
 	cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
 	scr_rpg_cam_focus();
 }
+
+//reset player hp
+obj_rpg_control.hp = obj_rpg_control.max_hp;
