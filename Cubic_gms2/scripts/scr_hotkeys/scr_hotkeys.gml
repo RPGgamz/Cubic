@@ -16,6 +16,11 @@ if (keyboard_check_pressed(vk_enter)) {
     else game_end();
 }
 
+//"P" open pause menu
+if (keyboard_check_pressed(ord("P"))) {
+    instance_create(0, 0, obj_pause_menu);
+}
+
 //"TAB" going to the previous room
 if (keyboard_check_pressed(vk_tab)) {
     if !(room == rm_game_intro) scr_room_goto(room_previous(room), 0, traveling_cube_lvl);
@@ -45,7 +50,6 @@ if (keyboard_check_pressed(ord("U"))) {
     complete_animation = true;
     alarm[2] = 1;
 }
-//"L" teleport animation test
 
 //"M" mute all sound
 if (keyboard_check_pressed(ord("M"))) {
