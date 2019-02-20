@@ -29,13 +29,13 @@ repeat (num) {
 }
 
 //save locks
-var num = instance_number(obj_rpg_lock)
+var num = instance_number(obj_rpg_lock_general)
 save_lock = [];
 
 var i = num;
 repeat (num) {
 	i--; //i actually starts at num-1
-	save_lock[i, 0] = instance_find(obj_rpg_lock, i);
+	save_lock[i, 0] = instance_find(obj_rpg_lock_general, i);
 	save_lock[i, 1] = save_lock[i, 0].x;
 	save_lock[i, 2] = save_lock[i, 0].y;
 	save_lock[i, 3] = save_lock[i, 0].object_index;

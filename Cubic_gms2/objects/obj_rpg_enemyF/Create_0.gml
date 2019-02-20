@@ -1,6 +1,7 @@
 event_inherited();
 
-updatedir = scr_rpg_enemyF_updatedir;
+updatedir = scr_nothing;
 image_speed = 0;
 
 dir = "";
+qdir = "";

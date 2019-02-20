@@ -8,6 +8,12 @@ switch (state) {
 	case idle:
 		
 			#region
+			//update enemyF
+			if (prev_state != idle) with (obj_rpg_enemyF) {
+				if (!position_meeting(x, y, other.cam)) continue;
+				scr_rpg_enemyF_updatedir();
+			}
+			
 			//attempt to go to playermove state
 			if (queued_dir = "left" || queued_dir = "right" || queued_dir = "up"|| queued_dir = "down") {
 				obj_control.slide_dir = queued_dir;
@@ -42,6 +48,7 @@ switch (state) {
 							else {
 								scr_rpg_damage_enemy(enemy);
 								move = 0;
+								with (other) scr_rpg_goto_enemymovestate();
 							}
 						}
 					}
@@ -57,7 +64,7 @@ switch (state) {
 			}
 			#endregion
 		
-		//prev_state = idle; 
+		prev_state = idle; 
 		break;
 	case playermove:
 		
@@ -85,34 +92,11 @@ switch (state) {
 					if instance_exists(item) item.alarm[0] = 1;
 				}
 				//go to enemymove state
-				state = enemymove
-				with (obj_rpg_enemy) {
-					if ((object_index == obj_rpg_enemyF) && !visible) image_index = 0;
-					if position_meeting(x, y, other.cam) {
-						script_execute(updatedir);
-						obj_control.slide_dir = dir;
-						move = other.enemy_spd;
-						step = 0;
-						//collide with solid
-						if (scr_collide_with_solid()) {
-						    step = max_steps;
-						} else {
-							//collide with others (attack)
-							var col = instance_place(x+scr_dx(12-move) , y+scr_dy(12-move), obj_rpg_character);
-							if instance_exists(col) {
-								if (col.object_index == obj_rpg_player) {
-									scr_rpg_damage_player();
-								} else instance_destroy(col);
-								step = max_steps;
-							}
-							
-						}
-					} else step = max_steps;
-				}
+				scr_rpg_goto_enemymovestate();
 			}
 			#endregion
 		
-		//prev_state = playermove; 
+		prev_state = playermove; 
 		break;
 	case enemymove:
 		
@@ -146,6 +130,6 @@ switch (state) {
 			}
 			#endregion
 		
-		//prev_state = enemymove; 
+		prev_state = enemymove; 
 		break;
 }

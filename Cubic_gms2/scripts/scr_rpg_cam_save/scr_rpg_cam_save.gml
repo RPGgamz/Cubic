@@ -34,7 +34,7 @@ ds_list_destroy(_ds_enem);
 
 //save locks
 var _ds_lock = ds_list_create();
-var num = instance_place_list(x, y, obj_rpg_lock, _ds_lock, false)
+var num = instance_place_list(x, y, obj_rpg_lock_general, _ds_lock, false)
 save_lock = [];
 
 var i = num;

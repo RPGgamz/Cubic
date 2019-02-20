@@ -1,1 +1,1 @@
-//somebody else is pulling the threads!..   (' ) ___(' )
+//somebody else is pulling the strings!..   (' ) ___(' )
