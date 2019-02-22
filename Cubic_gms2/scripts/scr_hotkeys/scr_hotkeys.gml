@@ -7,18 +7,15 @@ if (keyboard_check_pressed(ord("R")) && !instance_exists(obj_pz)) {
 	}
 }
 
-//"ESCAPE" quitting the game
-if (keyboard_check_pressed(vk_escape) && !instance_exists(obj_pz)) game_end();
+//"ESCAPE" and "P" open pause menu
+if ((keyboard_check_pressed(ord("P")) || keyboard_check_pressed(vk_escape)) && !instance_exists(obj_pz)) {
+	instance_create(0, 0, obj_pause_menu);
+}
 
 //"ENTER" going to the next room
 if (keyboard_check_pressed(vk_enter)) {
     if (room_exists(room_next(room))) scr_room_goto(room_next(room), 0, traveling_cube_lvl);
     else game_end();
-}
-
-//"P" open pause menu
-if (keyboard_check_pressed(ord("P"))) {
-    instance_create(0, 0, obj_pause_menu);
 }
 
 //"TAB" going to the previous room

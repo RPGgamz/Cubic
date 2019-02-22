@@ -24,6 +24,7 @@ save_enem = [];
 var i = num;
 repeat (num) {
 	i--; //i actually starts at num-1
+	
 	save_enem[i, 4] = _ds_enem[| i].dir;
 	save_enem[i, 3] = _ds_enem[| i].object_index;
 	save_enem[i, 2] = _ds_enem[| i].y;

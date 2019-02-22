@@ -1,4 +1,7 @@
 /// @description update dir
-turn_nr ++;
-if (turn_nr = 4) turn_nr = 0;
-dir = dir_t[turn_nr];
+switch (dir) {
+	case "down": dir = "left"; break;
+	case "left": dir = "up"; break;
+	case "up": dir = "right"; break;
+	case "right": dir = "down";
+}
