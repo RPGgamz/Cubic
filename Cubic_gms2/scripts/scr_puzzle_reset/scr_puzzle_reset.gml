@@ -9,7 +9,6 @@ with (cam)
     repeat (array_height_2d(cubes))
         {
         if (instance_exists(cubes[j,4])) instance_destroy(cubes[j,4]);
-		show_debug_message (cubes[j,2])
 		if (cubes[j,2] >= 0) //lvl
 			{
 	        if (cubes[j,3]) //frozen
