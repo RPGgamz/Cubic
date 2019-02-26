@@ -39,8 +39,7 @@ display_set_gui_size(ideal_width, ideal_height);
 //1 second delay before centering the window (necessary)
 alarm[0] = 1;
 
-
-room_goto_next();
+//room_goto_next();
 
 ///enabling vsync (?)
 

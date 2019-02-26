@@ -12,7 +12,7 @@ repeat(room_width) {
 }
 
 //set timer under the cube
-if (obj_control.state = scr_move) {
+if (instance_exists(obj_control) && obj_control.state == scr_move) {
     var w = sprite_get_width(spr_cube);
     var h = sprite_get_height(spr_cube);
     x = obj_cube.x - 5;

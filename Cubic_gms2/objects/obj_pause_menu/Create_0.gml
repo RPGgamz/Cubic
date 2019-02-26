@@ -10,22 +10,28 @@ function = 1;
 target = 2;
 
 //menus
+var i;
 
-menu_p[0, label] = "Resume"; menu_p[0, function] = scr_exit_pause;
-menu_p[1, label] = "Options"; menu_p[1, function] = scr_goto_menu;	menu_p[1, target] = "o";
-menu_p[2, label] = "Help"; menu_p[2, function] = scr_goto_menu;	menu_p[2, target] = "h";
-menu_p[3, label] = "Exit"; menu_p[3, function] = scr_game_end;
+i = -1;
+menu_p[++i, label] = "Resume"; menu_p[i, function] = scr_exit_pause;
+menu_p[++i, label] = "Options"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "o";
+menu_p[++i, label] = "Help"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "h";
+menu_p[++i, label] = "Reset save file"; menu_p[i, function] = scr_reset_save;
+menu_p[++i, label] = "Load"; menu_p[i, function] = scr_load_game;
+menu_p[++i, label] = "Exit"; menu_p[i, function] = scr_game_end;
 
-menu_o[0, label] = "Audio"; menu_o[0, function] = scr_nothing;
-menu_o[1, label] = "Video"; menu_o[1, function] = scr_nothing;
-menu_o[2, label] = "Controls"; menu_o[2, function] = scr_nothing;
-menu_o[3, label] = "Prefferences"; menu_o[3, function] = scr_nothing;
-menu_o[4, label] = "Back"; menu_o[4, function] = scr_goto_menu;	menu_o[4, target] = "p";
+i = -1;
+menu_o[++i, label] = "Audio"; menu_o[i, function] = scr_nothing;
+menu_o[++i, label] = "Video"; menu_o[i, function] = scr_nothing;
+menu_o[++i, label] = "Controls"; menu_o[i, function] = scr_nothing;
+menu_o[++i, label] = "Prefferences"; menu_o[i, function] = scr_nothing;
+menu_o[++i, label] = "Back"; menu_o[i, function] = scr_goto_menu;	menu_o[i, target] = "p";
 
-menu_h[0, label] = "How to play"; menu_h[0, function] = scr_nothing;
-menu_h[1, label] = "Tutorial"; menu_h[1, function] = scr_nothing;
-menu_h[2, label] = "FAQ"; menu_h[2, function] = scr_nothing;
-menu_h[3, label] = "Back"; menu_h[3, function] = scr_goto_menu;	menu_h[3, target] = "p";
+i = -1;
+menu_h[++i, label] = "How to play"; menu_h[i, function] = scr_nothing;
+menu_h[++i, label] = "Tutorial"; menu_h[i, function] = scr_nothing;
+menu_h[++i, label] = "FAQ"; menu_h[i, function] = scr_nothing;
+menu_h[++i, label] = "Back"; menu_h[i, function] = scr_goto_menu;	menu_h[i, target] = "p";
 
 menu_current = menu_p;
 selected = 0;
