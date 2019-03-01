@@ -15,9 +15,6 @@ for (var i = 0; i < instance_number(obj_door); i++) {
                 scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
                 instance_destroy(this_cube);
                 exit;
-            } else if (this_door.type == "start") {
-                //skab et fade obj - brug også dette til "esc" af puzzle zones mm.
-            //Forest transitions
             } else if (this_door.type == "forest") {
                 target_door = this_door.target_door;
                 traveling_cube_lvl = this_cube.lvl;
