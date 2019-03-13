@@ -7,8 +7,8 @@ if (keyboard_check_pressed(ord("R")) && !instance_exists(obj_pz)) {
 	}
 }
 
-//"ESCAPE" and "P" open pause menu
-if ((keyboard_check_pressed(ord("P")) || keyboard_check_pressed(vk_escape)) && !instance_exists(obj_pz)) {
+//"ESCAPE" and "P" open pause menu (in zones ESC leaves the zone)
+if (state == scr_idle && (keyboard_check_pressed(ord("P")) || keyboard_check_pressed(vk_escape)) && !instance_exists(obj_pz)) {
 	instance_create(0, 0, obj_pause_menu);
 }
 

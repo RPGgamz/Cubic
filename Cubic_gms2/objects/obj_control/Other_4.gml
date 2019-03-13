@@ -4,6 +4,16 @@ room_persistent = false;
 if (instance_exists(obj_rpg_control)) exit;
 
 var new_cube = noone;
+
+//first room
+if (obj_save_data.first_room == true) {
+	new_cube = instance_create(obj_save_data.load_x, obj_save_data.load_y, obj_cube_1);
+	obj_save_data.first_room = false;
+	obj_save_data.load_x = 0;
+	obj_save_data.load_y = 0;
+	obj_save_data.target_door =-1;
+}
+
 if (target_door != -1) {
     var entrance = noone;
     //find døren, hvis den er en dør
@@ -55,10 +65,3 @@ if (target_door != -1) {
 if (instance_exists(obj_camera_follow)) {
 	obj_camera_follow.player_cube = new_cube;
 }
-
-//keep camera inside room bounds
-bb = (obj_display_manager.ideal_width-120)/2*obj_display_manager.view_zoom;
-if (__view_get( e__VW.XView, 1 ) < -bb) __view_set( e__VW.XView, 1, -bb );
-if (__view_get( e__VW.XView, 1 ) > room_width-120*obj_display_manager.view_zoom-bb) __view_set( e__VW.XView, 1, room_width-120*obj_display_manager.view_zoom-bb );
-if (__view_get( e__VW.YView, 1 ) < 0) __view_set( e__VW.YView, 1, 0 );
-if (__view_get( e__VW.YView, 1 ) > room_height-108*obj_display_manager.view_zoom) __view_set( e__VW.YView, 1, room_height-108*obj_display_manager.view_zoom );

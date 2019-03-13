@@ -4303,14 +4303,6 @@
             }
         },
         {
-            "Key": "a98bd6cc-4530-41b5-83aa-62ee8b7c66e0",
-            "Value": {
-                "id": "9d1d4e4b-ced6-4efc-b912-5c62c70077dd",
-                "resourcePath": "scripts\\scr_camera_follow\\scr_camera_follow.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a993cccb-8283-4c1b-bbdf-cf91231b27d1",
             "Value": {
                 "id": "6e5f2822-872c-4b58-9bac-716f11902f5a",
@@ -6653,7 +6645,6 @@
         "79df9ea7-42a4-41e8-9cc6-b9aa97a88f78",
         "d21fb3e5-dd4b-40d8-ad0b-888431dc05a8",
         "f4966e5c-02cf-40c7-a514-c54c63127053",
-        "a98bd6cc-4530-41b5-83aa-62ee8b7c66e0",
         "4d0a628e-67d1-4d83-ab0c-ebbfcce554f1",
         "50ee9bc4-d771-4c99-a505-52923e911724",
         "b5fa1720-6207-4bd4-91a9-4cc1f2c4cdb9",

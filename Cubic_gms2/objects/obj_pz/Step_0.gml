@@ -40,11 +40,6 @@ if (keyboard_check_pressed(vk_anykey) && alarm[0] == -1)
         }
     }
 
-
-
-
-
-
 ///reset and leave
 
 //reset puzzle
@@ -53,12 +48,19 @@ if (keyboard_check_pressed(ord("R")) && alarm[0] == -1 && !instance_exists(obj_p
 //leave puzzle
 if (keyboard_check_pressed(vk_escape) && obj_control.state == scr_idle) {
     if (!instance_exists(obj_fade)) {
-		var fade = instance_create(0,0,obj_fade);
+		fade = instance_create(0,0,obj_fade);
 	    fade.alarm[3] = 1;
 	    fade.this_exit_target_room = obj_zone_exit.target_room;
 	    fade.this_exit_target_zone = obj_zone_exit.target_zone;
 	    fade.traveling_cube_lvl = obj_control.traveling_cube_lvl;
-	} else game_end();
+	} else with (fade) {
+		scr_room_goto(this_exit_target_room, this_exit_target_zone, traveling_cube_lvl);
+    
+	    fade_out_alpha = 0;
+	    fade_in_alpha = 1;
+	    alarm[2] = 1;
+	    alarm[3] = 0;
+	}
 }
 
 

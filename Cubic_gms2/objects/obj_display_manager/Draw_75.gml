@@ -1,6 +1,6 @@
 /// @description draw green bar (forest) and black bar
 
-if (instance_exists(obj_forest_transition)) {
+/*if (instance_exists(obj_forest_transition)) {
     with (obj_forest_transition) {
         draw_set_color(merge_color(col_1, col_2, tick));
         
@@ -19,7 +19,7 @@ if (instance_exists(obj_forest_transition)) {
             break;
         }
     }
-}
+}//*/
 
 ///draw black bars
 draw_set_color(c_black);

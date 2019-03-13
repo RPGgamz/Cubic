@@ -1,13 +1,6 @@
 /// @description Load
 
-//start-of-game place player
-if (first_room == true) {
-	show_debug_message("lol?")
-	instance_create(load_x, load_y, obj_cube_1);
-	first_room = false;
-	load_x = 0;
-	load_y = 0;
-}
+
 
 //pzones
 var savedvalue = ds_map_find_value(pzones, room)
