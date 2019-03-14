@@ -1,7 +1,10 @@
 
-a = 1/10;
-
+//variables
+a = 1/20;
 cam = view_get_camera(1);
+vel = 0;
+bb = obj_control.bb;
 
-x_vel = 0;
-y_vel = 0;
+//surface
+surf = surface_create(surface_get_width(application_surface)-2*bb, surface_get_height(application_surface));
+
