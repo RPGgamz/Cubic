@@ -1,5 +1,5 @@
 
-a = 1;
+a = 1/10;
 
 cam = view_get_camera(1);
 

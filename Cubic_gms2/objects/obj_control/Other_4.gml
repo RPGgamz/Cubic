@@ -11,10 +11,9 @@ if (obj_save_data.first_room == true) {
 	obj_save_data.first_room = false;
 	obj_save_data.load_x = 0;
 	obj_save_data.load_y = 0;
-	obj_save_data.target_door =-1;
 }
 
-if (target_door != -1) {
+else if (target_door != -1) {
     var entrance = noone;
     //find døren, hvis den er en dør
     for (var i = 0; i < instance_number(obj_door); i++) {
@@ -62,6 +61,7 @@ if (target_door != -1) {
 }
 
 //camera follow player
-if (instance_exists(obj_camera_follow)) {
-	obj_camera_follow.player_cube = new_cube;
+if (!instance_exists(obj_pz)) { // additional conditions: (room_width > 120 || room_height > 108)  && obj_control.target_door != -1 &&
+	var f = instance_create(0, 0, obj_camera_follow);
+	f.player_cube = new_cube;
 }

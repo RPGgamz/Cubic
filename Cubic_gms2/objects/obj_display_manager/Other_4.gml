@@ -15,9 +15,3 @@ __view_set( e__VW.HView, 1, ideal_height*view_zoom );
 __view_set( e__VW.WView, 1, ideal_width*view_zoom );
 	
 surface_resize(application_surface, ideal_width*view_zoom, ideal_height*view_zoom);
-
-
-///make a camera_follow object
-if (!instance_exists(obj_pz)) { // additional conditions: (room_width > 120 || room_height > 108)  && obj_control.target_door != -1 &&
-	instance_create(0, 0, obj_camera_follow);
-}

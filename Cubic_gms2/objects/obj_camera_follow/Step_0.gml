@@ -1,17 +1,26 @@
-/// @description put the camera on the cube
-if (!instance_exists(player_cube)) {instance_destroy(); exit;}
+/// @description follow
+if (!instance_exists(player_cube)) {show_debug_message("camera_follow self destruct! :D"); /*instance_destroy();*/ exit;}
 
-//x
-if (x < player_cube.x) {
-	
+var dx = player_cube.x-x;
+var dy = player_cube.y-y;
+
+if (abs(dx) > sqr(x_vel)/(2*a)) {
+	x_vel += a*sign(dx);
 } else {
-	
+	x_vel -= a*sign(dx);
+	if (abs(x_vel) <= 1 && sign(dx+x_vel) != sign(dx)) x_vel = 0;
 }
 
-//y
+if (abs(dy) > sqr(y_vel)/(2*a)) {
+	y_vel += a*sign(dy);
+} else {
+	y_vel -= a*sign(dy);
+	if (abs(y_vel) <= 1 && sign(dy+y_vel) != sign(dy)) y_vel = 0;
+}
 
-x = player_cube.x;
-y = player_cube.y;
+
+x += x_vel;
+y += y_vel;
 camera_set_view_pos(cam, x-camera_get_view_width(cam)/2, y-camera_get_view_height(cam)/2);
 
 
