@@ -13,7 +13,6 @@ for (var i = 0; i < instance_number(obj_door); i++) {
             //Hvis der er en block og en dør som står samme sted
             if (this_door.type == "normal") {
                 scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
-                instance_destroy(this_cube);
                 exit;
             } else if (this_door.type == "forest") {
                 target_door = this_door.target_door;
@@ -29,7 +28,6 @@ for (var i = 0; i < instance_number(obj_door); i++) {
                 }
                 
                 if (this_door.transition_time != -1) transobj.transition_time = this_door.transition_time;
-                instance_destroy(this_cube);
                 exit;
             }
         }

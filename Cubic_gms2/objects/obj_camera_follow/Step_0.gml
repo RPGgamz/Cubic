@@ -1,11 +1,11 @@
 /// @description follow
-if (!instance_exists(player_cube)) {show_debug_message("camera_follow self destruct! :D"); /*instance_destroy();*/ exit;}
+if (!instance_exists(player_cube)) {show_debug_message("camera_follow self destruct! :D"); instance_destroy(); exit;}
 
 var dd = point_distance(x, y, player_cube.x, player_cube.y);
 var ang = point_direction(x, y, player_cube.x, player_cube.y);
-//snap the angle
+/*/snap the angle
 if (ang mod 90 < 5) ang -= ang mod 90
-else if (ang mod 90 > 85) ang += 90-(ang mod 90)
+else if (ang mod 90 > 85) ang += 90-(ang mod 90)//*/
 
 if (dd > sqr(vel)/(2*a)) {
 	vel += a;
@@ -20,4 +20,4 @@ if (dd > sqr(vel)/(2*a)) {
 
 x += dcos(ang)*vel;
 y -= dsin(ang)*vel;
-camera_set_view_pos(cam, round(x-camera_get_view_width(cam)/2), round(y-camera_get_view_height(cam)/2));
+//camera_set_view_pos(cam, round(x-camera_get_view_width(cam)/2), round(y-camera_get_view_height(cam)/2));

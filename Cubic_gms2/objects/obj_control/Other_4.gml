@@ -62,9 +62,7 @@ else if (target_door != -1) {
 
 
 //camera follow player
-if (!instance_exists(obj_pz) && instance_exists(new_cube)) { // additional conditions: (room_width > 120 || room_height > 108)  && obj_control.target_door != -1 &&
+if (obj_control.target_door != -1 && !instance_exists(obj_pz) && instance_exists(new_cube)) { // additional conditions: (room_width > 120 || room_height > 108)
 	var f = instance_create(new_cube.x, new_cube.y, obj_camera_follow);
 	f.player_cube = new_cube;
-	camera_set_view_pos(view_get_camera(1), new_cube.x, new_cube.y);
-	show_debug_message("hello? " + string (camera_get_view_x(1)) + " " + string(camera_get_view_y(1)))
 }
