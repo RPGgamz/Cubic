@@ -62,7 +62,7 @@ else if (target_door != -1) {
 
 
 //camera follow player
-if (obj_control.target_door != -1 && !instance_exists(obj_pz) && instance_exists(new_cube)) { // additional conditions: (room_width > 120 || room_height > 108)
+if (instance_exists(new_cube) && !instance_exists(obj_pz) && instance_exists(new_cube)) { // additional conditions: (room_width > 120 || room_height > 108)
 	var f = instance_create(new_cube.x, new_cube.y, obj_camera_follow);
 	f.player_cube = new_cube;
 }
