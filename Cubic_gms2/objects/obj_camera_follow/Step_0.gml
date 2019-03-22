@@ -20,7 +20,5 @@ if (dd-1 > sqr(vel)/(2*a)) {
 	if (vel < 0) vel = 0;
 }
 
-show_debug_message(string(vel) + " < " + string(dd))
 x += dcos(ang)*vel;
 y -= dsin(ang)*vel;
-//camera_set_view_pos(cam, round(x-camera_get_view_width(cam)/2), round(y-camera_get_view_height(cam)/2));
