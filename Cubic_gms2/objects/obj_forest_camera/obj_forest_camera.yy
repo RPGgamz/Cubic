@@ -2,7 +2,7 @@
     "id": "74fa8aae-9090-493b-977b-007c5a1b68aa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_camera_follow",
+    "name": "obj_forest_camera",
     "eventList": [
         {
             "id": "222ab039-81fa-4ecf-a3d7-f699da9591b5",
@@ -51,6 +51,16 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 74,
+            "eventtype": 8,
+            "m_owner": "74fa8aae-9090-493b-977b-007c5a1b68aa"
+        },
+        {
+            "id": "57c9f630-2bcf-45e8-adc9-ed0ddb437ecc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
             "eventtype": 8,
             "m_owner": "74fa8aae-9090-493b-977b-007c5a1b68aa"
         }

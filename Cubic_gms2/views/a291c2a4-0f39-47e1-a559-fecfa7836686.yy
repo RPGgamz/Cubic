@@ -61,7 +61,16 @@
         "61e5533e-9500-4368-b69e-f6c0a7a98322",
         "bed28924-529d-476f-a995-59258dd63efb",
         "adc0444a-c159-451e-b87a-f19c02dfdc7e",
-        "141da738-2c1a-4986-8408-42662d8dbebe"
+        "141da738-2c1a-4986-8408-42662d8dbebe",
+        "354f37fb-956e-4e1d-a185-bd6928d7aefa",
+        "e5e3e7d7-0826-45d7-a16a-8e4ad38adbbe",
+        "7013ce4f-bf37-41cf-a166-c3b1b86e7b5b",
+        "9a900475-99ac-4a53-9d39-4b034ead833b",
+        "23377918-886d-4f4a-a8dc-500772a0e2cf",
+        "11d534c3-c64b-4007-81b8-c33a6081d64a",
+        "9a9d7bf7-0625-44b6-a341-cd69c0e090e4",
+        "589445ff-b96d-4ca6-8fa0-6658104a8f6c",
+        "c44f2bd5-b0b2-47d7-898e-0f91d28967f8"
     ],
     "filterType": "GMSprite",
     "folderName": "Green Forest",

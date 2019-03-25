@@ -1,7 +1,5 @@
 
 //get/set numbers
-x_vel = 0;
-y_vel = 0;
 bb = (obj_display_manager.ideal_width-120)/2
 w_screen = camera_get_view_width(view_get_camera(1))/2 - bb;
 h_screen = camera_get_view_height(view_get_camera(1))/2;
@@ -25,7 +23,6 @@ surf_treetop = -1;
 
 //settings
 border_hardness = 0.9
-acceleration = 1/20;
 
 //set start pos
 if			(x > room_width - w_screen)		x = lerp(x, room_width - w_screen, border_hardness);
