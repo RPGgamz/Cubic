@@ -1,24 +1,26 @@
 /// @description follow
 if (!instance_exists(player_cube)) {show_debug_message("camera_follow self destruct! :D"); instance_destroy(); exit;}
 
-
-//define target position
+//target
 var targ_x = player_cube.x;
 var targ_y = player_cube.y;
-if (targ_x < w_bor) targ_x = (w_bor*weight_bor+targ_x)/(weight_bor+1)
-else if (targ_x > room_width-w_bor) targ_x = ((room_width-w_bor)*weight_bor+targ_x)/(weight_bor+1)
-if (targ_y < h_bor) targ_y = (h_bor*weight_bor+targ_y)/(weight_bor+1)
-else if (targ_y > room_height-h_bor) targ_y = ((room_height-h_bor)*weight_bor+targ_y)/(weight_bor+1)
-var dd = point_distance(x, y, targ_x, targ_y);
-var ang = point_direction(x, y, targ_x, targ_y);
+if			(targ_x > room_width - w_screen)	targ_x = lerp(targ_x, room_width - w_screen, border_hardness);
+else if		(targ_x < w_screen)					targ_x = lerp(targ_x, w_screen, border_hardness);
+if			(targ_y > room_height - h_screen)	targ_y = lerp(targ_y, room_height - h_screen, border_hardness);
+else if		(targ_y < h_screen)					targ_y = lerp(targ_y, h_screen, border_hardness);
 
-//accelerate
-if (dd-1 > sqr(vel)/(2*a)) {
-	vel += a;
-} else {
-	vel -= a;
-	if (vel < 0) vel = 0;
-}
+/*/accelerate
+var x_acc = dcos(-point_direction(x,y,targ_x,targ_y))*acceleration;
+var y_acc = dsin(-point_direction(x,y,targ_x,targ_y))*acceleration;
 
-x += dcos(ang)*vel;
-y -= dsin(ang)*vel;
+x_vel += x_acc;
+y_vel += y_acc;
+
+
+//move
+x += x_vel;
+y += y_vel;
+
+/*/
+x = targ_x;
+y = targ_y;

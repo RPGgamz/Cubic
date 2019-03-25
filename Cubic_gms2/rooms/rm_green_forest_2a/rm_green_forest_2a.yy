@@ -2,7 +2,7 @@
 {
     "name": "rm_green_forest_2a",
     "id": "d586963e-fe25-46e9-8595-9cfa38e6f86b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

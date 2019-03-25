@@ -13,6 +13,7 @@ if (move_queue_timer <= 1) {
         audio_play_sound(snd_move, 10, false);
         
         scr_start_move();
+		scr_move();
     }
 } else move_queue_timer --;
 

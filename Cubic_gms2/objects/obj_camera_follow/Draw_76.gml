@@ -7,8 +7,8 @@ if !surface_exists(surf_room) {
 if !surface_exists(surf_treetop) {
 	surf_treetop = surface_create(room_width*3, room_height*3);
 	surface_set_target(surf_treetop);
+	gpu_set_blendmode_ext(bm_one, bm_zero);
 	draw_clear(c_green);
-	gpu_set_blendmode_ext(bm_one, bm_zero)
 	draw_sprite(treetop_sprite, 0, room_width, room_height);
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();

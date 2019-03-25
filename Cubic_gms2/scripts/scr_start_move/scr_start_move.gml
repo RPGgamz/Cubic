@@ -1,10 +1,3 @@
-
-
-/*
-audio_sound_gain(snd_move_while, .1, 0);
-audio_play_sound(snd_move_while, 5, true);
-*/
-
 //list the cubes
 ds_list_clear(cubes);
 for (var i = 0; i < instance_number(obj_cube); i++) {
@@ -30,5 +23,4 @@ queued_dir = "NOT YET";
 alarm[0] = -1; // [potential optimisation] vi ku sætt den til 0, for så gør vi "NOT YET" overflødig
 move_queue_timer = -1;
 state = scr_move;
-scr_move();
 
