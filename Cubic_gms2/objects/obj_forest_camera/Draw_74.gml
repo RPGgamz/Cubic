@@ -1,4 +1,5 @@
 /// @description draw surf_room to the GUI layer, and draw treetop
+
 draw_clear(c_red);
 
 if (surface_exists(surf_room)) {

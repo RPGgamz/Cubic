@@ -1847,6 +1847,14 @@
             }
         },
         {
+            "Key": "47cf903e-9e6d-45bd-80a9-cadb2bb78c86",
+            "Value": {
+                "id": "3cb9a652-1cb2-4358-bdb8-cc991277dc5c",
+                "resourcePath": "views\\47cf903e-9e6d-45bd-80a9-cadb2bb78c86.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "47e3053b-2a93-49f4-bc11-932b1627fa36",
             "Value": {
                 "id": "97d89493-37ca-44c5-8a87-d6312b332058",
@@ -3756,6 +3764,14 @@
                 "id": "f863005e-81d9-4312-9310-ed480ddabbe7",
                 "resourcePath": "sprites\\spr_cube_combine\\spr_cube_combine.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90aaeb15-3ac2-421f-b485-9c9525fbba49",
+            "Value": {
+                "id": "e789977b-3def-462e-a871-c2f88a354822",
+                "resourcePath": "views\\90aaeb15-3ac2-421f-b485-9c9525fbba49.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -6383,14 +6399,6 @@
             }
         },
         {
-            "Key": "f4966e5c-02cf-40c7-a514-c54c63127053",
-            "Value": {
-                "id": "4ffffee4-7d9b-4c25-996e-fa9a909dcbf1",
-                "resourcePath": "scripts\\scr_color12_in_transition\\scr_color12_in_transition.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f49cc653-4e52-4b13-ab48-cc0c9c960745",
             "Value": {
                 "id": "786e2b2d-52d2-4030-ab4e-bee60a889e75",
@@ -6716,7 +6724,6 @@
         "db94b5f7-fc44-4b91-82e0-5a1e6eb3311d",
         "79df9ea7-42a4-41e8-9cc6-b9aa97a88f78",
         "d21fb3e5-dd4b-40d8-ad0b-888431dc05a8",
-        "f4966e5c-02cf-40c7-a514-c54c63127053",
         "4d0a628e-67d1-4d83-ab0c-ebbfcce554f1",
         "50ee9bc4-d771-4c99-a505-52923e911724",
         "b5fa1720-6207-4bd4-91a9-4cc1f2c4cdb9",

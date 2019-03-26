@@ -23,10 +23,6 @@ for (var i = 0; i < instance_number(obj_door); i++) {
                 transobj.transition_dir = this_door.transition_dir;
                 transobj.old_cube = this_cube;
                 
-                with (transobj) {
-                    scr_color12_in_transition();
-                }
-                
                 if (this_door.transition_time != -1) transobj.transition_time = this_door.transition_time;
                 exit;
             }

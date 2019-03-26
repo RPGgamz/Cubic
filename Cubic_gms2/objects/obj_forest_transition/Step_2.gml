@@ -1,4 +1,7 @@
-/// @description calculate gb (actual thickness) and transition_time
+// [ONCE] calculate gb (actual thickness) and transition_time
+#region
+
+
 if (gb == -1) {
     switch (transition_dir) {
         case "left":
@@ -14,7 +17,12 @@ if (gb == -1) {
     transition_time = gb/obj_control.movespeed;
 }
 
-///cam movement(calculate surface positions)
+
+#endregion
+
+//cam movement(calculate surface positions)
+#region
+
 
 timer = step/transition_time;
 
@@ -65,12 +73,15 @@ switch (transition_dir) {
 x1 += bb; x2 += bb;
 
 //turn surface_start green
-tran_alpha = clamp(last_rem*3/2, 0, 1);
+tran_alpha = clamp(last_rem*3/2, 0, 1)
 
 
+#endregion
 
-/* */
-///bird & bush-exit sounds
+//bird & bush-exit sounds
+#region
+
+
 if (progress > .65 && progress < .69) {
     var birds_flying = false;
     
@@ -127,5 +138,5 @@ if (progress > .96 && progress < .98) {
     audio_play_sound(snd_bush_long, 10, false);
 }
 
-/* */
-/*  */
+
+#endregion
