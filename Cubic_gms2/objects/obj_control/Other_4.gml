@@ -24,7 +24,7 @@ else if (target_door != -1) {
         }
     }
     
-    //find døren, hvis den er en zone i virkeligheden
+    //find døren, hvis den faktisk er en zone
     if (entrance == noone) {
         for (var i = 0; i < instance_number(obj_zone); i++) {
             var this_zone = instance_find(obj_zone, i);

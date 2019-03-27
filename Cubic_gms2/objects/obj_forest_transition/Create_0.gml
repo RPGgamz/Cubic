@@ -15,8 +15,9 @@ col_1 = c_purple;
 col_2 = c_purple;
 
 //surfaces
-surf_start = -1;
-surf_end = surface_create(surface_get_width(application_surface)-2*bb, surface_get_height(application_surface));
+zoomvar = obj_display_manager.zoom;
+surf_start = surface_create((surface_get_width(application_surface)-2*bb)*zoomvar, (surface_get_height(application_surface))*zoomvar);
+surf_end = surface_create((surface_get_width(application_surface)-2*bb)*zoomvar, (surface_get_height(application_surface))*zoomvar);
 
 //tick
 tick = 0;
