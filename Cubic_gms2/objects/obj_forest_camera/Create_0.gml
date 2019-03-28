@@ -5,7 +5,7 @@ w_screen = camera_get_view_width(view_get_camera(1))/2 - bb;
 h_screen = camera_get_view_height(view_get_camera(1))/2;
 surf_room = -1;
 surf_treetop = -1;
-treetop_color = 0;
+treetop_color = -1;
 
 //views
 view_set_visible(1, false);

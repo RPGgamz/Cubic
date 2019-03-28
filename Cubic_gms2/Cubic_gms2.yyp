@@ -1615,6 +1615,14 @@
             }
         },
         {
+            "Key": "3e765a8a-f50a-4e33-9e2f-c660594e1eff",
+            "Value": {
+                "id": "6188ab79-41dd-4f24-85c3-46ccdc663254",
+                "resourcePath": "objects\\obj_forest_transition222\\obj_forest_transition222.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ed2ab0e-3280-46df-bfa8-1c1970b4f123",
             "Value": {
                 "id": "4f527674-d8bb-436d-b69d-29ebd1b25a80",

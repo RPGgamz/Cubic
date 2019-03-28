@@ -1,5 +1,6 @@
 /// @description draw the surfaces and green-ness
 
+//update surf_end
 surface_set_target(surf_end);
 with (obj_forest_camera) {
 	var zoom_var = other.zoomvar;
@@ -22,7 +23,7 @@ with (obj_forest_camera) {
 surface_reset_target();
 
 
-
+//draw surfaces
 gpu_set_blendenable(false);
 gpu_set_colorwriteenable(true,true,true,false)
 draw_surface_stretched(surf_start, x1, y1, width, height);
