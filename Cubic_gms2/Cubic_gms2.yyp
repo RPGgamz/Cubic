@@ -1618,7 +1618,7 @@
             "Key": "3e765a8a-f50a-4e33-9e2f-c660594e1eff",
             "Value": {
                 "id": "6188ab79-41dd-4f24-85c3-46ccdc663254",
-                "resourcePath": "objects\\obj_forest_transition222\\obj_forest_transition222.yy",
+                "resourcePath": "objects\\obj_forest_transition\\obj_forest_transition.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2562,7 +2562,7 @@
             "Key": "6a7afde9-a758-40e0-8f35-a0e73aae980d",
             "Value": {
                 "id": "56c29bcc-1eb2-4f8c-9438-f2c70496dada",
-                "resourcePath": "objects\\obj_forest_transition\\obj_forest_transition.yy",
+                "resourcePath": "objects\\obj_forest_transition1\\obj_forest_transition1.yy",
                 "resourceType": "GMObject"
             }
         },

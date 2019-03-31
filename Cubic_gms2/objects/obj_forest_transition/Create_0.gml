@@ -2,27 +2,36 @@
 //input variables
 transition_dir = "left";
 next_room = room_next(room);
-step = 0;
 bb = (obj_display_manager.ideal_width-120)/2;
 gb_thickness = 60; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
 
 //working variables
+gb = -1;
 width = display_get_gui_width()-bb*2;
 height = display_get_gui_height();
-gb = -1;
-tran_alpha = 0;
-col_1 = c_purple;
-col_2 = c_purple;
+step = 0;
 
-//surfaces
-zoomvar = obj_display_manager.zoom;
-surf_start = surface_create((surface_get_width(application_surface)-2*bb)*zoomvar, (surface_get_height(application_surface))*zoomvar);
-surf_end = surface_create((surface_get_width(application_surface)-2*bb)*zoomvar, (surface_get_height(application_surface))*zoomvar);
 
-//tick
-tick = 0;
-tick_rate = 0;
-alarm[0] = 1;
+//prev room visual
+sprite_prev_treetop = obj_forest_camera.treetop_sprite;
+prev_treetop_color = obj_forest_camera.treetop_color;
+var prevsurf = obj_forest_camera.surf_room;
+surf_prev_room = surface_create(surface_get_width(prevsurf),surface_get_height(prevsurf));
+gpu_set_blendenable(false);
+gpu_set_colorwriteenable(true,true,true,false);
+surface_copy(surf_prev_room, 0, 0, prevsurf)
+gpu_set_blendenable(true);
+gpu_set_colorwriteenable(true,true,true,true);
+
+//coordinates
+x = obj_forest_camera.x
+y = obj_forest_camera.y
+start_targ_x = obj_forest_camera.targ_x;
+start_targ_y = obj_forest_camera.targ_y;
+start_cube_x = 0; //given after create
+start_cube_y = 0; //given after create
+
+
 
 //bush enter sound
 audio_sound_pitch(snd_bush_long, 1 + random_range(-.05, .05));

@@ -21,7 +21,9 @@ for (var i = 0; i < instance_number(obj_door); i++) {
                 var transobj = instance_create(0,0, obj_forest_transition);
                 transobj.next_room = this_door.target_room;
                 transobj.transition_dir = this_door.transition_dir;
-                
+                transobj.start_cube_x = this_cube.x;
+                transobj.start_cube_y = this_cube.y;
+				
                 if (this_door.transition_time != -1) transobj.transition_time = this_door.transition_time;
                 exit;
             }
