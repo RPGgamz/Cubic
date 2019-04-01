@@ -1,4 +1,5 @@
 /// @description variables and surfaces
+
 //input variables
 transition_dir = "left";
 next_room = room_next(room);
@@ -10,6 +11,7 @@ gb = -1;
 width = display_get_gui_width()-bb*2;
 height = display_get_gui_height();
 step = 0;
+depth = obj_forest_camera.depth - 1;
 
 
 //prev room visual

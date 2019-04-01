@@ -2,7 +2,7 @@
     "id": "6a7afde9-a758-40e0-8f35-a0e73aae980d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_forest_transition1",
+    "name": "obj_forest_transition_oldversion",
     "eventList": [
         {
             "id": "2f07288a-d99c-45e6-abc0-85159317294f",
