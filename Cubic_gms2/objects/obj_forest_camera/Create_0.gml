@@ -1,4 +1,4 @@
-
+show_debug_message("makecam")
 //working variables
 bb = (obj_display_manager.ideal_width-120)/2
 w_screen = camera_get_view_width(view_get_camera(1))/2 - bb;

@@ -11,7 +11,7 @@ gb = -1;
 width = display_get_gui_width()-bb*2;
 height = display_get_gui_height();
 step = 0;
-depth = obj_forest_camera.depth - 1;
+surf_treetops = -1;
 
 
 //prev room visual
@@ -19,11 +19,7 @@ sprite_prev_treetop = obj_forest_camera.treetop_sprite;
 prev_treetop_color = obj_forest_camera.treetop_color;
 var prevsurf = obj_forest_camera.surf_room;
 surf_prev_room = surface_create(surface_get_width(prevsurf),surface_get_height(prevsurf));
-gpu_set_blendenable(false);
-gpu_set_colorwriteenable(true,true,true,false);
 surface_copy(surf_prev_room, 0, 0, prevsurf)
-gpu_set_blendenable(true);
-gpu_set_colorwriteenable(true,true,true,true);
 
 //coordinates
 x = obj_forest_camera.x

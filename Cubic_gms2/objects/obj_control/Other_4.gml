@@ -60,7 +60,7 @@ else if (target_door != -1) {
     }
 }
 
-
+show_debug_message("ctrol roomstart")
 //camera position
 if (instance_exists(new_cube) && instance_exists(obj_forest)) {
 	var fc = instance_create(new_cube.x, new_cube.y, obj_forest_camera);

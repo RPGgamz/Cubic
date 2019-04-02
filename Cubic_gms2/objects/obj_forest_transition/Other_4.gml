@@ -1,4 +1,5 @@
 //coordinate calculations
+
 old_x0 = 0;
 old_y0 = 0;
 switch (transition_dir) {
