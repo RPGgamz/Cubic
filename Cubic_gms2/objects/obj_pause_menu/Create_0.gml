@@ -3,6 +3,7 @@ instance_deactivate_object(obj_control);
 instance_deactivate_object(obj_pz);
 instance_deactivate_object(obj_rpg_control);
 instance_deactivate_object(obj_game_intro);
+instance_deactivate_object(obj_forest_transition);
 
 //local enum
 label = 0;

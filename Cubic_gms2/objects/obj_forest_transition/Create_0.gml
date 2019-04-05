@@ -4,7 +4,7 @@
 transition_dir = "left";
 next_room = room_next(room);
 bb = (obj_display_manager.ideal_width-120)/2;
-gb_thickness = 60; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
+gb_thickness = 40; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
 
 //working variables
 gb = -1;
@@ -12,14 +12,16 @@ width = display_get_gui_width()-bb*2;
 height = display_get_gui_height();
 step = 0;
 surf_treetops = -1;
-
+obj_control.state = scr_nothing;
 
 //prev room visual
 sprite_prev_treetop = obj_forest_camera.treetop_sprite;
 prev_treetop_color = obj_forest_camera.treetop_color;
 var prevsurf = obj_forest_camera.surf_room;
 surf_prev_room = surface_create(surface_get_width(prevsurf),surface_get_height(prevsurf));
+gpu_set_blendmode_ext(bm_one,bm_zero)
 surface_copy(surf_prev_room, 0, 0, prevsurf)
+gpu_set_blendmode(bm_normal)
 
 //coordinates
 x = obj_forest_camera.x

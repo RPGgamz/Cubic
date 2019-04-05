@@ -17,7 +17,7 @@ for (var i = 0; i < instance_number(obj_door); i++) {
             } else if (this_door.type == "forest") {
                 target_door = this_door.target_door;
                 traveling_cube_lvl = this_cube.lvl;
-                state = scr_nothing;
+				with (obj_forest_transition) instance_destroy();
                 var transobj = instance_create(0,0, obj_forest_transition);
                 transobj.next_room = this_door.target_room;
                 transobj.transition_dir = this_door.transition_dir;

@@ -12,9 +12,9 @@ if (surface_exists(surf_room)) {
     gpu_set_colorwriteenable(true,true,true,true);
 }
 
-if (surface_exists(surf_treetop) && !instance_exists(obj_forest_transition)) {
-	var xl = lerp(0, -1.5, x - room_width/2) + bb - room_width;
-	var yl = lerp(0, -1.5, y - room_height/2) - room_height;
+if (!instance_exists(obj_forest_transition) && surface_exists(surf_treetop)) {
+	var xl = -treetop_speed*(x - room_width/2) + bb - room_width;
+	var yl = -treetop_speed*(y - room_height/2) - room_height;
 	draw_surface(surf_treetop, xl, yl);
 }
 

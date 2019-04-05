@@ -1,4 +1,4 @@
-show_debug_message("makecam")
+
 //working variables
 bb = (obj_display_manager.ideal_width-120)/2
 w_screen = camera_get_view_width(view_get_camera(1))/2 - bb;
@@ -23,7 +23,8 @@ shadow_sprite = asset_get_index(sprite_get_name(treetop_sprite) + "shadow");
 
 //settings
 border_hardness = 0.9;
-speed_pr_dist = 0.92; //camera speed is proportional (by this number) to distance to target
+speed_pr_dist = 0.08; //camera speed (pixels/sec) is proportional by this number to distance to target (pixels)
+treetop_speed = 1.5; //1 is as fast as background, 2 is twice
 
 //set start pos
 if			(x > room_width - w_screen)		x = lerp(x, room_width - w_screen, border_hardness);

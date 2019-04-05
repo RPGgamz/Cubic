@@ -13,6 +13,7 @@ gb = -1;
 tran_alpha = 0;
 col_1 = c_purple;
 col_2 = c_purple;
+obj_control.state = scr_nothing;
 
 //surfaces
 zoomvar = obj_display_manager.zoom;

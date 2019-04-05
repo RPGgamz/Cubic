@@ -1,3 +1,4 @@
 
 
-with (obj_control) scr_move_only(other.new_cube);
+surface_free(surf_treetops)
+surface_free(surf_prev_room)
