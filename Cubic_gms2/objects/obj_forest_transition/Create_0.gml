@@ -4,7 +4,7 @@
 transition_dir = "left";
 next_room = room_next(room);
 bb = (obj_display_manager.ideal_width-120)/2;
-gb_thickness = 40; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
+gb_thickness = 50; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
 
 //working variables
 gb = -1;
