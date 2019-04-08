@@ -1,5 +1,7 @@
 //coordinate calculations
 
+new_camera = obj_camera;
+
 old_x0 = 0;
 old_y0 = 0;
 switch (transition_dir) {
@@ -30,8 +32,8 @@ y += old_y0;
 start_cube_y += old_y0;
 start_targ_y += old_y0;
 
-obj_forest_camera.x = x;
-obj_forest_camera.y = y;
+new_camera.x = x;
+new_camera.y = y;
 
 //timing
 switch (transition_dir) {

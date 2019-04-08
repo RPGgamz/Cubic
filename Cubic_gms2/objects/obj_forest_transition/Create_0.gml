@@ -15,19 +15,19 @@ surf_treetops = -1;
 obj_control.state = scr_nothing;
 
 //prev room visual
-sprite_prev_treetop = obj_forest_camera.treetop_sprite;
-prev_treetop_color = obj_forest_camera.treetop_color;
-var prevsurf = obj_forest_camera.surf_room;
+sprite_prev_treetop = obj_camera.treetop_sprite;
+prev_treetop_color = obj_camera.treetop_color;
+var prevsurf = obj_camera.surf_room;
 surf_prev_room = surface_create(surface_get_width(prevsurf),surface_get_height(prevsurf));
 gpu_set_blendmode_ext(bm_one,bm_zero)
 surface_copy(surf_prev_room, 0, 0, prevsurf)
 gpu_set_blendmode(bm_normal)
 
 //coordinates
-x = obj_forest_camera.x
-y = obj_forest_camera.y
-start_targ_x = obj_forest_camera.targ_x;
-start_targ_y = obj_forest_camera.targ_y;
+x = obj_camera.x
+y = obj_camera.y
+start_targ_x = obj_camera.targ_x;
+start_targ_y = obj_camera.targ_y;
 start_cube_x = 0; //given after create
 start_cube_y = 0; //given after create
 
