@@ -1,12 +1,13 @@
 /// @description variables and surfaces
 
-//input variables
+//settings
+gb_thickness = 65; //green bar. this is how thick the green bar should be, compared to the screen, in percent.
+green_fade_speed = 5; //how fast the previous room fades green
+
+//working variables
 transition_dir = "left";
 next_room = room_next(room);
 bb = (obj_display_manager.ideal_width-120)/2;
-gb_thickness = 50; //green bar, drawn in display_manager. this is how thick the green bar should be, compared to the screen, in percent.
-
-//working variables
 gb = -1;
 width = display_get_gui_width()-bb*2;
 height = display_get_gui_height();

@@ -71,7 +71,7 @@ if (room == next_room) {
 			draw_sprite(new_camera.treetop_sprite, 0, dpos, (height+gb)*treespeed);
 			break;
 	}
-	gpu_set_blendmode(bm_normal);
+	gpu_set_blendmode(bm_normal); draw_set_alpha(1); draw_set_color(c_white);
 	surface_reset_target();
 	
 	//draw treetops surface to GUI
@@ -99,6 +99,27 @@ if (room == next_room) {
 	}
 	draw_surface(surf_treetops, xl, yl);
 	
-	//draw_text(bb+10,10, progress)
+	//fade prev room green
+	draw_set_color(c_1);
+	draw_set_alpha(min(progress*green_fade_speed,1));
+	switch(transition_dir){
+		case "left":
+			draw_rectangle(xl+(width+gb)*treespeed, yl+dpos, xl+(width+gb)*treespeed+width, yl+dpos+height, false);
+			break;
+	    case "right":
+			draw_rectangle(xl, yl+dpos, xl+width, yl+dpos+height, false);
+			break;
+	    case "up":
+			draw_rectangle(xl+dpos, yl+(height+gb)*treespeed, xl+dpos+width, yl+(height+gb)*treespeed+height, false);
+			break;
+	    case "down":
+			draw_rectangle(xl+dpos, yl, xl+width+dpos, yl+height, false);
+			break;
+	}
+	draw_set_alpha(1); draw_set_color(c_white);
+	//
+	draw_text(bb+10,10, progress)
+	draw_rectangle_color(bb+10,30,bb+10+progress*30,40,c_black,c_black,c_black,c_black,false)
+	draw_rectangle_color(bb+10,30,bb+10+30,40,c_red,c_red,c_red,c_red,true)//*/
 	
 }
