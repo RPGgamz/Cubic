@@ -1,8 +1,6 @@
 ///@description initiate surfaces
-if !surface_exists(surf_room) {
-	surf_room = surface_create(room_width, room_height);
-	view_set_surface_id(2, surf_room);
-}
+
+event_inherited();
 
 if !surface_exists(surf_treetop) {
 	surf_treetop = surface_create(room_width*3, room_height*3);

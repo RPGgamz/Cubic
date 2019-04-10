@@ -117,9 +117,8 @@ if (room == next_room) {
 			break;
 	}
 	draw_set_alpha(1); draw_set_color(c_white);
-	//
+	// debugging progress meter
 	draw_text(bb+10,10, progress)
 	draw_rectangle_color(bb+10,30,bb+10+progress*30,40,c_black,c_black,c_black,c_black,false)
 	draw_rectangle_color(bb+10,30,bb+10+30,40,c_red,c_red,c_red,c_red,true)//*/
-	
 }

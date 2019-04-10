@@ -1,7 +1,6 @@
 /// @description resizing the view/resolution by view_zoom + make a camera_follow object
 
 if (instance_exists(obj_rpg_control)) exit;
-
 //var prev_view_room = view_zoom;
 
 //determine view_zoom. The default is based on room size, other zooms can be set as case sta

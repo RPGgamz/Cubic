@@ -32,8 +32,6 @@ start_targ_y = obj_camera.targ_y;
 start_cube_x = 0; //given after create
 start_cube_y = 0; //given after create
 
-
-
 //bush enter sound
 audio_sound_pitch(snd_bush_long, 1 + random_range(-.05, .05));
 audio_sound_gain(snd_bush_long, 30/100, 0);

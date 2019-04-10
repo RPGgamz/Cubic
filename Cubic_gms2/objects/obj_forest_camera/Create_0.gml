@@ -1,18 +1,11 @@
 
-//working variables
-bb = (obj_display_manager.ideal_width-120)/2
-w_screen = camera_get_view_width(view_get_camera(1))/2 - bb;
-h_screen = camera_get_view_height(view_get_camera(1))/2;
-surf_room = -1;
+event_inherited();
+
+
+//treetop
 surf_treetop = -1;
 treetop_color = -1;
 
-//views
-view_set_visible(1, false);
-view_set_visible(2, true);
-camera_set_view_size(view_get_camera(2), room_width, room_height);
-
-//get treetop sprite, and its shadow
 var lay_id = layer_get_id("Compatibility_Tiles_Depth_-1000");
 if (!layer_exists(lay_id)) lay_id = layer_get_id("Tree_Top");
 var treetop_array = layer_get_all_elements(lay_id);

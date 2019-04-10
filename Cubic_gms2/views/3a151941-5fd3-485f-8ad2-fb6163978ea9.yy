@@ -9,7 +9,7 @@
         "1019a297-ed27-4361-9f2e-af5cb521d19a"
     ],
     "filterType": "GMRoom",
-    "folderName": "FOREST DEMO",
+    "folderName": "DEMO",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

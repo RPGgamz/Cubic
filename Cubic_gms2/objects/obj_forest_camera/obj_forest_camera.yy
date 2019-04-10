@@ -5,16 +5,6 @@
     "name": "obj_forest_camera",
     "eventList": [
         {
-            "id": "222ab039-81fa-4ecf-a3d7-f699da9591b5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "74fa8aae-9090-493b-977b-007c5a1b68aa"
-        },
-        {
             "id": "cfd90db5-277a-40c1-9d81-f3bab5519837",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -52,16 +42,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 73,
             "eventtype": 8,
-            "m_owner": "74fa8aae-9090-493b-977b-007c5a1b68aa"
-        },
-        {
-            "id": "c5dbd104-1945-47c0-93d0-fbf3f2fc4daf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
             "m_owner": "74fa8aae-9090-493b-977b-007c5a1b68aa"
         },
         {

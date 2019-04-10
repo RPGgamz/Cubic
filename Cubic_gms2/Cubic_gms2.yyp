@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "064711e7-8a02-42ec-9113-262d6dfd3154",
+            "Value": {
+                "id": "aa03ddff-8adc-44be-878e-a39b47af35e8",
+                "resourcePath": "objects\\obj_camera_basic\\obj_camera_basic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "065619e7-fdc1-4fb4-bb03-e6b9e743d179",
             "Value": {
                 "id": "0beedd9a-c30e-4ac7-b3bb-1a8799c1320d",
@@ -4012,14 +4020,6 @@
                 "id": "ba2ec0c9-f92f-40cc-8be1-628ff9e01675",
                 "resourcePath": "sprites\\bg_city_1da\\bg_city_1da.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "97d917a3-e2f1-422c-bd6f-206b1a78b7e7",
-            "Value": {
-                "id": "42e889a6-3b57-492f-a9a5-5538dae944c0",
-                "resourcePath": "objects\\obj_camera_GF_2a\\obj_camera_GF_2a.yy",
-                "resourceType": "GMObject"
             }
         },
         {

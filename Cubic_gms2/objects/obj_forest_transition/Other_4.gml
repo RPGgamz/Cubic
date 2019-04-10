@@ -1,6 +1,6 @@
 //coordinate calculations
 
-new_camera = obj_camera;
+new_camera = obj_forest_camera;
 
 old_x0 = 0;
 old_y0 = 0;

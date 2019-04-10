@@ -1,2 +1,2 @@
-surface_free(surf_room);
+event_inherited();
 surface_free(surf_treetop);
