@@ -14,7 +14,6 @@ if (obj_control.state == scr_nothing) {
 	}
 }
 progress = sqrt(sqr(new_camera.x-x) + sqr(new_camera.y-y)) / sqrt(sqr(end_targ_x-x) + sqr(end_targ_y-y))
-show_debug_message("transstep " + string(new_camera.targ_x) +" " + string(new_camera.targ_y))
 if (progress >= 1 ) instance_destroy();
 
 

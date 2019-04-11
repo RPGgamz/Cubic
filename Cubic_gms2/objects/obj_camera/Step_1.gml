@@ -1,5 +1,4 @@
 /// @description set target position
-show_debug_message("cambegstep")
 if (!instance_exists(player_cube)) {show_debug_message("camera object self destruct! :D"); instance_destroy();}
 targ_x = player_cube.x;
 targ_y = player_cube.y;
