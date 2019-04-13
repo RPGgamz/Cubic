@@ -25,14 +25,25 @@ if (room == rm_green_forest_3a) {
 var vol = 30/100;
 if (room == rm_green_forest_3a && !amb_forest) {
     amb_forest = true;
+	//QUICK FIX
+	audio_sound_gain(snd_quick_ost, 00/100, 0);
+	audio_sound_gain(snd_quick_ost, 30/100, 3000);
+	audio_play_sound(snd_quick_ost, 10, true);
+	//QUICK FIX DONE
     
     audio_sound_gain(snd_amb_birds_long_1, 0, 0);
     audio_sound_gain(snd_amb_birds_long_1, vol, 2100);
     audio_play_sound(snd_amb_birds_long_1, 10, true);
 } else if (room == pz_green_forest_6a or room == pz_green_forest_9a or room == pz_green_forest_11a or room == pz_green_forest_7c or room == pz_green_forest_4d or room == pz_green_forest_9d or room == rm_green_forest_12a or room == rm_green_forest_11d) {
     audio_sound_gain(snd_amb_birds_long_1, 6/100, 600);
+	//QUICK FIX
+	audio_sound_gain(snd_quick_ost, 00/100, 1200);
+	//QUICK FIX DONE
 } else if (amb_forest) {
     audio_sound_gain(snd_amb_birds_long_1, vol, 600);
+	//QUICK FIX
+	audio_sound_gain(snd_quick_ost, 30/100, 1200);
+	//QUICK FIX DONE
 }
 
 /* */

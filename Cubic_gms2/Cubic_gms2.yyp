@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "039ad1c5-b412-4b00-8da4-f808fd88e6f0",
+            "Value": {
+                "id": "2d883b01-dd79-423e-b538-51fc12d4248b",
+                "resourcePath": "sounds\\snd_quick_ost\\snd_quick_ost.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "03c81d13-a995-4481-b5db-e82e89fe9654",
             "Value": {
                 "id": "dda0edbe-8f87-4033-9912-1d27b1507c69",
