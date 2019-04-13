@@ -1,4 +1,4 @@
-
+/// @description move selection
 if keyboard_check_pressed(vk_anykey) {
 	switch (keyboard_key) {
 		case vk_escape:

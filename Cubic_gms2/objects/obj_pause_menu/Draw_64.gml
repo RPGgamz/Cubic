@@ -19,8 +19,8 @@ draw_set_valign(fa_middle);
 draw_set_halign(fa_center);
 draw_set_color(c_black);
 repeat(array_height_2d(menu_current)) {
-	if (i == selected) draw_text_transformed(xx, yy, menu_current[i, label], 0.8, 0.8, 0);
-	else draw_text_transformed(xx, yy, menu_current[i, label], 0.75, 0.75, 0);
+	if (i == selected) draw_text_transformed(xx, yy, menu_current[i, label], 0.7, 0.7, 0);
+	else draw_text_transformed(xx, yy, menu_current[i, label], 0.6, 0.6, 0);
 	i++
 	yy += dyy;
 }

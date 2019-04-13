@@ -5,6 +5,10 @@ instance_deactivate_object(obj_rpg_control);
 instance_deactivate_object(obj_game_intro);
 instance_deactivate_object(obj_forest_transition);
 
+//font
+FONT = font_add_sprite(spr_font, ord(" "), true, 1);
+//draw_set_font(FONT);
+
 //local enum
 label = 0;
 function = 1;
@@ -14,9 +18,9 @@ target = 2;
 var i;
 
 i = -1;
-menu_p[++i, label] = "Resume"; menu_p[i, function] = scr_exit_pause;
-menu_p[++i, label] = "Options"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "o";
-menu_p[++i, label] = "Help"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "h";
+menu_p[++i, label] = "RESUME"; menu_p[i, function] = scr_exit_pause;
+menu_p[++i, label] = "OPTIONS"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "o";
+menu_p[++i, label] = "help"; menu_p[i, function] = scr_goto_menu;	menu_p[i, target] = "h";
 menu_p[++i, label] = "Reset save file"; menu_p[i, function] = scr_reset_save;
 menu_p[++i, label] = "Load"; menu_p[i, function] = scr_load_game;
 menu_p[++i, label] = "Exit"; menu_p[i, function] = scr_game_end;

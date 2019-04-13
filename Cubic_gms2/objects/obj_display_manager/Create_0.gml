@@ -45,4 +45,3 @@ alarm[0] = 1;
 
 //display_set_windows_alternate_sync(true);
 display_reset(0, true);
-
