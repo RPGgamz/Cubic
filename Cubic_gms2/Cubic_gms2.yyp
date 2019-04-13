@@ -3559,6 +3559,14 @@
             }
         },
         {
+            "Key": "878b9d12-f038-42ee-9479-1f629a2f285c",
+            "Value": {
+                "id": "0b02ec26-600e-4e11-9aef-69a8b7d7e420",
+                "resourcePath": "objects\\QUICKSOUNDFIX\\QUICKSOUNDFIX.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87d6fc25-29fb-4921-b3cd-170937382ce7",
             "Value": {
                 "id": "c3440786-8247-4a7b-ab39-3fb7e7e879ce",

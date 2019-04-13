@@ -38,3 +38,5 @@ audio_sound_gain(snd_bush_long, 30/100, 0);
 audio_sound_gain(snd_bush_long, 0, 1680);
 audio_play_sound(snd_bush_long, 10, false);
 
+soundfix = instance_create_depth(0,0,0, QUICKSOUNDFIX);
+soundfix.alarm[0] = 41;
