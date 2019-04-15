@@ -3015,6 +3015,14 @@
             }
         },
         {
+            "Key": "75b92ec6-c35f-4728-b047-ca3e0798f46b",
+            "Value": {
+                "id": "201838ca-f84c-421f-9dbd-b8813b50d91a",
+                "resourcePath": "rooms\\rm_intro_mountains_3\\rm_intro_mountains_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "761068cf-6db6-42dd-918e-a283def37d5d",
             "Value": {
                 "id": "f22aae8d-ace0-4a24-9d95-8fa0d1e2ccb8",
@@ -4247,6 +4255,14 @@
             }
         },
         {
+            "Key": "9e5f2fe7-6b45-480b-880b-17d9defabb12",
+            "Value": {
+                "id": "bad58103-2e30-411a-a716-fe7f30bc811a",
+                "resourcePath": "rooms\\rm_intro_mountains_2\\rm_intro_mountains_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9ea1a9a6-ff8f-4439-ab3e-81a9f73e24cd",
             "Value": {
                 "id": "f8cb98b9-c2d9-4664-ae56-dc366c3f3350",
@@ -4538,7 +4554,7 @@
             "Key": "aaae2ab7-5c44-4594-83db-ad707e7b0224",
             "Value": {
                 "id": "3c8bc76a-c2da-4c51-b57b-5791d0173d59",
-                "resourcePath": "rooms\\rm_first_time_opening\\rm_first_time_opening.yy",
+                "resourcePath": "rooms\\rm_new_game\\rm_new_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -6324,6 +6340,14 @@
                 "id": "4202b42b-65bd-4767-aa39-efe369318172",
                 "resourcePath": "sprites\\sprite255\\sprite255.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecff23c3-fc46-402c-9cda-ab4e4eb5ab2b",
+            "Value": {
+                "id": "04ca39d3-9d05-4fc5-a755-31394ca8826a",
+                "resourcePath": "rooms\\rm_intro_mountains_1\\rm_intro_mountains_1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
