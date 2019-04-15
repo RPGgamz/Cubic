@@ -33,7 +33,7 @@ view_zoom = 1;
 //scaling the window as big as possible (minus one)
 max_zoom = floor(display_get_width()/ideal_width);
 
-zoom = max_zoom-1;
+zoom = max_zoom-2;
 window_set_size(ideal_width*zoom, ideal_height*zoom);
 display_set_gui_size(ideal_width, ideal_height);
 //1 second delay before centering the window (necessary)
