@@ -290,7 +290,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Instances_Depth_0",
+            "name": "Standard_Instance_Layer",
             "id": "33b24046-d68a-4729-b477-051f1aa2feea",
             "depth": 0,
             "grid_x": 6,
@@ -585,13 +585,13 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "camera_layer",
+            "name": "Camera_Instance_Layer",
             "id": "36b47eff-14c6-431b-9bbb-42b025f09b27",
             "depth": 100,
             "grid_x": 6,
             "grid_y": 6,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -614,11 +614,11 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Tiles_Depth_1000000",
+            "name": "Grid_Asset_Layer",
             "id": "f8812180-d58e-4a2b-ac53-2570a3e25210",
             "assets": [
 {"__type": "GMRGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_D6D5BBC","id": "831ded8c-d732-4358-a608-54a676f611d1","colour": { "Value": 4294967295 },"h": 12,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRGraphic","mvc": "1.0","spriteId": "a2bd83cc-9cf2-4ea5-8e1f-6ae71f91ccc9","u0": 0,"u1": 12,"v0": 0,"v1": 12,"w": 12,"x": 42,"y": 48},
@@ -791,8 +791,8 @@
 {"__type": "GMRGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_1B89C3E3","id": "4e0b20d7-eeb6-464d-90ba-8fa204204e67","colour": { "Value": 4294967295 },"h": 12,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRGraphic","mvc": "1.0","spriteId": "a2bd83cc-9cf2-4ea5-8e1f-6ae71f91ccc9","u0": 0,"u1": 12,"v0": 0,"v1": 12,"w": 12,"x": 906,"y": 48}
             ],
             "depth": 1000000,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 6,
+            "grid_y": 6,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -817,8 +817,8 @@
             "animationSpeedType": "0",
             "colour": { "Value": 4279440936 },
             "depth": 2147483600,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 6,
+            "grid_y": 6,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,

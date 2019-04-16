@@ -336,7 +336,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Instances_Depth_0",
+            "name": "Standard_Instance_Layer",
             "id": "9dd9c0f8-831e-4a8a-b1a7-e3d17ca151cb",
             "depth": 0,
             "grid_x": 6,
@@ -677,13 +677,13 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "camera_layer",
+            "name": "Camera_Instance_Layer",
             "id": "e08d7a43-b307-40f5-a33d-33544a166b56",
             "depth": 100,
             "grid_x": 6,
             "grid_y": 6,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -706,11 +706,11 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Tiles_Depth_1000000",
+            "name": "Grid_Asset_Layer",
             "id": "2bb561cd-0fc9-45c4-8877-49965d527045",
             "assets": [
 {"__type": "GMRGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_A115274","id": "fdaff87c-a33d-4841-8ac3-5e3701e96d12","colour": { "Value": 4294967295 },"h": 12,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRGraphic","mvc": "1.0","spriteId": "a2bd83cc-9cf2-4ea5-8e1f-6ae71f91ccc9","u0": 0,"u1": 12,"v0": 0,"v1": 12,"w": 12,"x": 534,"y": 42},
@@ -913,8 +913,8 @@
             "animationSpeedType": "0",
             "colour": { "Value": 4279440936 },
             "depth": 2147483600,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 6,
+            "grid_y": 6,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
