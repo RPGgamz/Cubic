@@ -1,4 +1,5 @@
 //disappear after exploding
+/*
 if (sprite_index == spr_zone_start) {
     visible = false;
 }

@@ -1815,6 +1815,14 @@
             }
         },
         {
+            "Key": "43223646-80eb-4cba-befa-c39f74c75de6",
+            "Value": {
+                "id": "8549f85e-a466-4eb4-96bf-7196d5490ddc",
+                "resourcePath": "sprites\\spr_pz_outer\\spr_pz_outer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43796a7f-1cd3-4af9-815f-fd419163c832",
             "Value": {
                 "id": "a62c7765-2c8a-4478-a0e5-0abe9abf1388",
@@ -2460,6 +2468,14 @@
                 "id": "a3bb704d-3994-4849-af08-1e7ba39a601e",
                 "resourcePath": "tilesets\\bg_green_forest_1b_tileset\\bg_green_forest_1b_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "61db3a6c-854c-4544-8bdd-79da8075c74b",
+            "Value": {
+                "id": "40fe2ea1-fd86-493e-9eec-bfd901b4123a",
+                "resourcePath": "sprites\\sprite261\\sprite261.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5316,6 +5332,14 @@
                 "id": "4655afc0-5d1c-4a54-b28f-020f8ab3a850",
                 "resourcePath": "rooms\\p_snail\\p_snail.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c51c1f8d-65a6-48de-8e66-0c04ee6c8134",
+            "Value": {
+                "id": "853aa138-e3f2-4995-9667-19cbd00c47ea",
+                "resourcePath": "sprites\\spr_pz_inner\\spr_pz_inner.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
