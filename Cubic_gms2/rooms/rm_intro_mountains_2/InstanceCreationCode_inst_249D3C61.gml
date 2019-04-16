@@ -1,4 +1,4 @@
 target_room = pz_tutorial;
-ID = 1;
+ID = 100;
 dir = "still";
-target_locked_wall = 1;
+target_locked_wall = 50;

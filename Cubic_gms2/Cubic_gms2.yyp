@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "13c38e22-30dd-4ebd-96df-970ce475b61d",
+            "Value": {
+                "id": "76cbac03-0cf1-4a69-b6c8-2ec55dc463f0",
+                "resourcePath": "sprites\\spr_intro_zonecrash_cutscene\\spr_intro_zonecrash_cutscene.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13f45bed-0d6b-4701-8479-96215746a653",
             "Value": {
                 "id": "e45f528e-c001-4f20-bac2-f7131924e40f",
@@ -2474,7 +2482,7 @@
             "Key": "61db3a6c-854c-4544-8bdd-79da8075c74b",
             "Value": {
                 "id": "40fe2ea1-fd86-493e-9eec-bfd901b4123a",
-                "resourcePath": "sprites\\sprite261\\sprite261.yy",
+                "resourcePath": "sprites\\spr_pz_done\\spr_pz_done.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3871,6 +3879,14 @@
             }
         },
         {
+            "Key": "8fd0b517-8c01-412a-9a1a-17f76d13ae36",
+            "Value": {
+                "id": "5298f46f-f4df-48df-8b8b-818bb1244057",
+                "resourcePath": "sprites\\spr_intro_mountains_2\\spr_intro_mountains_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ff8c3cc-289e-49e5-9d21-3bfa79bb36d8",
             "Value": {
                 "id": "db384d6a-86ff-495f-854d-ee0eedb9aa36",
@@ -4595,6 +4611,14 @@
             "Value": {
                 "id": "ba507ecc-4482-4438-bcce-e4cb7b2fea4b",
                 "resourcePath": "sprites\\bg_green_forest_1d\\bg_green_forest_1d.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ab1eeed4-450c-4bee-9270-e0d806189fa9",
+            "Value": {
+                "id": "94b0d1a0-f5ff-4e1a-97a4-86addec9a06d",
+                "resourcePath": "sprites\\spr_intro_mountains_1\\spr_intro_mountains_1.yy",
                 "resourceType": "GMSprite"
             }
         },
