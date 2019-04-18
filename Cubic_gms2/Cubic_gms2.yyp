@@ -2687,14 +2687,6 @@
             }
         },
         {
-            "Key": "6b77c187-4e63-4046-b866-f32c78fa6e92",
-            "Value": {
-                "id": "0a344dec-300c-4ca0-9c9e-ff9c3a5083ac",
-                "resourcePath": "sprites\\spr_pz_crash_cutscene\\spr_pz_crash_cutscene.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6b9d22b8-317d-4c13-9e5e-389c9e3966d0",
             "Value": {
                 "id": "fc14af47-3b8a-4606-ae1c-e03aa29802b5",
