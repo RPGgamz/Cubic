@@ -45,13 +45,10 @@ for (var i = 0; i < instance_number(obj_zone); i++)
                 //change sprite for the zone
                 with (this_zone)
                     {
-					/*
-                    sprite_index = spr_zone_start;
-                    image_speed = start_spd;
-                    image_index = 0;
-                    fade = false;
-                    alpha = 1;
-                    */
+					image_index = 0;
+                    image_speed = teleport_image_speed;
+					idle_ready_teleport = "teleport";
+                    
 					}
                 this_cube.visible = false;
                 }

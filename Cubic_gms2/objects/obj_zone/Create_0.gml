@@ -18,4 +18,6 @@ target_locked_wall refererer til en ID på en mur i samme rum, som skal fjernes
 */
 
 //Variables
-image_speed = 18/60;
+idle_ready_image_speed = 18/60;
+teleport_image_speed = 15/60;
+idle_ready_teleport = "idle";

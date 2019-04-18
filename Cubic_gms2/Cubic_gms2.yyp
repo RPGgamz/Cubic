@@ -4647,6 +4647,14 @@
             }
         },
         {
+            "Key": "acc0ad5d-ba84-467f-9c8c-96fef4a4fb2f",
+            "Value": {
+                "id": "c78fa05a-058b-4cd7-95ee-9e631d0ed53f",
+                "resourcePath": "sprites\\spr_pz_teleport\\spr_pz_teleport.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "acfcd098-d483-4378-aff4-f178f0faa382",
             "Value": {
                 "id": "c4cd8d95-f7ca-43f6-9ec1-1c5598a201a7",
@@ -6244,6 +6252,14 @@
                 "id": "ce7fb5c9-001c-486d-8d91-89c246159817",
                 "resourcePath": "scripts\\scr_rpg_cam_load\\scr_rpg_cam_load.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e644071b-b3b1-4228-b4ea-ccdd9cb2a2d1",
+            "Value": {
+                "id": "430fa5ce-2e1f-4585-a513-49e209a207af",
+                "resourcePath": "sprites\\spr_pz_ready\\spr_pz_ready.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
