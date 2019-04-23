@@ -8,7 +8,12 @@
         "4c26e648-ab06-4726-a0d3-7a41b6cc3e99",
         "bf1be414-d70b-4b2d-b38b-a9bbe5281aee",
         "3f60aade-96e0-46e5-9804-a7bb3bb601ec",
-        "d0802e50-4fbc-4516-ad7c-4d4656c2a4ad"
+        "e9860703-6871-4935-87d4-26f5b495fe5e",
+        "8273e270-65bd-4e07-8109-441f45fa602b",
+        "f59e3914-ce66-4a29-8ff8-912deb0c7207",
+        "af8f8e38-4c9c-4166-9d1d-a520b86bde33",
+        "f2937c73-c706-429e-a521-5742133ecac4",
+        "e79537c5-0661-46d0-97a8-b7c77c095d4d"
     ],
     "filterType": "GMSprite",
     "folderName": "pause menu",

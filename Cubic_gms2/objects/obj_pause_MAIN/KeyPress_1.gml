@@ -14,20 +14,32 @@ switch (keyboard_key) {
 			case "CONTINUE":
 				instance_destroy(obj_pause_menu);
 				break;
-			case "INVENTORY": 
+			case "INVENTORY":
 				obj_pause_menu.next_menu = obj_pause_INV;
 				with (obj_pause_menu) event_user(0);
 				break;
-			case "SETTINGS": 
-				
+			case "SETTINGS":
+				obj_pause_menu.next_menu = obj_pause_SET;
+				with (obj_pause_menu) event_user(0);
 				break;
-			case "LOAD SAVE": 
+			case "LOAD SAVE":
+				//TEMPORARY!!!
+				with (obj_save_data) {
+					ini_open("savedata.ini");
+					ini_key_delete("save", "pzones");
+					ini_key_delete("save", "doors");
+					ini_key_delete("save", "room");
+					ini_key_delete("save", "x");
+					ini_key_delete("save", "y");
+					ini_close();
+				}
+				game_restart();
 				break;
 			case "HELP":
 				obj_pause_menu.next_menu = obj_pause_HELP;
 				with (obj_pause_menu) event_user(0);
 				break;
-			case "EXIT": 
+			case "EXIT":
 				scr_save_game();
 				game_end();
 				break;

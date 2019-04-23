@@ -11,25 +11,19 @@ switch (keyboard_key) {
 	case vk_space:
 	case vk_enter:
 		switch (entries[e, e_label]) {
-			case "CONTINUE":
-				instance_destroy(obj_pause_menu);
+			case "HOW TO PLAY":
 				break;
-			case "INVENTORY": 
-				obj_pause_menu.next_menu = obj_pause_INV;
+			case "TEXT":
+				break;
+			case "TUTORIAL": 
+				break;
+			case "ASSIST MODE": 
+				break;
+			case "FAQ":
+				break;
+			case "BACK": 
+				obj_pause_menu.next_menu = obj_pause_MAIN;
 				with (obj_pause_menu) event_user(0);
-				break;
-			case "SETTINGS": 
-				
-				break;
-			case "LOAD SAVE": 
-				break;
-			case "HELP":
-				obj_pause_menu.next_menu = obj_pause_HELP;
-				with (obj_pause_menu) event_user(0);
-				break;
-			case "EXIT": 
-				scr_save_game();
-				game_end();
 				break;
 		}
 }
