@@ -6,4 +6,6 @@ instance_activate_object(obj_game_intro);
 instance_activate_object(obj_forest_transition);
 
 //delete font
-font_delete(FONT);
+//font_delete(FONT);
+
+if (instance_exists(current_menu)) instance_destroy(current_menu);

@@ -13,7 +13,7 @@ __objectDepths[1]  = -2;		/**/	__objectNames[1] = "obj_cube_wallhit";
 __objectDepths[2]  = -2;		/**/	__objectNames[2] = "obj_cube_combine";
 __objectDepths[3]  = -2;		/**/	__objectNames[3] = "obj_icebreak";
 __objectDepths[4]  = 3;			/**/	__objectNames[4] = "obj_forest_trail";
-__objectDepths[5]  = -300;		/**/	__objectNames[5] = "obj_sunlight";
+__objectDepths[5]  = -4;		/**/	__objectNames[5] = "obj_sunlight";
 __objectDepths[6]  = 2;			/**/	__objectNames[6] = "obj_worm_outside";
 __objectDepths[7]  = 2;			/**/	__objectNames[7] = "obj_slug";
 __objectDepths[8]  = 2;			/**/	__objectNames[8] = "obj_worm_inside";

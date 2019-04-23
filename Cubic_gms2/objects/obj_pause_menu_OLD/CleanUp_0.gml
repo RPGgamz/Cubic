@@ -7,5 +7,3 @@ instance_activate_object(obj_forest_transition);
 
 //delete font
 font_delete(FONT);
-
-instance_destroy(current_menu);
