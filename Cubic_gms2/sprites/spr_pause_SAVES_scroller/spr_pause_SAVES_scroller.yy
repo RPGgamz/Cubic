@@ -2,7 +2,7 @@
     "id": "c1a0e100-b111-442d-bde2-b3802510dc54",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite276",
+    "name": "spr_pause_SAVES_scroller",
     "For3D": false,
     "HTile": false,
     "VTile": false,
