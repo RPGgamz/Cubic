@@ -18,8 +18,6 @@ switch (keyboard_key) {
 			case "VIDEO": 
 				break;
 			case "CONTROLS":
-				/*obj_pause_menu.next_menu = obj_pause_SET_C;
-				with (obj_pause_menu) event_user(0);*/
 				break;
 			case "PREFERENCES":
 				break;
