@@ -13,7 +13,9 @@
         "f59e3914-ce66-4a29-8ff8-912deb0c7207",
         "af8f8e38-4c9c-4166-9d1d-a520b86bde33",
         "f2937c73-c706-429e-a521-5742133ecac4",
-        "e79537c5-0661-46d0-97a8-b7c77c095d4d"
+        "e79537c5-0661-46d0-97a8-b7c77c095d4d",
+        "bafb80bb-c377-4534-9446-691659c86194",
+        "c1a0e100-b111-442d-bde2-b3802510dc54"
     ],
     "filterType": "GMSprite",
     "folderName": "pause menu",

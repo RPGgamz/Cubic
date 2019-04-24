@@ -5151,6 +5151,14 @@
             }
         },
         {
+            "Key": "bafb80bb-c377-4534-9446-691659c86194",
+            "Value": {
+                "id": "fb73196d-26d5-47d8-ab19-90b260af10de",
+                "resourcePath": "sprites\\spr_pause_SAVES\\spr_pause_SAVES.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bb807042-5d9c-45e1-8454-7287d312bb99",
             "Value": {
                 "id": "4eff3dbb-40bc-4acb-a95b-a10d9dcdf064",
@@ -5356,6 +5364,14 @@
                 "id": "7349d3b1-3277-446f-a2fe-55e7682f53c2",
                 "resourcePath": "rooms\\rm_red_mountains_5e\\rm_red_mountains_5e.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c1a0e100-b111-442d-bde2-b3802510dc54",
+            "Value": {
+                "id": "bdea4e5e-cede-434c-baea-61a2fd9ef441",
+                "resourcePath": "sprites\\sprite276\\sprite276.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
