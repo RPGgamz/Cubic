@@ -23,7 +23,9 @@ switch (keyboard_key) {
 				with (obj_pause_menu) event_user(0);
 				break;
 			case "LOAD SAVE":
-				//TEMPORARY!!!
+				obj_pause_menu.next_menu = obj_pause_SAVES;
+				with (obj_pause_menu) event_user(0);
+				/*/TEMPORARY!
 				with (obj_save_data) {
 					ini_open("savedata.ini");
 					ini_key_delete("save", "pzones");
@@ -34,6 +36,7 @@ switch (keyboard_key) {
 					ini_close();
 				}
 				game_restart();
+				//*/
 				break;
 			case "HELP":
 				obj_pause_menu.next_menu = obj_pause_HELP;

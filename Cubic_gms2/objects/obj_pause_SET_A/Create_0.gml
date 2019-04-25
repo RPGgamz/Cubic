@@ -5,9 +5,6 @@ scroll_dir = 0;
 scroll_pause = 8;
 scroll_spd = 4;
 
-//font
-FONT = font_add_sprite(spr_font, ord(" "), true, 1);
-draw_set_font(FONT);
 
 //local enum
 e_x = 0;

@@ -1,29 +1,52 @@
 
-switch (keyboard_key) {
+if (!selected) switch (keyboard_key) {
 	case vk_down:
 	case ord("S"):
-		if (++e >= array_height_2d(entries)) e = 0;
+		if (++e > e_max+1) e = 1;
 		break;
 	case vk_up:
 	case ord("W"):
-		if (--e < 0) e = array_height_2d(entries)-1;
+		if (--e < 1) e = e_max+1;
 		break;
 	case vk_space:
 	case vk_enter:
-		switch (entries[e, e_label]) {
-			case "AUDIO":
-				obj_pause_menu.next_menu = obj_pause_SET_A;
-				with (obj_pause_menu) event_user(0);
-				break;
-			case "VIDEO": 
-				break;
-			case "CONTROLS":
-				break;
-			case "PREFERENCES":
-				break;
-			case "BACK":
+			if (e == e_max+1) {
 				obj_pause_menu.next_menu = obj_pause_MAIN;
 				with (obj_pause_menu) event_user(0);
+			}
+	case vk_right:
+	case ord("D"):
+		selected = true;
+		e2 = 1;
+		break;
+} else switch (keyboard_key) {
+	case vk_down:
+	case ord("S"):
+		if (++e2 > e2_max+1) e2 = 1;
+		break;
+	case vk_up:
+	case ord("W"):
+		if (--e2 < 1) e2 = e2_max+1;
+		break;
+	case vk_left:
+	case ord("A"):
+		selected = false;
+		break;
+	case vk_space:
+	case vk_enter:
+		var e2max1 = e2_max+1;
+		switch(e2) {
+			case 1:
+				obj_save_data.save_current = e;
+				scr_load_game();
+				instance_destroy(obj_pause_menu);
+				break;
+			case 2:
+				scr_reset_save(e);
+				break;
+			case e2max1:
+				selected = false;
 				break;
 		}
+		break;
 }
