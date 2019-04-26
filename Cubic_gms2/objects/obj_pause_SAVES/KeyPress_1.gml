@@ -14,6 +14,11 @@ if (!selected) switch (keyboard_key) {
 				obj_pause_menu.next_menu = obj_pause_MAIN;
 				with (obj_pause_menu) event_user(0);
 			}
+			else if (e == e_max) {
+				global.save_current = e;
+				scr_load_game();
+				instance_destroy(obj_pause_menu);
+			}
 	case vk_right:
 	case ord("D"):
 		selected = true;
@@ -37,7 +42,7 @@ if (!selected) switch (keyboard_key) {
 		var e2max1 = e2_max+1;
 		switch(e2) {
 			case 1:
-				obj_save_data.save_current = e;
+				global.save_current = e;
 				scr_load_game();
 				instance_destroy(obj_pause_menu);
 				break;

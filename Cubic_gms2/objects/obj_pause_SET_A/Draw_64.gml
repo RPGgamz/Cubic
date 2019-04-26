@@ -1,4 +1,7 @@
+
+
 draw_self();
+
 draw_rectangle(x+entries[e, e_x], entries[e, e_y], x+entries[e, e_x]+1, entries[e, e_y]+1, false);
 
 //draw sliders
@@ -15,6 +18,6 @@ repeat(3) {
 //on/off text
 if (entries[E, e_value]) var str = "ON"
 else var str = "OFF";
-if (e=E) str = "[" + str + "]"
+if (e==E) str = "[" + str + "]";
 
 draw_text(x+entries[E, e_x]+7, entries[E, e_y]-1, str);
