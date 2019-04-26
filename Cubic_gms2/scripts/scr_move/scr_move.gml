@@ -6,7 +6,7 @@ var anycubecombined = false;
 //Exit (obj_door)
 for (var i = 0; i < instance_number(obj_door); i++) {
     var this_door = instance_find(obj_door, i);
-    if (this_door.alarm[0] != -1) break;
+    if (this_door.alarm[0] != -1 || this_door.target_room == -1) break;
     for (var j = 0; j < ds_list_size(cubes); j++) {
         var this_cube = ds_list_find_value(cubes, j);
         if (position_meeting(this_cube.x, this_cube.y, this_door)) {
@@ -23,8 +23,6 @@ for (var i = 0; i < instance_number(obj_door); i++) {
                 transobj.transition_dir = this_door.transition_dir;
                 transobj.start_cube_x = this_cube.x;
                 transobj.start_cube_y = this_cube.y;
-				
-                if (this_door.transition_time != -1) transobj.transition_time = this_door.transition_time;
                 exit;
             }
         }
@@ -84,30 +82,29 @@ for (var i = 0; i < ds_list_size(cubes); i++) {
     }
 }
 
+//make sounds
+if (queued_dir != "NOT YET") {
+	if (anycubestopped) {
+	    //"Move End" sound
+	    audio_sound_gain(snd_move_end, .15, 0);
+	    audio_sound_pitch(snd_move_end, 1+random_range(-0.04, 0.04));
+	    audio_play_sound(snd_move_end, 1, false);
+    
+	}
+	if (anycubecombined) {
+	    //"Combine" sound
+	    /*
+	    audio_sound_gain(snd_combine, .2, 0);
+	    audio_play_sound(snd_combine, 5, false);
+	    */
+	}
+}
+
 //Queue moves
-if (queued_dir = "NOT YET") {
+if (queued_dir == "NOT YET") {
     queued_dir = "still";
 } else if (scr_save_dir_key()) {
         alarm[0] = 10;
-}
-
-//make sounds
-if (anycubestopped) {
-    //"Move End" sound
-    audio_sound_gain(snd_move_end, .15, 0);
-    audio_sound_pitch(snd_move_end, 1+random_range(-0.04, 0.04));
-    audio_play_sound(snd_move_end, 1, false);
-    
-    if (audio_is_playing(snd_move_while)) {
-        audio_stop_sound(snd_move_while);
-    }
-}
-if (anycubecombined) {
-    //"Combine" sound
-    /*
-    audio_sound_gain(snd_combine, .2, 0);
-    audio_play_sound(snd_combine, 5, false);
-    */
 }
 
 //Check if all blocks have stopped, end move-state

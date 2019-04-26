@@ -12,7 +12,7 @@ switch (keyboard_key) {
 	case vk_enter:
 		switch (entries[e, e_label]) {
 			case "CONTINUE":
-				instance_destroy(obj_pause_menu);
+				obj_pause_menu.alarm[0] = 1;
 				break;
 			case "INVENTORY":
 				obj_pause_menu.next_menu = obj_pause_INV;

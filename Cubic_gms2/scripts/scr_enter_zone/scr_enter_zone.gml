@@ -7,7 +7,7 @@ for (var i = 0; i < instance_number(obj_zone); i++)
         if (this_cube.x = this_zone.x && this_cube.y = this_zone.y)
             {
             //Go through the zone object
-            if !(instance_exists(obj_fade))
+            if !(instance_exists(obj_teleport))
                 {
                 //play "teleport" sound
                 audio_sound_gain(snd_teleport, .72, 0);

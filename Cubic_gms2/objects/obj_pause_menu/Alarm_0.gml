@@ -1,2 +1,2 @@
-/// @description destroy when ESC
+/// @description leave menu
 instance_destroy();

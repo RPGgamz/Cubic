@@ -67,7 +67,7 @@ if instance_exists(new_cube) {
 		var fc = instance_create(new_cube.x, new_cube.y, obj_forest_camera);
 		fc.player_cube = new_cube;
 	} else if (!instance_exists(obj_pz) && !instance_exists(obj_rpg_control)) {
-		var cm = instance_create(new_cube.x, new_cube.y, obj_camera_basic);
+		var cm = instance_create(new_cube.x, new_cube.y, obj_camera);
 		cm.player_cube = new_cube;
 	}
 }
