@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "001041db-589e-4297-bf28-867d5bfe2846",
+            "Value": {
+                "id": "f17e912d-bace-4bd7-87ed-70207e235320",
+                "resourcePath": "sprites\\spr_item_map\\spr_item_map.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "005f1ab6-d02c-4770-abe1-8422db9bb3f4",
             "Value": {
                 "id": "ebd96c72-1f92-4bef-b63a-c65145a520e6",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "0c27890d-d0d2-4d56-ad38-323503346aa6",
+            "Value": {
+                "id": "daba8b2f-241b-44b0-a8f7-0d8cf5b046f8",
+                "resourcePath": "sprites\\spr_item_key\\spr_item_key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c8ff3fd-2ea5-45a9-a9df-c8abada7aba3",
             "Value": {
                 "id": "7bc0560d-60e9-4c63-889c-c2c69109c85f",
@@ -324,6 +340,14 @@
                 "id": "4ed8efec-33d4-4622-998d-790163f41f64",
                 "resourcePath": "rooms\\puzzle_stone_A_51\\puzzle_stone_A_51.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1017b3f1-3dbf-4fab-8238-92d7b6386899",
+            "Value": {
+                "id": "35579d29-20ab-46b6-a40f-e9ad790ba77a",
+                "resourcePath": "sprites\\sprite282\\sprite282.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1028,6 +1052,14 @@
                 "id": "e25aa3b0-dfc9-4558-8bed-e537e12c527f",
                 "resourcePath": "rooms\\rm_rpg_3\\rm_rpg_3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "289498fb-6d40-4dad-a96f-cf377dc94d54",
+            "Value": {
+                "id": "22862593-5eab-4582-9b9d-61064aa64810",
+                "resourcePath": "sprites\\sprite280\\sprite280.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2291,6 +2323,14 @@
             "Value": {
                 "id": "43d8f403-f6ba-4706-8e92-d3fc1bd48aae",
                 "resourcePath": "sprites\\spr_wall_locked_h\\spr_wall_locked_h.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "58c07715-c3ba-4d5d-9340-f41ea4208b5b",
+            "Value": {
+                "id": "8f23720e-5995-47bc-a61f-eff88206a4cf",
+                "resourcePath": "sprites\\sprite281\\sprite281.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3611,6 +3651,14 @@
             "Value": {
                 "id": "d70cb5c5-24a9-4080-b2b0-b8e1e9e68b01",
                 "resourcePath": "sprites\\bg_red_mountains_3e\\bg_red_mountains_3e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8773075f-b0f3-4573-a7ed-87fabd9e710d",
+            "Value": {
+                "id": "6eb881e7-8e68-4d9b-ab0b-909b6c586756",
+                "resourcePath": "sprites\\sprite283\\sprite283.yy",
                 "resourceType": "GMSprite"
             }
         },
