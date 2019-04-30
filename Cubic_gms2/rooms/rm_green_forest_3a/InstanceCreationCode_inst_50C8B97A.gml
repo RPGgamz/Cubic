@@ -1,8 +1,8 @@
-target_room = rm_green_forest_4a;
+target_room = rm_green_forest_5a;
 target_door = 0;
 
 ID = 1;
-dir = "left";
+dir = "down";
 
 type = "forest";
-transition_dir = "right";
+transition_dir = "up";

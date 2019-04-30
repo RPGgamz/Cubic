@@ -2,7 +2,7 @@
     "id": "853eb4b9-c40e-44a9-897a-7a778dbb0deb",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite288",
+    "name": "spr_green_forest_2b",
     "For3D": false,
     "HTile": false,
     "VTile": false,

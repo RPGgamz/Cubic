@@ -1,4 +1,4 @@
-target_room = rm_green_forest_4a;
+target_room = rm_green_forest_3a;
 target_door = 1;
 
 ID = 0;
