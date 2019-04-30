@@ -19,7 +19,7 @@ for (var i = instance_number(obj_locked_wall)-1; -1<i; i--) {
     ds_map_replace(doors, string(room)+" "+string(i), save_val);
 }
 
-//doors
+//stars
 for (var i = instance_number(obj_star)-1; -1<i; i--) {
     var this_star = instance_find(obj_star, i);
     var save_val;

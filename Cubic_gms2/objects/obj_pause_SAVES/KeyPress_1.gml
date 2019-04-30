@@ -15,7 +15,9 @@ if (!selected) switch (keyboard_key) {
 				with (obj_pause_menu) event_user(0);
 			}
 			else if (e == e_max) {
-				global.save_current = e;
+				if (obj_save_data.highest_save < e) obj_save_data.highest_save = e;
+				scr_save_game();
+				obj_save_data.save_current = e;
 				scr_load_game();
 				instance_destroy(obj_pause_menu);
 			}
@@ -42,7 +44,8 @@ if (!selected) switch (keyboard_key) {
 		var e2max1 = e2_max+1;
 		switch(e2) {
 			case 1:
-				global.save_current = e;
+				scr_save_game();
+				obj_save_data.save_current = e;
 				scr_load_game();
 				instance_destroy(obj_pause_menu);
 				break;

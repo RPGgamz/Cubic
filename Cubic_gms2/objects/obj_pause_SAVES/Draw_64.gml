@@ -3,13 +3,16 @@ draw_self();
 
 //draw_cubes and text
 var E = 1;
-repeat(e_max-1) {
-	draw_sprite(spr_pause_SAVES_cube, E-1, x+9, 20+E*15);
-	if (!selected || E != e) draw_text(x+37,20+E*15, s_date[E]);
-	else draw_text(x+40, 20+E*15, "LOAD FILE"+"\n"+"DELETE FILE");
+repeat(e_max) {
+	if (s_date[E] == "") {
+		draw_text(x+40, 23+E*15, "EMPTY FILE");
+	} else {
+		draw_sprite(spr_pause_SAVES_cube, E-1, x+9, 20+E*15);
+		if (!selected || E != e) draw_text(x+37,20+E*15, s_date[E]);
+		else draw_text(x+40, 20+E*15, "LOAD FILE"+"\n"+"DELETE FILE");
+	}
 	E++;
 }
-draw_text(x+40, 23+E*15, "EMPTY FILE");
 
 
 //draw selection dot
