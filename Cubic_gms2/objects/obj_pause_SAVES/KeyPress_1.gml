@@ -14,8 +14,12 @@ if (!selected) switch (keyboard_key) {
 				obj_pause_menu.next_menu = obj_pause_MAIN;
 				with (obj_pause_menu) event_user(0);
 			}
-			else if (e == e_max) {
-				if (obj_save_data.highest_save < e) obj_save_data.highest_save = e;
+			else if (s_date[e] == "") {
+				if (e == e_max) {
+					ini_open("savedata.ini");
+					ini_write_real("global", "highest_save", ++obj_save_data.highest_save);
+					ini_close();
+				}
 				scr_save_game();
 				obj_save_data.save_current = e;
 				scr_load_game();
@@ -41,7 +45,7 @@ if (!selected) switch (keyboard_key) {
 		break;
 	case vk_space:
 	case vk_enter:
-		var e2max1 = e2_max+1;
+		var e_back = e2_max+1;
 		switch(e2) {
 			case 1:
 				scr_save_game();
@@ -51,8 +55,14 @@ if (!selected) switch (keyboard_key) {
 				break;
 			case 2:
 				scr_reset_save(e);
+				if (obj_save_data.save_current == e) {
+					instance_destroy(obj_pause_menu);
+				} else {
+					obj_pause_menu.next_menu = obj_pause_SAVES;
+					with (obj_pause_menu) event_user(0);
+				}
 				break;
-			case e2max1:
+			case e_back:
 				selected = false;
 				break;
 		}

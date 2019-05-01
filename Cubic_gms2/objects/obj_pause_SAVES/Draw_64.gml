@@ -23,9 +23,9 @@ if ((!selected && (e == e_max+1)) || (selected && (e2 == e2_max+1))) {
 } else {
 	var xx = x+x_0;
 	var yy = 24+e*15;
-	if (e == e_max) xx += 31;
+	if (s_date[e] == "") xx += 31;
 	if (selected) {
-		if (e != e_max) xx += 31;
+		xx += 31;
 		yy += e2*6-9;
 	}
 }
