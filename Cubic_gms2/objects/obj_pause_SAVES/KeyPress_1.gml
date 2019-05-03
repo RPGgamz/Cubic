@@ -20,6 +20,7 @@ if (!selected) switch (keyboard_key) {
 					ini_write_real("global", "highest_save", ++obj_save_data.highest_save);
 					ini_close();
 				}
+				with (obj_save_data) event_user(0);
 				scr_save_game();
 				obj_save_data.save_current = e;
 				scr_load_game();
@@ -48,6 +49,7 @@ if (!selected) switch (keyboard_key) {
 		var e_back = e2_max+1;
 		switch(e2) {
 			case 1:
+				with (obj_save_data) event_user(0);
 				scr_save_game();
 				obj_save_data.save_current = e;
 				scr_load_game();

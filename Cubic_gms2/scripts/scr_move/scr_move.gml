@@ -9,8 +9,11 @@ for (var i = 0; i < instance_number(obj_door); i++) {
     if (this_door.alarm[0] != -1 || this_door.target_room == -1) break;
     for (var j = 0; j < ds_list_size(cubes); j++) {
         var this_cube = ds_list_find_value(cubes, j);
-        if (position_meeting(this_cube.x, this_cube.y, this_door)) {
             //Hvis der er en block og en dør som står samme sted
+        if (position_meeting(this_cube.x, this_cube.y, this_door)) {
+			//save room
+			with (obj_save_data) event_user(0);
+			//transitions code
             if (this_door.type == "normal") {
                 scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
                 exit;

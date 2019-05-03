@@ -43,6 +43,7 @@ switch (keyboard_key) {
 				with (obj_pause_menu) event_user(0);
 				break;
 			case "EXIT":
+				with (obj_save_data) event_user(0);
 				scr_save_game();
 				game_end();
 				break;
