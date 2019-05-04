@@ -8,3 +8,5 @@ audio_play_sound(snd_star_bass, 9, false);
 image_index = 0;
 image_speed = 10/60;
 sprite_index = spr_star_absorb;
+
+with (obj_save_data) event_user(0);

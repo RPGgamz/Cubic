@@ -23,10 +23,11 @@ __objectDepths[11] = -1000;		/**/	__objectNames[11] = "obj_main_menu_1";
 __objectDepths[12] = -10000;	/**/	__objectNames[12] = "obj_teleport";
 __objectDepths[13] = -2;		/**/	__objectNames[13] = "obj_rpg_lock_v";
 __objectDepths[14] = -2;		/**/	__objectNames[14] = "obj_rpg_lock_h";
-__objectDepths[13] = -2;		/**/	__objectNames[15] = "obj_rpg_biglock_v";
-__objectDepths[14] = -2;		/**/	__objectNames[16] = "obj_rpg_biglock_h";
-__objectDepths[13] = -2;		/**/	__objectNames[17] = "obj_rpg_key";
-__objectDepths[14] = -2;		/**/	__objectNames[18] = "obj_rpg_coin";
+__objectDepths[15] = -2;		/**/	__objectNames[15] = "obj_rpg_biglock_v";
+__objectDepths[16] = -2;		/**/	__objectNames[16] = "obj_rpg_biglock_h";
+__objectDepths[17] = -2;		/**/	__objectNames[17] = "obj_rpg_key";
+__objectDepths[18] = -2;		/**/	__objectNames[18] = "obj_rpg_coin";
+__objectDepths[19] = 1;			/**/	__objectNames[19] = "obj_cube";
 
 // create array used for associating id to depth
 var len = array_length_1d(__objectDepths);

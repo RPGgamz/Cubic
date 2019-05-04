@@ -514,7 +514,7 @@
             "Key": "13c38e22-30dd-4ebd-96df-970ce475b61d",
             "Value": {
                 "id": "76cbac03-0cf1-4a69-b6c8-2ec55dc463f0",
-                "resourcePath": "sprites\\spr_intro_zonecrash_cutscene\\spr_intro_zonecrash_cutscene.yy",
+                "resourcePath": "sprites\\spr_star_crash\\spr_star_crash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1026,7 +1026,7 @@
             "Key": "25eb2fe2-070f-4b19-bb90-245cf6b725f3",
             "Value": {
                 "id": "fc3364dc-24a2-41fd-a3bd-ffd433c1446e",
-                "resourcePath": "objects\\obj_first_time_start\\obj_first_time_start.yy",
+                "resourcePath": "objects\\obj_start_cinematic\\obj_start_cinematic.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2836,6 +2836,14 @@
                 "id": "4e20cdc8-d869-438c-a4d2-5e1107485c8a",
                 "resourcePath": "sprites\\spr_rpg_biglock_h\\spr_rpg_biglock_h.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c1b2603-3f77-4654-acd5-47dfff28dd5a",
+            "Value": {
+                "id": "ff48f9d7-36c8-492f-9526-b152237dee05",
+                "resourcePath": "views\\6c1b2603-3f77-4654-acd5-47dfff28dd5a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4770,7 +4778,7 @@
             "Key": "aaae2ab7-5c44-4594-83db-ad707e7b0224",
             "Value": {
                 "id": "3c8bc76a-c2da-4c51-b57b-5791d0173d59",
-                "resourcePath": "rooms\\rm_new_game\\rm_new_game.yy",
+                "resourcePath": "rooms\\rm_start_cinematic\\rm_start_cinematic.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -6019,6 +6027,14 @@
             "Value": {
                 "id": "ba3c24a8-7db7-4ade-a69c-51a329a49345",
                 "resourcePath": "objects\\obj_sunlight\\obj_sunlight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d6623d45-7148-402a-8c11-56c57bf1981f",
+            "Value": {
+                "id": "c0bf761b-ed07-48a8-a032-c691ca807712",
+                "resourcePath": "objects\\obj_star_crash_cinematic\\obj_star_crash_cinematic.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -2,7 +2,7 @@
     "id": "13c38e22-30dd-4ebd-96df-970ce475b61d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_intro_zonecrash_cutscene",
+    "name": "spr_star_crash",
     "For3D": false,
     "HTile": false,
     "VTile": false,

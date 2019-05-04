@@ -4,14 +4,11 @@ with (obj_save_data) {
 	var str_pzones = ini_read_string("save" + string(save_current), "pzones", "");
 	var str_doors = ini_read_string("save" + string(save_current), "doors", "");
 	var str_stars = ini_read_string("save" + string(save_current), "stars", "");
-	load_x = ini_read_real("save" + string(save_current), "x", 24);
-	load_y = ini_read_real("save" + string(save_current), "y", 84);
-	var load_room = ini_read_string("save" + string(save_current), "room", "rm_game_intro");
+	load_x = ini_read_real("save" + string(save_current), "x", sprite_get_xoffset(spr_cube));
+	load_y = ini_read_real("save" + string(save_current), "y", sprite_get_yoffset(spr_cube));
+	var load_room = ini_read_string("save" + string(save_current), "room", "rm_start_cinematic");
 	
-	//ini_write_string("save" + string(save_current), "pzones", str_pzones);
-	ini_write_string("save" + string(save_current), "doors", str_doors);
-	ini_write_string("save" + string(save_current), "stars", str_stars);
-
+	ini_write_string("save" + string(save_current), "room", load_room);
 	ini_close();
 	
 	ds_map_clear(pzones);

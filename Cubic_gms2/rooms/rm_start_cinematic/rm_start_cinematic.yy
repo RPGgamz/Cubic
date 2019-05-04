@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_new_game",
+    "name": "rm_start_cinematic",
     "id": "aaae2ab7-5c44-4594-83db-ad707e7b0224",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
