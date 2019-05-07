@@ -1,4 +1,4 @@
-/// @description draw surf_room to the GUI layer, and draw treetop
+/// @description draw surf_room to the GUI layer
 
 if (surface_exists(surf_room)) {
     gpu_set_blendenable(false);

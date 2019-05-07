@@ -4,6 +4,7 @@ with (obj_save_data) {
 	var str_pzones = ini_read_string("save" + string(save_current), "pzones", "");
 	var str_doors = ini_read_string("save" + string(save_current), "doors", "");
 	var str_stars = ini_read_string("save" + string(save_current), "stars", "");
+	star_count = ini_read_real("save" + string(save_current), "star_count", 0);
 	load_x = ini_read_real("save" + string(save_current), "x", sprite_get_xoffset(spr_cube));
 	load_y = ini_read_real("save" + string(save_current), "y", sprite_get_yoffset(spr_cube));
 	var load_room = ini_read_string("save" + string(save_current), "room", "rm_start_cinematic");

@@ -1,7 +1,5 @@
 /// @description draw surf_room to the GUI layer, and draw treetop
 
-//if (instance_exists(obj_forest_transition)) exit;
-
 draw_clear(c_red);
 
 event_inherited();

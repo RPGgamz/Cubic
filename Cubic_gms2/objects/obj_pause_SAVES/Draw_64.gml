@@ -8,8 +8,16 @@ repeat(e_max) {
 		draw_text(x+40, 23+E*15, "EMPTY FILE");
 	} else {
 		draw_sprite(spr_pause_SAVES_cube, E-1, x+9, 20+E*15);
-		if (!selected || E != e) draw_text(x+37,20+E*15, s_date[E]);
-		else draw_text(x+40, 20+E*15, "LOAD FILE"+"\n"+"DELETE FILE");
+		if !(selected && E == e) {
+			var starcount = obj_save_data.star_count;
+			if (E != obj_save_data.save_current) {
+				ini_open("savedata.ini")
+				starcount = ini_read_real("save" + string(E), "star_count", 0)
+				ini_close();
+			}
+			draw_text(x+22, 23+E*15, string(starcount) + "*")
+			draw_text(x+37,20+E*15, s_date[E]);
+		} else draw_text(x+40, 20+E*15, "LOAD FILE"+"\n"+"DELETE FILE");
 	}
 	E++;
 }
