@@ -2,6 +2,7 @@
 pzones = ds_map_create();
 doors = ds_map_create();
 stars = ds_map_create();
+items = ds_map_create();
 
 ini_open("savedata.ini");
 save_current = ini_read_real("global", "save_current", 1);

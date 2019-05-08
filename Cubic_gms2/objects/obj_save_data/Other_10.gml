@@ -29,3 +29,15 @@ for (var i = instance_number(obj_star)-1; -1<i; i--) {
     }
     ds_map_replace(stars, string(room)+" "+string(i), save_val);
 }
+
+//items
+for (var i = instance_number(obj_item_parent)-1; -1<i; i--) {
+    var this_item = instance_find(obj_item_parent, i);
+    var save_val;
+    if (this_item.sprite_index == -1) {
+        save_val = -1;
+    } else {
+        save_val = 1;
+    }
+    ds_map_replace(items, object_get_name(this_item.object_index), save_val);
+}

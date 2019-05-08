@@ -1,4 +1,6 @@
 
+image_speed = 0;
+
 s_x = 0;
 s_y = 0;
 
