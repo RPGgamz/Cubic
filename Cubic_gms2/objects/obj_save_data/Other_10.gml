@@ -39,5 +39,5 @@ for (var i = instance_number(obj_item_parent)-1; -1<i; i--) {
     } else {
         save_val = 1;
     }
-    ds_map_replace(items, object_get_name(this_item.object_index), save_val);
+    ds_map_replace(items, this_item.object_index, save_val);
 }

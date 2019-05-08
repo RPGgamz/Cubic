@@ -33,7 +33,7 @@ for (var i = instance_number(obj_star)-1; -1<i; i--) {
 //items
 for (var i = instance_number(obj_item_parent)-1; -1<i; i--) {
     var this_item = instance_find(obj_item_parent, i);
-    var savedvalue = ds_map_find_value(items, object_get_name(this_item.object_index));
+    var savedvalue = ds_map_find_value(items, this_item.object_index);
     if (savedvalue == -1) with(this_item) {
         sprite_index = -1;
         image_speed = 0;
