@@ -15,7 +15,7 @@ repeat(e_max) {
 				starcount = ini_read_real("save" + string(E), "star_count", 0)
 				ini_close();
 			}
-			draw_text(x+22, 23+E*15, string(starcount) + "*")
+			draw_text(x+22, 23+E*15, string(starcount) + "*");
 			draw_text(x+37,20+E*15, s_date[E]);
 		} else draw_text(x+40, 20+E*15, "LOAD FILE"+"\n"+"DELETE FILE");
 	}

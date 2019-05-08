@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "1c5ca1b4-0353-4e27-bb28-6ed77aefcc8d",
+            "Value": {
+                "id": "f69fe09d-a92a-47f1-80c3-3561949c2074",
+                "resourcePath": "objects\\obj_item_parent\\obj_item_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c6e673c-2512-4cbd-8919-46f36ce3c0c2",
             "Value": {
                 "id": "a31fd624-b058-4ce0-83d5-9f6a3ec419e0",
@@ -2164,6 +2172,14 @@
                 "id": "aa8fe4ec-a177-4a3c-a310-f6e27b5f43bd",
                 "resourcePath": "sprites\\bg_city_5a\\bg_city_5a.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4dc8fba7-3fb6-4e6a-a281-d93973c24d7d",
+            "Value": {
+                "id": "850a71f4-d573-4ec3-97c3-e8cf3b2d2aa3",
+                "resourcePath": "objects\\obj_item_game\\obj_item_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3543,6 +3559,14 @@
             }
         },
         {
+            "Key": "7fc398c2-8761-449d-bf9d-deb3cef25eb8",
+            "Value": {
+                "id": "0f8c162c-7f3b-4dd5-a5bb-d5afe1dfc53d",
+                "resourcePath": "objects\\obj_item_map\\obj_item_map.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7fc4a317-50b4-46bc-8166-f20fda88ba9b",
             "Value": {
                 "id": "1b0441ca-3d41-45bb-953a-d7af7a6600eb",
@@ -4519,6 +4543,14 @@
             }
         },
         {
+            "Key": "9f43e4e2-47e4-49a6-b43c-1adaa0a90343",
+            "Value": {
+                "id": "b4c7b959-aa8e-4c13-b1c0-3bc4e1e34f66",
+                "resourcePath": "objects\\obj_item_key\\obj_item_key.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a03ee2a8-72fa-4b8a-86b7-33c004fdc0b3",
             "Value": {
                 "id": "7feb5ccb-74f3-4e41-8850-1595edc635a7",
@@ -4812,6 +4844,14 @@
                 "id": "94b0d1a0-f5ff-4e1a-97a4-86addec9a06d",
                 "resourcePath": "sprites\\spr_intro_mountains_1\\spr_intro_mountains_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ab767010-f4a6-4378-b86d-5f04096a56fd",
+            "Value": {
+                "id": "a3c14f37-208c-4a95-b638-dff337b5a70d",
+                "resourcePath": "views\\ab767010-f4a6-4378-b86d-5f04096a56fd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

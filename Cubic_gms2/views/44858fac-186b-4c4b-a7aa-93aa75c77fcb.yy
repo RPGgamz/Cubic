@@ -9,7 +9,8 @@
         "690cc295-6f75-4ca4-941c-143cc23be02f",
         "f89aab45-f440-415f-affa-c9545f4f2aa3",
         "71f4097b-e110-4039-aa9f-c2ecd7d4c0bd",
-        "8a3140cc-7771-4b76-ac9d-502e7b9758c1"
+        "8a3140cc-7771-4b76-ac9d-502e7b9758c1",
+        "ab767010-f4a6-4378-b86d-5f04096a56fd"
     ],
     "filterType": "GMObject",
     "folderName": "other level objects",
