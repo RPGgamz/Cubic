@@ -9,7 +9,8 @@
         "329cc391-5a56-4717-910c-c0e2574df9f9",
         "e6510900-5c6c-4bb3-8e02-36bf587654e8",
         "148b39f5-2a52-4daa-9dfb-7b1722b9d48f",
-        "b0aa019b-2126-45d5-a78f-beeb397e35d8"
+        "b0aa019b-2126-45d5-a78f-beeb397e35d8",
+        "42f24b6b-fc68-4dc4-be75-823e42704c28"
     ],
     "filterType": "GMSprite",
     "folderName": "skal nok slettes",

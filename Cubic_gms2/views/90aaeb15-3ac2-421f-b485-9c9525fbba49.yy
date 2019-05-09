@@ -23,7 +23,8 @@
         "11d534c3-c64b-4007-81b8-c33a6081d64a",
         "9a9d7bf7-0625-44b6-a341-cd69c0e090e4",
         "589445ff-b96d-4ca6-8fa0-6658104a8f6c",
-        "c44f2bd5-b0b2-47d7-898e-0f91d28967f8"
+        "c44f2bd5-b0b2-47d7-898e-0f91d28967f8",
+        "b8e0f2cd-29ce-4313-92c0-15a0e506e83f"
     ],
     "filterType": "GMSprite",
     "folderName": "treetops",
