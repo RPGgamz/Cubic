@@ -21,6 +21,14 @@ switch (keyboard_key) {
 		if (s_y == inv_height-1) {
 			obj_pause_menu.next_menu = obj_pause_MAIN;
 			with (obj_pause_menu) event_user(0);
+		} else {
+			var s_n = s_y*inv_width+s_x;
+			var obj = scr_item_get_obj(s_n);
+			if (ds_map_find_value(obj_save_data.items, obj) == -1) switch (obj) {
+				case obj_item_map:
+					obj_pause_menu.next_menu = obj_pause_MAP;
+					with (obj_pause_menu) event_user(0);
+			}
 		}
 		break;
 }

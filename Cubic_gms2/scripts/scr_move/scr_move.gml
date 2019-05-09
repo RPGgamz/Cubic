@@ -15,7 +15,8 @@ for (var i = 0; i < instance_number(obj_door); i++) {
 			with (obj_save_data) event_user(0);
 			//transitions code
             if (this_door.type == "normal") {
-                scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
+				
+				if (room_exists(this_door.target_room)) scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
                 exit;
             } else if (this_door.type == "forest") {
                 target_door = this_door.target_door;
@@ -107,7 +108,7 @@ if (queued_dir != "NOT YET") {
 if (queued_dir == "NOT YET") {
     queued_dir = "still";
 } else if (scr_save_dir_key()) {
-        alarm[0] = 10;
+        alarm[0] = move_queue_window;
 }
 
 //Check if all blocks have stopped, end move-state
@@ -126,20 +127,6 @@ if (stop_move_state) {
         move_queue_timer = 2;
     }
     alarm[0] = move_queue_timer+1;
-    //change sprite on zone entrance
-    with (obj_zone) if place_meeting(x, y, obj_cube) {
-        sprite_index = spr_zone_rdy;
-        image_speed = ready_spd;
-        
-        audio_stop_sound(snd_zone_heavy);
-        audio_sound_gain(snd_zone_heavy, 0, 0);
-        audio_sound_gain(snd_zone_heavy, 9/100, 510);
-        audio_play_sound(snd_zone_heavy, 9, true);
-        
-        break;
-    } else {
-        audio_sound_gain(snd_zone_heavy, 0, 300);
-    }
     exit;
 }
 

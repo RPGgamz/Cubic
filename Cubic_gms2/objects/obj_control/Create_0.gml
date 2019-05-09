@@ -6,6 +6,7 @@ target_door = -1;
 traveling_cube_lvl = 1;
 queued_dir = "still";
 move_queue_timer = 0;
+move_queue_window = 10;
 
 bb = (obj_display_manager.ideal_width-120)/2*obj_display_manager.view_zoom; //black bar width
 

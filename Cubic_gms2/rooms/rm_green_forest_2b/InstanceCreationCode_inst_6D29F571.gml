@@ -5,4 +5,4 @@ ID = 1;
 dir = "up";
 
 type = "forest";
-transition_dir = "right";
+transition_dir = "down";

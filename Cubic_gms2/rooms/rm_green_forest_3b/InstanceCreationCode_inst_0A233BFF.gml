@@ -2,7 +2,7 @@ target_room = rm_green_forest_2b;
 target_door = 1;
 
 ID = 0;
-dir = "right";
+dir = "down";
 
 type = "forest";
-transition_dir = "left";
+transition_dir = "up";

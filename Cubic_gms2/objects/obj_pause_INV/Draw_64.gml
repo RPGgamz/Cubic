@@ -1,5 +1,6 @@
 draw_self();
 
+//draw items and zoomed version of selected
 var i = -1;
 repeat(30) {
 	i++;

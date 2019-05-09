@@ -12,7 +12,8 @@
         "e2ede6e8-adb9-45dc-9ceb-57091dd1b8b0",
         "7cd4f03e-86d7-46c4-aa60-9489cb8d0668",
         "13703a53-4dda-41a1-b037-3d9c6145ec96",
-        "bee877fa-4277-4f7f-b1b6-5bba424231bb"
+        "bee877fa-4277-4f7f-b1b6-5bba424231bb",
+        "2763e1be-ed08-4c03-af83-db60761e2cac"
     ],
     "filterType": "GMObject",
     "folderName": "pause menu",
