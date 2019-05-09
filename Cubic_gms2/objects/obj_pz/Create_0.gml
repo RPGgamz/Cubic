@@ -37,10 +37,15 @@ with (obj_wall_v)
     sprite_index = spr_wall_v
     }
 
+//initiate view surface
+view_surf = -1;
 
 
-/* */
-///initiate mini-map
+
+
+
+
+//initiate mini-map
 //settings
 map_margin = 1;
 tile_size = sprite_get_width(spr_pz_map_unsolved); //mb ugly if not factor of height and width of spr_pz_map_tile?

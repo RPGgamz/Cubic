@@ -1,5 +1,15 @@
 /// @description mini-map
 
+//draw the view
+if (!instance_exists(obj_pz_camera_move)) {
+	gpu_set_blendenable(false);
+    gpu_set_colorwriteenable(true,true,true,false);
+	draw_surface(view_surf, 0, 0);
+	gpu_set_blendenable(true);
+    gpu_set_colorwriteenable(true,true,true,true);
+}
+
+//MINIMAP STUFF ------------------
 if (!surface_exists(map_surf)) map_surf = surface_create(map_width,map_height);
 surface_set_target(map_surf);
 
