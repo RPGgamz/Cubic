@@ -26,9 +26,9 @@ var vol = 30/100;
 if (room == rm_green_forest_3a && !amb_forest) {
     amb_forest = true;
 	//QUICK FIX
-	audio_sound_gain(snd_quick_ost, 00/100, 0);
-	audio_sound_gain(snd_quick_ost, 30/100, 3000);
-	audio_play_sound(snd_quick_ost, 10, true);
+	audio_sound_gain(snd_ost_forest_1, 00/100, 0);
+	audio_sound_gain(snd_ost_forest_1, 60/100, 3000);
+	audio_play_sound(snd_ost_forest_1, 10, true);
 	//QUICK FIX DONE
     
     audio_sound_gain(snd_amb_birds_long_1, 0, 0);
