@@ -1,5 +1,7 @@
 audio_emitter_gain(global_music, gain);
 
+
+
 /*
 if (amb_forest) {
     if (!audio_is_playing(snd_amb_birds_1) or !audio_is_playing(snd_amb_birds_2) or !audio_is_playing(snd_amb_birds_3)) {
