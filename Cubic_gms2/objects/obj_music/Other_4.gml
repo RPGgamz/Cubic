@@ -40,7 +40,7 @@ if (room == rm_green_forest_3a && !amb_forest) {
 	}
 	audio_sound_gain(pz_ost[pz_number], 0, 0);
 	audio_sound_gain(pz_ost[pz_number], vol_ost, 2400);
-	audio_play_sound(pz_ost[pz_number], 10, false);
+	audio_play_sound(pz_ost[pz_number], 10, true);
 
 	
 } else if (room == rm_green_forest_12a or room == rm_green_forest_11d) {
@@ -55,6 +55,7 @@ if (room == rm_green_forest_3a && !amb_forest) {
 } else if (amb_forest) {
 	audio_sound_gain(snd_ost_forest_star, 0, 1200);
 	audio_sound_gain(pz_ost[pz_number], 0, 1200);
+	show_debug_message(string(pz_number));
 
 	audio_sound_gain(snd_amb_birds_long_1, vol_amb, 1200);
 	audio_sound_gain(snd_ost_forest_1, vol_ost, 1200);
