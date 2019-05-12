@@ -19,6 +19,10 @@ with(obj_camera_zone)
     }
 pz[array_height_2d(pz)-1,1] = noone;
 
+//tiles to tilesurf
+//tilesurf = -1;
+//layer_script_begin("Compatibility_Colour", scr_pz_target_tilesurf);
+
 //settings
 pz_complete_pause = 60;
 

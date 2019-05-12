@@ -1983,6 +1983,14 @@
             }
         },
         {
+            "Key": "437fe50a-ff2f-4415-965e-ba0ac26baf17",
+            "Value": {
+                "id": "24849342-cc29-4404-9bdf-56373ab43d29",
+                "resourcePath": "scripts\\scr_pz_untarget_tilesurf\\scr_pz_untarget_tilesurf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "439cfd75-b13d-4eea-9d3d-b002da290eba",
             "Value": {
                 "id": "47ee6c77-e3fd-4013-a776-007dfa4be187",
@@ -2844,6 +2852,14 @@
                 "id": "b5f19217-00ad-4b8d-a153-2990be377cc4",
                 "resourcePath": "rooms\\pz_green_forest_9d\\pz_green_forest_9d.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "67dabc8e-8be6-4258-9276-7d7beaf5d298",
+            "Value": {
+                "id": "d6eccdb0-7096-4db6-b286-3475e2fb8e61",
+                "resourcePath": "scripts\\scr_pz_target_tilesurf\\scr_pz_target_tilesurf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -7495,6 +7511,8 @@
         "16fc2f0c-97aa-4312-8c1b-f984f9650d17",
         "377c56bd-d7c8-4924-a94e-d387d820bc68",
         "85b11202-81fa-4f98-9c6d-409fb50fa753",
+        "67dabc8e-8be6-4258-9276-7d7beaf5d298",
+        "437fe50a-ff2f-4415-965e-ba0ac26baf17",
         "ce08fa0f-9715-4b1b-a996-83e273703cb9",
         "1371e52a-63fd-45cb-8348-d26c2f544a59",
         "db94b5f7-fc44-4b91-82e0-5a1e6eb3311d",
