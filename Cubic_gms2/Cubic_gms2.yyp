@@ -5207,14 +5207,6 @@
             }
         },
         {
-            "Key": "b1770ebd-9462-4234-aa0c-62deda026e80",
-            "Value": {
-                "id": "59b9d3d2-c413-412a-a06d-fc2fe6b995fe",
-                "resourcePath": "sprites\\bg_grid_white\\bg_grid_white.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b1c45144-9fda-4528-b887-023dc58ad7c6",
             "Value": {
                 "id": "f16710cf-10df-4196-9b94-1062c83aa41e",
