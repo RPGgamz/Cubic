@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "24726cd0-3327-459c-85e3-5fcfffa150d8",
+            "Value": {
+                "id": "f1e410ff-476f-4a38-9066-b1e9d01db307",
+                "resourcePath": "views\\24726cd0-3327-459c-85e3-5fcfffa150d8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2480a974-056d-4010-be09-4a64b6eee72c",
             "Value": {
                 "id": "d84d89e0-58ce-42b7-bfb8-24d8d50200a4",
@@ -1986,7 +1994,7 @@
             "Key": "437fe50a-ff2f-4415-965e-ba0ac26baf17",
             "Value": {
                 "id": "24849342-cc29-4404-9bdf-56373ab43d29",
-                "resourcePath": "scripts\\scr_pz_untarget_tilesurf\\scr_pz_untarget_tilesurf.yy",
+                "resourcePath": "scripts\\scr_pz_finish_tilesurf\\scr_pz_finish_tilesurf.yy",
                 "resourceType": "GMScript"
             }
         },

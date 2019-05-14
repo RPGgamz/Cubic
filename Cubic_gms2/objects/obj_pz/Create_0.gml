@@ -20,8 +20,10 @@ with(obj_camera_zone)
 pz[array_height_2d(pz)-1,1] = noone;
 
 //tiles to tilesurf
-//tilesurf = -1;
-//layer_script_begin("Compatibility_Colour", scr_pz_target_tilesurf);
+tilesurf = -1;
+layer_destroy(layer_get_id("Compatibility_Colour"))
+layer_script_begin("Grid_Asset_layer", scr_pz_target_tilesurf);
+layer_script_end("Grid_Asset_layer", scr_pz_finish_tilesurf);
 
 //settings
 pz_complete_pause = 60;
@@ -40,15 +42,6 @@ with (obj_wall_v)
     visible = true
     sprite_index = spr_wall_v
     }
-
-//initiate view surface
-view_surf = -1;
-
-
-
-
-
-
 //initiate mini-map
 //settings
 map_margin = 1;
