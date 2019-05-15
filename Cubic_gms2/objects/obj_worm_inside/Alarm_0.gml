@@ -10,10 +10,10 @@ if (x == tail_x && y == tail_y) {
     //border
     if (!(position_meeting(x+dirx*1.5, y+diry*1.5, obj_bug_zone_in)) || position_meeting(x+dirx*1.5, y+diry*1.5, obj_cube)) {
         var options = ds_list_create();
-        if (position_meeting(x+1.5, y, obj_bug_zone_in) && !position_meeting(x+1.5, y, obj_cube)) ds_list_add(options, "r");
-        if (position_meeting(x-1.5, y, obj_bug_zone_in) && !position_meeting(x-1.5, y, obj_cube)) ds_list_add(options, "l");
-        if (position_meeting(x, y+1.5, obj_bug_zone_in) && !position_meeting(x, y+1.5, obj_cube)) ds_list_add(options, "d");
-        if (position_meeting(x, y-1.5, obj_bug_zone_in) && !position_meeting(x, y-1.5, obj_cube)) ds_list_add(options, "u");
+        if (position_meeting(x+1.5, y, obj_bug_zone_in) && !position_meeting(x+1.5, y, obj_cube) && !position_meeting(x+1.5, y, obj_zone)) ds_list_add(options, "r");
+        if (position_meeting(x-1.5, y, obj_bug_zone_in) && !position_meeting(x-1.5, y, obj_cube) && !position_meeting(x-1.5, y, obj_zone)) ds_list_add(options, "l");
+        if (position_meeting(x, y+1.5, obj_bug_zone_in) && !position_meeting(x, y+1.5, obj_cube) && !position_meeting(x, y+1.5, obj_zone)) ds_list_add(options, "d");
+        if (position_meeting(x, y-1.5, obj_bug_zone_in) && !position_meeting(x, y-1.5, obj_cube) && !position_meeting(x, y-1.5, obj_zone)) ds_list_add(options, "u");
         switch (ds_list_find_value(options, irandom(ds_list_size(options)-1))) {
             case "r":
                 dirx = 1;

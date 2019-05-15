@@ -8,30 +8,39 @@ gml_pragma( "global", "__global_object_depths()");
 // depth of objects not assigned here defaults to 0
 var __objectDepths = [];
 var __objectNames = [];
-__objectDepths[0]  = -1;		/**/	__objectNames[0] = "obj_wrong_color_stop";
-__objectDepths[1]  = -2;		/**/	__objectNames[1] = "obj_cube_wallhit";
-__objectDepths[2]  = -2;		/**/	__objectNames[2] = "obj_cube_combine";
-__objectDepths[3]  = -2;		/**/	__objectNames[3] = "obj_icebreak";
-__objectDepths[4]  = 3;			/**/	__objectNames[4] = "obj_forest_trail";
-__objectDepths[5]  = -4;		/**/	__objectNames[5] = "obj_sunlight";
-__objectDepths[6]  = 2;			/**/	__objectNames[6] = "obj_worm_outside";
-__objectDepths[7]  = 2;			/**/	__objectNames[7] = "obj_slug";
-__objectDepths[8]  = 2;			/**/	__objectNames[8] = "obj_worm_inside";
-__objectDepths[9]  = -10000;	/**/	__objectNames[9] = "obj_game_intro";
-__objectDepths[10] = -10000;	/**/	__objectNames[10] = "obj_fade";
-__objectDepths[11] = -1000;		/**/	__objectNames[11] = "obj_main_menu_1";
-__objectDepths[12] = -10000;	/**/	__objectNames[12] = "obj_teleport";
-__objectDepths[13] = -2;		/**/	__objectNames[13] = "obj_rpg_lock_v";
-__objectDepths[14] = -2;		/**/	__objectNames[14] = "obj_rpg_lock_h";
-__objectDepths[15] = -2;		/**/	__objectNames[15] = "obj_rpg_biglock_v";
-__objectDepths[16] = -2;		/**/	__objectNames[16] = "obj_rpg_biglock_h";
-__objectDepths[17] = -2;		/**/	__objectNames[17] = "obj_rpg_key";
-__objectDepths[18] = -2;		/**/	__objectNames[18] = "obj_rpg_coin";
-__objectDepths[19] = 1;			/**/	__objectNames[19] = "obj_cube";
+var a = 0;
+__objectDepths[a]  = -1;		/**/	__objectNames[a++] = "obj_wrong_color_stop";
+__objectDepths[a]  = -2;		/**/	__objectNames[a++] = "obj_cube_wallhit";
+__objectDepths[a]  = -2;		/**/	__objectNames[a++] = "obj_cube_combine";
+__objectDepths[a]  = -2;		/**/	__objectNames[a++] = "obj_icebreak";
+__objectDepths[a]  = 4;			/**/	__objectNames[a++] = "obj_forest_trail";
+__objectDepths[a]  = -4;		/**/	__objectNames[a++] = "obj_sunlight";
+__objectDepths[a]  = 3;			/**/	__objectNames[a++] = "obj_worm_outside";
+__objectDepths[a]  = 3;			/**/	__objectNames[a++] = "obj_worm_inside";
+__objectDepths[a]  = 3;			/**/	__objectNames[a++] = "obj_worm_arc";
+__objectDepths[a]  = 3;			/**/	__objectNames[a++] = "obj_slug";
+__objectDepths[a]  = -10000;	/**/	__objectNames[a++] = "obj_game_intro";
+__objectDepths[a] = -10000;		/**/	__objectNames[a++] = "obj_fade";
+__objectDepths[a] = -1000;		/**/	__objectNames[a++] = "obj_main_menu_1";
+__objectDepths[a] = -10000;		/**/	__objectNames[a++] = "obj_teleport";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_lock_v";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_lock_h";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_biglock_v";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_biglock_h";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_key";
+__objectDepths[a] = -2;			/**/	__objectNames[a++] = "obj_rpg_coin";
+__objectDepths[a] = 1;			/**/	__objectNames[a++] = "obj_cube";
 
 // create array used for associating id to depth
 var len = array_length_1d(__objectDepths);
-global.__objectID2Depth = [];
+var final_len = 0;
+var i = 0;
+repeat(len) {
+	final_len = max(final_len, asset_get_index( __objectNames[i] ));
+	i++;
+}
+
+global.__objectID2Depth = array_create(final_len, undefined);
 for( var i=0; i<len; ++i ) {
 	var objID = asset_get_index( __objectNames[i] );
 	if (objID >= 0) {

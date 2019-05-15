@@ -20,6 +20,10 @@ switch(image_index) {
             ||
             position_meeting(x+2.5*image_xscale, y-1, obj_cube)
             ||
+            position_meeting(x+2.5*image_xscale, y, obj_zone)
+            ||
+            position_meeting(x+2.5*image_xscale, y-1, obj_zone)
+            ||
                 (
             random(100) < turnchance 
             &&
@@ -30,6 +34,10 @@ switch(image_index) {
             !position_meeting(x-4*image_xscale, y, obj_cube)
             &&
             !position_meeting(x-4*image_xscale, y-1, obj_cube)
+            &&
+            !position_meeting(x-4*image_xscale, y, obj_zone)
+            &&
+            !position_meeting(x-4*image_xscale, y-1, obj_zone)
                 )
             
         ){

@@ -4,7 +4,18 @@
 
 
 var objID = argument0;
+var val = 0;
 if ((objID >= 0) && (objID < array_length_1d(global.__objectID2Depth))) {
-	return (global.__objectID2Depth[objID]);
-} else return 0;
+	val = global.__objectID2Depth[objID];
+	if (is_undefined(val)) {
+		var parent = object_get_parent(objID);
+		while(true) {
+			if (parent != -100) val = global.__objectID2Depth[parent]
+			else { val = 0; break; }
+			if (is_undefined(val)) parent = object_get_parent(parent)
+			else { break; }
+		}
+	}
+}
 
+return(val);

@@ -21,9 +21,13 @@ pz[array_height_2d(pz)-1,1] = noone;
 
 //tiles to tilesurf
 tilesurf = -1;
-layer_destroy(layer_get_id("Compatibility_Colour"))
-layer_script_begin("Grid_Asset_layer", scr_pz_target_tilesurf);
-layer_script_end("Grid_Asset_layer", scr_pz_finish_tilesurf);
+obj_pz.bg_color = c_gray; //overwrite after create in each specific zone
+layer_destroy(layer_get_id("Compatibility_Colour"));
+layer_script_begin("Grid_Asset_Layer", scr_pz_target_tilesurf);
+layer_script_end("Grid_Asset_Layer", scr_pz_finish_tilesurf);
+
+//background
+bg = noone;
 
 //settings
 pz_complete_pause = 60;

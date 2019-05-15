@@ -35,6 +35,8 @@ for (var i = 0; i < instance_number(obj_zone); i++)
                 //entering a puzzle zone
                 else
                     {
+					with (obj_save_data) event_user(0); //save room
+					
                     teleport.into_pz = true;
                     teleport.cube = this_cube;
                     teleport.cube_lvl = this_cube.lvl;

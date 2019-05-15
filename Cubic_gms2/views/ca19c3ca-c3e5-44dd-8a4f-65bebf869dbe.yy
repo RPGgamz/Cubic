@@ -7,10 +7,13 @@
         "58f7e497-0d35-4304-9551-cfa6de19c635",
         "b5ceff26-d100-49ea-a273-568bf29c3bc7",
         "c874b155-993c-4e00-8db6-9afafe917ca8",
-        "747808ef-f906-4cf7-814d-48d8e92a4710"
+        "747808ef-f906-4cf7-814d-48d8e92a4710",
+        "60817095-20de-438b-a719-cee5487a03e4",
+        "ac05a1ad-849d-44ec-b012-4a7ddb4fd6b5",
+        "83e9f1f7-018d-4d19-bfab-86d3d3ddc4c4"
     ],
     "filterType": "GMObject",
-    "folderName": "puzzle zones",
+    "folderName": "pz",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

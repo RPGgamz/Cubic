@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "2f96dea2-e1f9-4c7c-bcf4-3df011312dce",
+            "Value": {
+                "id": "6f577710-db8f-4f8e-9796-1383a0346e99",
+                "resourcePath": "sprites\\spr_bg_diamond\\spr_bg_diamond.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fabf05a-f2c9-4f95-b41e-ea1e08952326",
             "Value": {
                 "id": "6fff9828-b82e-4410-8cad-55f05e9f191e",
@@ -2711,6 +2719,14 @@
             }
         },
         {
+            "Key": "60817095-20de-438b-a719-cee5487a03e4",
+            "Value": {
+                "id": "c5b6e08a-b12a-4d36-bdac-d8ddf1239704",
+                "resourcePath": "objects\\obj_bg_fair_sqare\\obj_bg_fair_sqare.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6132fbe0-0c94-462f-9d5e-c43bc9124fc7",
             "Value": {
                 "id": "f4b92fe9-bce5-4857-95bc-d131296b02e0",
@@ -3751,6 +3767,14 @@
             }
         },
         {
+            "Key": "824cd7bd-1a06-4c69-b6b3-8df036e09daf",
+            "Value": {
+                "id": "c8d4b570-f728-4c01-8cab-6c823b67dd26",
+                "resourcePath": "objects\\obj_depth_control\\obj_depth_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82703481-b621-49b1-83bf-53773ccc138a",
             "Value": {
                 "id": "9fedeac6-a18a-4dd4-8eb3-dc0987b53621",
@@ -3812,6 +3836,14 @@
                 "id": "971a1d03-24bd-479a-98d8-c2f831a58ebf",
                 "resourcePath": "rooms\\p_mirror_2\\p_mirror_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "83e9f1f7-018d-4d19-bfab-86d3d3ddc4c4",
+            "Value": {
+                "id": "46ca7663-0e7f-4c02-86ae-54ebec3d7900",
+                "resourcePath": "objects\\obj_bg_diamond\\obj_bg_diamond.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5012,6 +5044,14 @@
                 "id": "a184b32f-9cfd-494c-9f88-aa995812ac65",
                 "resourcePath": "views\\aba4cf2d-0939-4846-abb8-4d2221b938ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac05a1ad-849d-44ec-b012-4a7ddb4fd6b5",
+            "Value": {
+                "id": "df37b9b3-efaf-485f-a3f7-f0fb4b6ba7da",
+                "resourcePath": "objects\\obj_bg_diamond_city\\obj_bg_diamond_city.yy",
+                "resourceType": "GMObject"
             }
         },
         {

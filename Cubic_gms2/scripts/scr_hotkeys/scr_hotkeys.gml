@@ -13,13 +13,13 @@ if (state == scr_idle && (keyboard_check_pressed(ord("P")) || keyboard_check_pre
 }
 
 //"ENTER" going to the next room
-if (keyboard_check_pressed(vk_enter)) {
+if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_pz)) {
     if (room_exists(room_next(room))) scr_room_goto(room_next(room), 0, traveling_cube_lvl);
     else game_end();
 }
 
 //"TAB" going to the previous room
-if (keyboard_check_pressed(vk_tab)) {
+if (keyboard_check_pressed(vk_tab) && !instance_exists(obj_pz)) {
     if !(room == rm_game_intro) scr_room_goto(room_previous(room), 0, traveling_cube_lvl);
     else game_end();
 }
