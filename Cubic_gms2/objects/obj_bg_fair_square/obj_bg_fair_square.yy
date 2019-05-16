@@ -2,7 +2,7 @@
     "id": "60817095-20de-438b-a719-cee5487a03e4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_bg_fair_sqare",
+    "name": "obj_bg_fair_square",
     "eventList": [
         {
             "id": "57a4ef75-af5f-485e-9e7b-c120f34435d8",

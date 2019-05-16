@@ -31,15 +31,10 @@ x = lerp(x_start, x_end, progress);
 y = lerp(y_start, y_end, progress);
 
 //update view1 coordinates, since they are refferenced for mini-map in obj_pz
-__view_set( e__VW.XView, 1, x );
-__view_set( e__VW.YView, 1, y );
+obj_pz.x = x;
+obj_pz.y = y;
 
 //end
 if (timer == 1) {
     instance_destroy();
 }
-
-
-
-/* */
-/*  */

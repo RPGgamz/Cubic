@@ -28,7 +28,7 @@ else with (obj_camera_zone) draw_sprite(spr_pz_map_solved, 0, (x-sprite_width/2)
 gpu_set_blendenable(true);
 
 //*animated select*/ draw_sprite(spr_pz_map_highlight, 0, (view_xview[1]+(view_wview[1]-sprite_get_width(spr_camera_zone))/2)/map_rx, (view_yview[1]+(view_hview[1]-sprite_get_height(spr_camera_zone))/2)/map_ry);
-/*rounded select*/ with instance_nearest(__view_get( e__VW.XView, 1 )+__view_get( e__VW.WView, 1 )/2, __view_get( e__VW.YView, 1 )+__view_get( e__VW.HView, 1 )/2,obj_camera_zone) draw_sprite(spr_pz_map_current, 0, (x-sprite_width/2)/other.map_rx, (y-sprite_height/2)/other.map_ry);
+/*rounded select*/ with instance_nearest(x+__view_get( e__VW.WView, 1 )/2, x+__view_get( e__VW.HView, 1 )/2,obj_camera_zone) draw_sprite(spr_pz_map_current, 0, (x-sprite_width/2)/other.map_rx, (y-sprite_height/2)/other.map_ry);
 
 
 surface_reset_target();

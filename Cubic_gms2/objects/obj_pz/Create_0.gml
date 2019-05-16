@@ -19,19 +19,25 @@ with(obj_camera_zone)
     }
 pz[array_height_2d(pz)-1,1] = noone;
 
+//room surface and view
+surf_room = -1;
+__view_set( e__VW.Visible, 1, false );
+__view_set( e__VW.Visible, 2, true );
+__view_set( e__VW.WView, 2, room_width );
+__view_set( e__VW.HView, 2, room_height );
+
 //tiles to tilesurf
 tilesurf = -1;
-obj_pz.bg_color = c_gray; //overwrite after create in each specific zone
 layer_destroy(layer_get_id("Compatibility_Colour"));
 layer_script_begin("Grid_Asset_Layer", scr_pz_target_tilesurf);
 layer_script_end("Grid_Asset_Layer", scr_pz_finish_tilesurf);
 
 //background
-bg = noone;
+bg = noone; //object
+obj_pz.bg_color = c_gray; //overwrite after create for each specific zone
 
 //settings
 pz_complete_pause = 60;
-
 c_next = ord("E");
 c_prev = ord("Q");
 
