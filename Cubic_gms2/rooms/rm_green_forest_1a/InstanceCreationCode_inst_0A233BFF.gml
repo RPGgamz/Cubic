@@ -1,5 +1,5 @@
-target_room = rm_game_intro;
-target_door = 0;
+target_room = rm_intro_mountains_2;
+target_door = 1;
 
 ID = 0;
 dir = "up";
