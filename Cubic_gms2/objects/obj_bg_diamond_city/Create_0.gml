@@ -7,11 +7,18 @@ bg_hue = color_get_hue(obj_pz.bg_color);
 bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
 
-x_vel = 0.5;
-y_vel = 0.5;
+x_vel = 0.2;
+y_vel = 0.1;
+
+/*x_acc = 0;
+y_acc = 0;
+
+max_dacc = 0.0005;
+inv_acc = 0.01;*/
 
 //surf
 surf = -1;
+surf_scaler = 16;
 
 //create first diamonds
 var start_xoffset = -irandom(33);

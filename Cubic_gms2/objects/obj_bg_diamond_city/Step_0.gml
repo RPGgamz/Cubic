@@ -25,3 +25,25 @@ with (obj_bg_diamond) {
 		instance_destroy();
 	}
 }
+/*
+var dacc = random_range(-max_dacc, max_dacc);
+var angle = random(2*pi);
+
+x_acc += cos(angle)*dacc
+y_acc += sin(angle)*dacc
+x_vel += x_acc;
+y_vel += y_acc;
+
+var vel = sqrt(sqr(x_vel)+sqr(y_vel));
+if (random(1000) < 1) {
+	show_debug_message("---------------------------")
+	show_debug_message(string(x_acc) + ", " + string(y_acc))
+	x_acc = -x_vel*random(inv_acc);
+	y_acc = -y_vel*randominv_acc;
+	show_debug_message(string(x_acc) + ", " + string(y_acc))
+	/*angle = arccos(x_vel/vel);
+	x_vel = cos(angle)*max_vel;
+	y_vel = -sin(angle)*max_vel;
+	x_acc = 0;
+	y_acc = 0;*/
+}
