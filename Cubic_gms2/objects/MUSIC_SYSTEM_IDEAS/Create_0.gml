@@ -3,9 +3,12 @@
 c_sound[0] = -1; //"last" area type
 c_sound[1] = -1; //"last" song index
 c_sound[2] = -1; //"last" ambience index
-//global.sound[0] = -1; //"new" area type
-//global.sound[1] = -1; //"new" song index
-//global.sound[2] = -1; //"new" ambience index
+global.sound[0] = -1; //"new" area type
+global.sound[1] = -1; //"new" song index
+global.sound[2] = -1; //"new" ambience index
+
+fade_out[10] = 0;
+
 master_gain = 40/100;
 audio_master_gain(master_gain);
 

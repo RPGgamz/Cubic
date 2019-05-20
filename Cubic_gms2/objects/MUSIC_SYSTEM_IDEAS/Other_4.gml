@@ -13,6 +13,7 @@ if (global.sound[1] != c_sound[1] && c_sound[1] != -1) {
 		audio_sound_gain(fading_music, 0, fade_out_time)
 		fade_out[a] = fading_music;
 		a++; // MOVE ALLE FADE_OUT EN FREM? LETTERE STEP EVENT SÅ??
+		show_debug_message("fading old soundtrack");
 	}
 }
 if (global.sound[2] != c_sound[2] && c_sound[2] != -1) {
@@ -21,6 +22,7 @@ if (global.sound[2] != c_sound[2] && c_sound[2] != -1) {
 		audio_sound_gain(fading_ambience, 0, fade_out_time)
 		fade_out[a] = fading_ambience;
 		a++; // MOVE ALLE FADE_OUT EN FREM? LETTERE STEP EVENT SÅ??
+		show_debug_message("fading old ambience");
 	}
 }
 
@@ -33,6 +35,7 @@ if (global.sound[0] != c_sound[0] or global.sound[1] != c_sound[1] or global.sou
 			audio_sound_gain(soundtrack, 0, 0);
 			audio_sound_gain(soundtrack, vol_ost, fade_in_time);
 			audio_play_sound(soundtrack, 10, true);
+			show_debug_message("new soundtrack playing!");
 		}
 		c_sound[0] = global.sound[0];
 		c_sound[1] = global.sound[1];
@@ -43,6 +46,8 @@ if (global.sound[0] != c_sound[0] or global.sound[1] != c_sound[1] or global.sou
 			audio_sound_gain(soundtrack, 0, 0);
 			audio_sound_gain(soundtrack, vol_ost, fade_in_time);
 			audio_play_sound(soundtrack, 10, true);
+			show_debug_message("new soundtrack playing!");
+			
 		}
 		c_sound[1] = global.sound[1];
 	}
@@ -53,6 +58,7 @@ if (global.sound[0] != c_sound[0] or global.sound[1] != c_sound[1] or global.sou
 			audio_sound_gain(amb, 0, 0);
 			audio_sound_gain(amb, vol_amb, fade_in_time_amb);
 			audio_play_sound(amb, 10, true);
+			show_debug_message("new ambience playing!");
 		}
 		c_sound[2] = global.sound[2];
 	}
