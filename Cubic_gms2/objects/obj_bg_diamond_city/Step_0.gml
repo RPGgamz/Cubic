@@ -45,5 +45,5 @@ if (random(1000) < 1) {
 	x_vel = cos(angle)*max_vel;
 	y_vel = -sin(angle)*max_vel;
 	x_acc = 0;
-	y_acc = 0;*/
-}
+	y_acc = 0;
+}*/

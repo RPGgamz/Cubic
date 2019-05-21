@@ -9,7 +9,7 @@ global.sound[2] = -1; //"new" ambience index
 
 fade_out[10] = 0;
 
-master_gain = 40/100;
+master_gain = 48/100;
 audio_master_gain(master_gain);
 
 
