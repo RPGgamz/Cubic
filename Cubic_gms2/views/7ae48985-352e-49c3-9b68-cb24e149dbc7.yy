@@ -10,7 +10,8 @@
         "3e765a8a-f50a-4e33-9e2f-c660594e1eff",
         "74fa8aae-9090-493b-977b-007c5a1b68aa",
         "6a7afde9-a758-40e0-8f35-a0e73aae980d",
-        "ee331da9-270b-4aad-9a15-d68f5e11d102"
+        "ee331da9-270b-4aad-9a15-d68f5e11d102",
+        "6ae53fff-4c9a-4ee7-b2f8-5c2204dd4e54"
     ],
     "filterType": "GMObject",
     "folderName": "forest",

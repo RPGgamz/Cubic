@@ -1,6 +1,11 @@
+
+
 timer = -1;
 
-//sequences
+star0 = true;
+star1 = true;
+
+//sequences (do in order bottom to top)
 var a = 0;
 seq_0[a++] = "left";
 seq_0[a++] = "up";

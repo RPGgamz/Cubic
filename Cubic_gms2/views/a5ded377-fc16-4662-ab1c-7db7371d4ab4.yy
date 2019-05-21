@@ -22,7 +22,8 @@
         "3a204744-7bef-4a71-98d0-472b9013304c",
         "9846beea-a35f-4b07-b5b2-f34654b6b7c8",
         "2042c30d-a652-4471-8dba-77b2b530d33b",
-        "0d1fc4fe-7ee8-4f64-83b0-2e35eebfc7bd"
+        "0d1fc4fe-7ee8-4f64-83b0-2e35eebfc7bd",
+        "696db3db-79cd-4e1a-a755-45e61da1b15b"
     ],
     "filterType": "GMSprite",
     "folderName": "sprites for the editor",

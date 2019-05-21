@@ -1,2 +1,2 @@
-/// @description draw idle
-if (sprite_index == spr_star_vibration) draw_self();
+
+if (sprite_index != spr_star_absorb && sprite_index != -1) draw_self();

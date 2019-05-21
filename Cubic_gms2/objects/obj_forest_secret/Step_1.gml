@@ -1,3 +1,17 @@
+
+//get the star variables
+if (star0 == true && star1 == true) {
+	with (obj_star_emerge) {
+		if (sprite_index == spr_star_emerge) {
+			if (nr == 0) other.star0 = false;
+			if (nr == 1) other.star1 = false;
+		}
+	}
+}
+if (star0 == true && star1 == true) instance_destroy();
+
+
+//track moves
 if (!instance_exists(obj_control)) exit;
 
 var dir = "nothing important";
