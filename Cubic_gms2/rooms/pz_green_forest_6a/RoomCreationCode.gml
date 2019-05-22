@@ -1,5 +1,5 @@
 instance_create(0,0,obj_pz);
-obj_pz.bg = instance_create(0,0,obj_bg_diamond_city);
+obj_pz.bg = instance_create(0,0,obj_bg_fair_square);
 
 global.sound[0] = 0;
 global.sound[1] = 2;

@@ -4,7 +4,7 @@ repeat(9) {
 	var yy = 0;
 	repeat(9) {
 		//random birth
-		if (square_time[xx,yy] == -1 && irandom(300) == 1) square_time[xx,yy] = 0;
+		if (square_time[xx,yy] == -1 && irandom(square_birth_chance) == 1) square_time[xx,yy] = 0;
 		
 		//progress
 		if (square_time[xx,yy] != -1){

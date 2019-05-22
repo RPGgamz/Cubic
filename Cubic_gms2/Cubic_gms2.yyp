@@ -3287,6 +3287,14 @@
             }
         },
         {
+            "Key": "74938d22-d96a-491d-b6e3-eb17c956dd7d",
+            "Value": {
+                "id": "f46b5285-0638-4489-94c2-948e0185775e",
+                "resourcePath": "objects\\obj_bg_bar_code\\obj_bg_bar_code.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "74fa8aae-9090-493b-977b-007c5a1b68aa",
             "Value": {
                 "id": "61239a66-2311-4715-a7ad-3c49596fdd84",
@@ -5196,6 +5204,14 @@
                 "id": "24460334-40df-4c9e-82e4-d34467bae87b",
                 "resourcePath": "sprites\\spr_rpg_hp\\spr_rpg_hp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aed68060-6d1c-414d-ac49-75ead819836a",
+            "Value": {
+                "id": "fd98e66b-8efd-4d0c-85b3-8177118bda07",
+                "resourcePath": "objects\\obj_bg_barcodebar\\obj_bg_barcodebar.yy",
+                "resourceType": "GMObject"
             }
         },
         {

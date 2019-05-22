@@ -10,7 +10,9 @@
         "747808ef-f906-4cf7-814d-48d8e92a4710",
         "60817095-20de-438b-a719-cee5487a03e4",
         "ac05a1ad-849d-44ec-b012-4a7ddb4fd6b5",
-        "83e9f1f7-018d-4d19-bfab-86d3d3ddc4c4"
+        "83e9f1f7-018d-4d19-bfab-86d3d3ddc4c4",
+        "74938d22-d96a-491d-b6e3-eb17c956dd7d",
+        "aed68060-6d1c-414d-ac49-75ead819836a"
     ],
     "filterType": "GMObject",
     "folderName": "pz",

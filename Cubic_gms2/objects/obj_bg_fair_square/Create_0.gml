@@ -5,8 +5,9 @@ obj_pz.bg_color = make_color_rgb(38,50,34);
 bg_hue = color_get_hue(obj_pz.bg_color);
 bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
-square_lifetime = 60*5;
+square_lifetime = 60*15;
 max_value = 10;
+square_birth_chance = 1000; //chance is one in _ pr frame
 alarm[0] = 1;
 
 

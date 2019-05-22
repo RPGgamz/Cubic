@@ -7,14 +7,22 @@ bg_hue = color_get_hue(obj_pz.bg_color);
 bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
 
-x_vel = 0.2;
-y_vel = 0.1;
+max_spd = 0.3;
+spd_pr_dist = 1/500;
+t_spd = 1/400;
+change_chance = 1000; //prob is one in _ pr frame
 
-/*x_acc = 0;
-y_acc = 0;
+var start_tt_spd = random(max_spd);
+var start_tt_ang = random(2*pi);
+tt_x = cos(start_tt_ang)*start_tt_spd;
+tt_y = sin(start_tt_ang)*start_tt_spd;
 
-max_dacc = 0.0005;
-inv_acc = 0.01;*/
+t_x = 0;
+t_y = 0;
+x = 0;
+y = 0;
+
+
 
 //surf
 surf = -1;
