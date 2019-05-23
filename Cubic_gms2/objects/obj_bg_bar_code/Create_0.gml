@@ -12,9 +12,11 @@ max_width = 8;
 max_value = 25;
 spawn_chance = 1000;
 die_chance = 12000;
-max_speed = 1/60;
-fade_speed = 5/60
-bar_sense_range = 5;
+max_speed = 16/60;
+fade_speed = 5/60;
+max_sense_range = 80;
+max_brake_power = 0.04;
+max_acceleration = 0.01;
 
 //surf
 surf = -1;

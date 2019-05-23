@@ -1,23 +1,32 @@
 
-with (obj_bg_barcodebar) {
-	var dist = 1;
-	repeat(other.bar_sense_range*width) {
+var m = 0;
+repeat(instance_number(obj_bg_barcodebar)) {
+	var thisbar = instance_find(obj_bg_barcodebar, m)
+	var fullbreak = false;
+	var dist = 0;
+	repeat(thisbar.sense_range) {
+		
 		var n = 0;
-		var fullbreak = false;
 		repeat(instance_number(obj_bg_barcodebar)) {
 			var otherbar = instance_find(obj_bg_barcodebar, n);
-			if (otherbar == self) continue;
-			if (abs(x+vel*dist - otherbar.x) <= vel) {
-				fullbreak = true;
-				break;
+			if (otherbar != thisbar) {
+				if (abs(otherbar.x - (thisbar.x+thisbar.vel*dist)) <= abs(thisbar.vel)) {
+					fullbreak = true;
+					break;
+				}
 			}
 			n++;
 		}
-		if (fullbreak) break;
+		
 		dist++;
+		if (fullbreak) break;
 	}
 	
-	vel = vel*dist/(other.bar_sense_range*width)
+	thisbar.vel = thisbar.vel*thisbar.acc*power((dist/thisbar.sense_range), thisbar.brake_power);
+	
+	m++;
+}
+with (obj_bg_barcodebar) {
 	x += vel;
 	
 	if (random(other.die_chance) <= 1) fade_dir = -1;
