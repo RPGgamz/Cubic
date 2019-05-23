@@ -14,6 +14,7 @@ spawn_chance = 1000;
 die_chance = 12000;
 max_speed = 1/60;
 fade_speed = 5/60
+bar_sense_range = 5;
 
 //surf
 surf = -1;
