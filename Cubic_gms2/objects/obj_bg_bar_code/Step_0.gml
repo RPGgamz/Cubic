@@ -1,11 +1,13 @@
 
 with (obj_bg_barcodebar) {
-	//if (random(other.die_chance) <= 1) //die
+	if (random(other.die_chance) <= 1) fade_dir = -1;
+	y = min(y + fade_dir*obj_bg_bar_code.fade_speed, max_val)
+	x += vel;
+	if (y < 0) instance_destroy();
+	if (x+width < 0 || x > 120) {
+		with (other) event_user(0);
+		instance_destroy();
+	}
 }
 
-if (random(spawn_chance) <= 1) {
-	var bar = instance_create(random(120), 0, obj_bg_barcodebar);
-	bar.max_val = irandom(max_value-1)+1;
-	bar.width = irandom(max_width-1)+1;
-	bar.vel = random_range(-max_speed, max_speed);
-}
+if (random(spawn_chance) <= 1) event_user(0);
