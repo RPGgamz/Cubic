@@ -1,10 +1,10 @@
 
 var xx = 0;
-repeat(9) {
+repeat(10) {
 	var yy = 0;
 	repeat(9) {
 		//random birth
-		if (square_time[xx,yy] == -1 && irandom(square_birth_chance) == 1) square_time[xx,yy] = 0;
+		if (square_time[xx,yy] == -1 && random(square_birth_chance*power(point_distance(4.5,4,xx,yy), center_birth_concentration)) <= 1) square_time[xx,yy] = 0;
 		
 		//progress
 		if (square_time[xx,yy] != -1){
