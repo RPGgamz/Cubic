@@ -1,4 +1,3 @@
 instance_create(0,0,obj_pz);
-global.sound[0] = 0;
-global.sound[1] = 0;
-global.sound[2] = -1;
+obj_music_system.n_snd[0] =  1;
+obj_music_system.n_snd[1] = -1;

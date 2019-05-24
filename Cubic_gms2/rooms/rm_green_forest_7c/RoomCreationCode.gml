@@ -1,4 +1,3 @@
 instance_create(0, 0, obj_forest);
-global.sound[0] = 2;
-global.sound[1] = 0;
-global.sound[2] = 0;
+obj_music_system.n_snd[0] = 5;
+obj_music_system.n_snd[1] = 0;

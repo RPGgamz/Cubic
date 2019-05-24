@@ -13,7 +13,7 @@
     "option_windows_display_name": "CUBIC",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "${project_name}",
-    "option_windows_icon": "${options_dir}\\windows\\runner_icon.ico",
+    "option_windows_icon": "${options_dir}\\windows\\icons\\icon.ico",
     "option_windows_installer_finished": "${options_dir}\\windows\\Runner_finish.bmp",
     "option_windows_installer_header": "${options_dir}\\windows\\Runner_header.bmp",
     "option_windows_interpolate_pixels": false,
@@ -30,8 +30,8 @@
     "option_windows_use_splash": false,
     "option_windows_version": {
         "build": 0,
-        "major": 1,
-        "minor": 0,
+        "major": 0,
+        "minor": 1,
         "revision": 0
     },
     "option_windows_vsync": false

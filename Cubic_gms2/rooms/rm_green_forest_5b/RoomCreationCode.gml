@@ -1,3 +1,2 @@
-global.sound[0] = -1;
-global.sound[1] = -1;
-global.sound[2] = -1;
+obj_music_system.n_snd[0] = -1;
+obj_music_system.n_snd[1] = -1;

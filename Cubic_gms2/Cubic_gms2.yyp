@@ -5978,7 +5978,7 @@
             "Key": "c6bfa074-13c8-4891-9d7a-662b559525a0",
             "Value": {
                 "id": "d3b0ff5d-1524-46a1-bbf3-72988a13e5aa",
-                "resourcePath": "objects\\MUSIC_SYSTEM_IDEAS\\MUSIC_SYSTEM_IDEAS.yy",
+                "resourcePath": "objects\\obj_music_system\\obj_music_system.yy",
                 "resourceType": "GMObject"
             }
         },
