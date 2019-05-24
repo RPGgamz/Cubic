@@ -3,6 +3,8 @@ room_persistent = false;
 
 if (instance_exists(obj_rpg_control)) exit;
 
+with(obj_save_data) event_user(1);
+
 var new_cube = noone;
 
 //first room

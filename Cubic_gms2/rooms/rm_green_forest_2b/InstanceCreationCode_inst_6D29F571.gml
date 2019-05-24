@@ -4,5 +4,6 @@ target_door = 0;
 ID = 1;
 dir = "up";
 
+/*
 type = "forest";
 transition_dir = "down";

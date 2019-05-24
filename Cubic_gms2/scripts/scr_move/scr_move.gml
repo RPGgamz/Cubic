@@ -56,7 +56,7 @@ for (var i = 0; i < ds_list_size(cubes)-1; i++) {
             frozen = false;
             sprite_index = spr_cube;
             image_index = lvl;
-            depth = 0;
+            depth = object_get_depth(obj_cube);
             combine_an = noone;
         }
         anycubecombined = true;

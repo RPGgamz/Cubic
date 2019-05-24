@@ -6,6 +6,9 @@ if (instance_exists(obj_rpg_control)) exit;
 //determine view_zoom. The default is based on room size, other zooms can be set as case sta
 if (!instance_exists(obj_pz)) switch (room) {
 	//case [Room name]: view_zoom = [val]; break;
+	case rm_green_forest_1a: 
+		view_zoom = 1;
+		break;
 	default: view_zoom = max(room_width div 120, room_height div 108);
 }
 
