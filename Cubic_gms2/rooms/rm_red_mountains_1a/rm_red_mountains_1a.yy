@@ -2,7 +2,7 @@
 {
     "name": "rm_red_mountains_1a",
     "id": "8f75e533-bdcc-4ad8-be1d-8c3dd123e61a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

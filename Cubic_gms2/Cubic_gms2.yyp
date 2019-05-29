@@ -6623,6 +6623,14 @@
             }
         },
         {
+            "Key": "dde93676-1bae-4ce9-8faf-5dcb7e4c4615",
+            "Value": {
+                "id": "e985b2b3-7ede-4537-8681-1f4a3c890405",
+                "resourcePath": "objects\\obj_redmts_camera\\obj_redmts_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ddf84648-3bec-4945-b872-1c38a56afb55",
             "Value": {
                 "id": "470efd31-5cb8-4bcc-92b6-4bc39f238b9a",

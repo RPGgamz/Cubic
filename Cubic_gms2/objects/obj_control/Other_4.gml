@@ -65,12 +65,20 @@ else if (target_door != -1) {
 
 
 //camera position
-if instance_exists(new_cube) {
+if instance_exists(new_cube) repeat (1) {
 	if (instance_exists(obj_forest)) {
 		var fc = instance_create(new_cube.x, new_cube.y, obj_forest_camera);
 		fc.player_cube = new_cube;
-	} else if (!instance_exists(obj_pz) && !instance_exists(obj_rpg_control)) {
+		break;
+	}
+	/*if (instance_exists(obj_redmts)) {
+		var fc = instance_create(new_cube.x, new_cube.y, obj_redmts_camera);
+		fc.player_cube = new_cube;
+		break;
+	}*/
+	if (!instance_exists(obj_pz) && !instance_exists(obj_rpg_control)) {
 		var cm = instance_create(new_cube.x, new_cube.y, obj_camera);
 		cm.player_cube = new_cube;
+		break;
 	}
 }
