@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "0670e91c-30c8-4949-9357-c44c5b1f1b20",
+            "Value": {
+                "id": "7431d546-7183-4c6d-967b-9102b6a6a3c4",
+                "resourcePath": "sprites\\bg_red_mountains_1a3\\bg_red_mountains_1a3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0759ee08-ae83-412f-9785-d6f730f3c0d3",
             "Value": {
                 "id": "8bf12d8e-9d9f-4a98-8475-ab218dee2357",
@@ -252,6 +260,14 @@
                 "id": "c5ef5068-702f-4fa3-ac1a-681226bf9d25",
                 "resourcePath": "scripts\\scr_rpg_enemy1_updatedir\\scr_rpg_enemy1_updatedir.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "09efb3b2-fa55-4cbe-b2de-cfc08774b0f8",
+            "Value": {
+                "id": "f3351a84-d06e-48d6-bdb7-4156519c81cc",
+                "resourcePath": "sprites\\bg_red_mountains_1a2\\bg_red_mountains_1a2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7603,6 +7619,14 @@
             "Value": {
                 "id": "c99946be-30fb-4ee5-ae67-36bc3a488dfa",
                 "resourcePath": "sprites\\bg_red_mountains_4e\\bg_red_mountains_4e.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fee98892-e874-43dd-b73f-c829ccfd4a92",
+            "Value": {
+                "id": "0f7b6af4-d3b0-4663-b6bd-8fa1d6f70ba1",
+                "resourcePath": "sprites\\bg_red_mountains_1a1\\bg_red_mountains_1a1.yy",
                 "resourceType": "GMSprite"
             }
         },

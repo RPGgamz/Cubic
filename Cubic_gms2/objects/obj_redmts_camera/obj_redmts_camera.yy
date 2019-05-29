@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_redmts_camera",
     "eventList": [
-        
+        {
+            "id": "993a33aa-d7a7-4288-87c6-57bcb66de130",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "dde93676-1bae-4ce9-8faf-5dcb7e4c4615"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
