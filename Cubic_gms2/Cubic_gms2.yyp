@@ -5535,6 +5535,14 @@
             }
         },
         {
+            "Key": "b8614ddf-5058-45aa-8f88-9b4ca08d8e3f",
+            "Value": {
+                "id": "b28ae284-f745-4053-91f4-e0bd86c6497b",
+                "resourcePath": "rooms\\pz_red_mountains_puzzle_2\\pz_red_mountains_puzzle_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b872ba11-5fe2-4bd2-b71a-94db77de13e9",
             "Value": {
                 "id": "4a3ccd45-194f-4494-a14b-7524d4e1c387",
