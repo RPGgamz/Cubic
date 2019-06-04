@@ -9,7 +9,8 @@
         "4bb84d3d-d6b8-44fc-b2c4-ef80f1cc06b5",
         "43198687-9c5e-4712-957b-3acf8e7cbf27",
         "e49c3c4c-2bc8-4ad6-b2ea-2957f22170a3",
-        "c09be8c4-e00a-46f4-8fab-3da4bab27eac"
+        "c09be8c4-e00a-46f4-8fab-3da4bab27eac",
+        "a2bd83cc-9cf2-4ea5-8e1f-6ae71f91ccc9"
     ],
     "filterType": "user",
     "folderName": "Puzzle Edit View",
