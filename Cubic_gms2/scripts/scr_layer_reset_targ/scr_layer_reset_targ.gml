@@ -1,0 +1,1 @@
+if (event_type == ev_draw && event_number == 0) surface_reset_target();

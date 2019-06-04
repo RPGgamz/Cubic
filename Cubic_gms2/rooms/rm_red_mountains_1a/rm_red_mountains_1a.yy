@@ -65,7 +65,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "parallax_1",
+            "name": "parallax_0",
             "id": "e44116c2-fb19-4d39-8843-8ea8eadcdd6b",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -100,7 +100,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "parallax_2",
+            "name": "parallax_1",
             "id": "f48cd859-42b5-4336-ab2e-fbebed59ee0d",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -135,7 +135,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "parallax_3",
+            "name": "parallax_2",
             "id": "d020951d-711d-4cec-8cee-ba510e2391d5",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -174,7 +174,7 @@
             "id": "5891eaf2-4fbf-42b7-8cc6-b245b249bca8",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4280690221 },
+            "colour": { "Value": 4284556845 },
             "depth": 400,
             "grid_x": 32,
             "grid_y": 32,

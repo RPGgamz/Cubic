@@ -14,13 +14,17 @@ var i = 0;
 par_ls = [];
 while(true) {
 	var this_layer = layer_get_id("parallax_" + string(i));
-	if layer_exists(this_layer) par_ls[i] = this_layer
-	else break;
+	if layer_exists(this_layer) {
+		par_ls[i] = this_layer
+		//layer_script_begin(this_layer, scr_layer_targ_surf);
+		//layer_script_end(this_layer, scr_layer_reset_targ);
+	} else break;
 	i++;
 }
+par_ls_surfs = array_create(array_length_1d(par_ls));
 
 //settings
-border_hardness = 1;
+border_hardness = 0.9;
 speed_pr_dist = 0.08; //camera speed (pixels/sec) is proportional by this number to distance to target (pixels)
 
 //set start pos
