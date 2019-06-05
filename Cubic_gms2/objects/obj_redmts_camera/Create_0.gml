@@ -16,8 +16,8 @@ while(true) {
 	var this_layer = layer_get_id("parallax_" + string(i));
 	if layer_exists(this_layer) {
 		par_ls[i] = this_layer
-		//layer_script_begin(this_layer, scr_layer_targ_surf);
-		//layer_script_end(this_layer, scr_layer_reset_targ);
+		layer_script_begin(this_layer, scr_layer_targ_surf);
+		layer_script_end(this_layer, scr_layer_reset_targ);
 	} else break;
 	i++;
 }
