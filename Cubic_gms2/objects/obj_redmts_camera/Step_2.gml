@@ -7,4 +7,3 @@ repeat(array_length_1d(par_ls)) {
 	}
 	i++;
 }
-layer_counter = 0; //refferenced in the layer begin script

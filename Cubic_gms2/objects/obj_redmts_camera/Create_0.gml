@@ -24,13 +24,9 @@ while(true) {
 par_ls_surfs = array_create(array_length_1d(par_ls));
 
 //settings
-border_hardness = 0.9;
+x_border_hardness = 0.9;
+y_border_hardness = 0.9;
 speed_pr_dist = 0.08; //camera speed (pixels/sec) is proportional by this number to distance to target (pixels)
 
 //set start pos
-if			(x > room_width - w_screen)		x = lerp(x, room_width - w_screen, border_hardness);
-else if		(x < w_screen)					x = lerp(x, w_screen, border_hardness);
-if			(y > room_height - h_screen)	y = lerp(y, room_height - h_screen, border_hardness);
-else if		(y < h_screen)					y = lerp(y, h_screen, border_hardness);
-targ_x = x;
-targ_y = y;
+event_user(0);

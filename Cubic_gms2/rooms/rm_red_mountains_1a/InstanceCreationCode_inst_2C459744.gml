@@ -1,0 +1,1 @@
+x_border_hardness = 0.97;
