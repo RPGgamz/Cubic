@@ -1015,6 +1015,14 @@
             }
         },
         {
+            "Key": "224a6217-2cc4-4493-9895-0e904212462d",
+            "Value": {
+                "id": "7052a36d-42a5-4d73-a050-14ca7e49fbc0",
+                "resourcePath": "rooms\\rm_intro_mountains_2\\rm_intro_mountains_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "22c56054-9e4e-49ab-904e-a662197f49c9",
             "Value": {
                 "id": "50e5b967-3a37-4126-ab24-0638730e00b4",
@@ -3426,7 +3434,7 @@
             "Key": "75b92ec6-c35f-4728-b047-ca3e0798f46b",
             "Value": {
                 "id": "201838ca-f84c-421f-9dbd-b8813b50d91a",
-                "resourcePath": "rooms\\rm_intro_mountains_3\\rm_intro_mountains_3.yy",
+                "resourcePath": "rooms\\rm_intro_mountains_original\\rm_intro_mountains_original.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4346,7 +4354,7 @@
             "Key": "8fd0b517-8c01-412a-9a1a-17f76d13ae36",
             "Value": {
                 "id": "5298f46f-f4df-48df-8b8b-818bb1244057",
-                "resourcePath": "sprites\\spr_intro_mountains_2\\spr_intro_mountains_2.yy",
+                "resourcePath": "sprites\\spr_intro_mountains_3\\spr_intro_mountains_3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4778,7 +4786,7 @@
             "Key": "9e5f2fe7-6b45-480b-880b-17d9defabb12",
             "Value": {
                 "id": "bad58103-2e30-411a-a716-fe7f30bc811a",
-                "resourcePath": "rooms\\rm_intro_mountains_2\\rm_intro_mountains_2.yy",
+                "resourcePath": "rooms\\rm_intro_mountains_3\\rm_intro_mountains_3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -5043,6 +5051,14 @@
             "Value": {
                 "id": "acbe6e49-3120-4618-adaa-732e44b97684",
                 "resourcePath": "sprites\\bg_red_mountains_4eb\\bg_red_mountains_4eb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8839f7a-51f8-4acb-aac7-1360c10cb3e8",
+            "Value": {
+                "id": "f38daa3e-f772-48ad-9c2b-6e6f1d75426d",
+                "resourcePath": "sprites\\spr_intro_mountains_2\\spr_intro_mountains_2.yy",
                 "resourceType": "GMSprite"
             }
         },
