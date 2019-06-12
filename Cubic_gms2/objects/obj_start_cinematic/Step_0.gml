@@ -5,6 +5,7 @@ if (!start) {
 	if (keyboard_check_pressed(vk_space)) {
 		start = true;
 		sprite_index = spr_start_cutscene_2;
+		image_index = 0;
 		fade_out = true;
 	} 
 } else {
@@ -24,4 +25,9 @@ if (fade_out) {
 		title_text_alpha = 0;
 		fade_out = false;
 	}	
+}
+
+
+if (sprite_index == spr_start_cutscene_3 && image_index >= image_number-1) {
+	event_user(0);
 }
