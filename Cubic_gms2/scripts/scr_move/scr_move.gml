@@ -16,8 +16,11 @@ for (var i = 0; i < instance_number(obj_door); i++) {
 			//transitions code
             if (this_door.type == "normal") {
 				
-				if (room_exists(this_door.target_room)) scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
-                exit;
+				if (room_exists(this_door.target_room)) {
+					if (this_door.image_xscale + this_door.image_yscale != 2) scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl, this_cube.x-this_door.x, this_cube.y-this_door.y);
+					else scr_room_goto(this_door.target_room, this_door.target_door, this_cube.lvl);
+                }
+				exit;
             } else if (this_door.type == "forest") {
                 target_door = this_door.target_door;
                 traveling_cube_lvl = this_cube.lvl;

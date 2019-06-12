@@ -52,6 +52,10 @@ else if (target_door != -1) {
         new_cube = instance_create(entrance.x, entrance.y, obj_cube);
         new_cube.lvl = traveling_cube_lvl;
         new_cube.image_index = new_cube.lvl;
+		if (entrance.image_xscale + entrance.sprite_height != 2) {
+			new_cube.x += target_dx;
+			new_cube.y += target_dy;
+		}
         
         //move state, men kun for den nye cube. 
         slide_dir = entrance.dir;

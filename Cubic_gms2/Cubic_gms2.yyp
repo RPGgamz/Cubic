@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "0670e91c-30c8-4949-9357-c44c5b1f1b20",
-            "Value": {
-                "id": "7431d546-7183-4c6d-967b-9102b6a6a3c4",
-                "resourcePath": "sprites\\bg_red_mountains_1a3\\bg_red_mountains_1a3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0759ee08-ae83-412f-9785-d6f730f3c0d3",
             "Value": {
                 "id": "8bf12d8e-9d9f-4a98-8475-ab218dee2357",
@@ -2087,6 +2079,14 @@
             }
         },
         {
+            "Key": "442badc2-e29e-4950-b9a0-e58655652844",
+            "Value": {
+                "id": "e1323cb3-c660-4f06-a0c9-d7800abe0b0c",
+                "resourcePath": "views\\442badc2-e29e-4950-b9a0-e58655652844.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "444a1b43-5202-41d5-a89f-c530103d74bd",
             "Value": {
                 "id": "cd0954cb-85b0-4564-bbb3-4c163ba07184",
@@ -2676,6 +2676,14 @@
                 "id": "acfb7c04-8592-4169-8163-ac036e9a64c0",
                 "resourcePath": "sounds\\snd_ost_entering_green\\snd_ost_entering_green.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5a4a1153-c104-4f19-bc53-6175abd7a724",
+            "Value": {
+                "id": "9a153290-6a63-4fc0-b113-522a81b3b5c8",
+                "resourcePath": "objects\\obj_redmts_mist_control\\obj_redmts_mist_control.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4831,6 +4839,14 @@
             }
         },
         {
+            "Key": "a01b4c2d-2110-4df1-b3c7-5b2ecf2fe033",
+            "Value": {
+                "id": "88663637-8c6f-40af-8cd7-300adc08b3f7",
+                "resourcePath": "objects\\obj_redmts_mist\\obj_redmts_mist.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a03ee2a8-72fa-4b8a-86b7-33c004fdc0b3",
             "Value": {
                 "id": "7feb5ccb-74f3-4e41-8850-1595edc635a7",
@@ -5428,6 +5444,14 @@
                 "id": "789973e9-7670-4a40-b77a-13f5cb335208",
                 "resourcePath": "rooms\\rm_red_mountains_1e\\rm_red_mountains_1e.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b3c46ce8-2ca8-4d6a-abc8-941852e244c4",
+            "Value": {
+                "id": "622277a1-75ae-4b89-9a29-f5f689abf4a5",
+                "resourcePath": "sprites\\spr_redmts_mist\\spr_redmts_mist.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
