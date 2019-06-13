@@ -1,19 +1,13 @@
 /// @description start unlocking
 //wait till fade is over, then start the animation
 if (sprite_index != -1) {
-    if (!instance_exists(obj_fade)) {
-        switch (dir) {
-            case "up":
+    if (!instance_exists(obj_fade) && round(image_index) == 1) {
+        switch (sprite_index) {
+            case spr_wall_locked_h:
                 image_angle = 0;
                 break;
-            case "left":
+            case spr_wall_locked_v:
                 image_angle = 90;
-                break;
-            case "down":
-                image_angle = 180;
-                break;
-            case "right":
-                image_angle = 270;
                 break;
         }
             

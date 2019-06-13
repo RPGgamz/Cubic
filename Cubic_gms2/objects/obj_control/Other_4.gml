@@ -36,7 +36,7 @@ else if (target_door != -1) {
                 for (var j = 0; j < instance_number(obj_locked_wall); j++) {
                     var this_wall = instance_find(obj_locked_wall, j);
                     if (this_zone.target_locked_wall == this_wall.ID && ds_map_find_value(obj_save_data.pzones, this_zone.target_room) == -1) {
-                        this_wall.alarm[0] = 1;
+                        this_wall.alarm[0] = 60;
                         state = scr_nothing;
 						with (obj_save_data) event_user(0);
                         break;

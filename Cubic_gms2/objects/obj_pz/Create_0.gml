@@ -33,7 +33,7 @@ layer_script_begin("Grid_Asset_Layer", scr_pz_target_tilesurf);
 layer_script_end("Grid_Asset_Layer", scr_pz_finish_tilesurf);
 
 //background
-bg = instance_create(0, 0, choose(obj_bg_bar_code/*, obj_bg_diamond_city, obj_bg_fair_square*/))
+bg = instance_create(0, 0, choose(obj_bg_bar_code, obj_bg_diamond_city, obj_bg_fair_square))
 
 //settings
 pz_complete_pause = 60;

@@ -13,6 +13,7 @@ for (var i = instance_number(obj_locked_wall)-1; i>-1; i--) {
     if (savedvalue == -1) with(this_door) {
         sprite_index = -1;
         image_speed = 0;
+		event_user(0);
     } else if (savedvalue == 0) with(this_door) {
         alarm[0] = 30;
     }

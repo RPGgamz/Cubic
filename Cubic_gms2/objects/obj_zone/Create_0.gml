@@ -22,3 +22,4 @@ idle_ready_image_speed = 18/60;
 teleport_image_speed = 15/60;
 idle_ready_teleport = "idle";
 sprite_index = -1;
+completed = false;
