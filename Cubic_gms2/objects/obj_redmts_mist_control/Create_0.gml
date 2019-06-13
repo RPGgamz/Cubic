@@ -3,7 +3,7 @@ mist_width = sprite_get_width(spr_redmts_mist);
 
 cluster_chance = 1/2;
 cluster_yvar = 3;
-cluster_xvar = 5;
+cluster_xvar = 10;
 
 min_dx = 0.04;
 max_extra_dx = 0.06
@@ -32,6 +32,6 @@ mist_creation_xoffset = -(min_dx + max_extra_dx/2)/max_dz;
 
 held_mists = 0;
 
-/*/perfectionism
+/*/perfectionism =]
 n = 30;
 alarm[0] = 60*30;
