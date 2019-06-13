@@ -1,16 +1,18 @@
-
+var performance_boost = 2;
+var count = 0;
 var m = 0;
 repeat(instance_number(obj_bg_barcodebar)) {
 	var thisbar = instance_find(obj_bg_barcodebar, m)
 	var fullbreak = false;
 	var dist = 0;
-	repeat(thisbar.sense_range) {
+	repeat(thisbar.sense_range/performance_boost) {
 		
 		var n = 0;
 		repeat(instance_number(obj_bg_barcodebar)) {
 			var otherbar = instance_find(obj_bg_barcodebar, n);
 			if (otherbar != thisbar) {
-				if (abs(otherbar.x - (thisbar.x+thisbar.vel*dist)) <= abs(thisbar.vel)) {
+				count++;
+				if (abs(otherbar.x - (thisbar.x+thisbar.vel*dist*performance_boost)) <= abs(thisbar.vel*performance_boost)) {
 					fullbreak = true;
 					break;
 				}
@@ -22,10 +24,11 @@ repeat(instance_number(obj_bg_barcodebar)) {
 		if (fullbreak) break;
 	}
 	
-	thisbar.vel = thisbar.vel*thisbar.acc*power((dist/thisbar.sense_range), thisbar.brake_power);
+	thisbar.vel = thisbar.vel*thisbar.acc*power((dist*performance_boost/thisbar.sense_range), thisbar.brake_power);
 	
 	m++;
 }
+show_debug_message(count)
 with (obj_bg_barcodebar) {
 	x += vel;
 	

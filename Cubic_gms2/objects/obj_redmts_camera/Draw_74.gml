@@ -22,8 +22,8 @@ if (surface_exists(surf_room)) {
 }
 
 with(obj_redmts_mist) {
-	var layer_speed = 1+0.6*lay;
+	var layer_speed = 1+0.6*z;
 	var xl = -layer_speed*(other.x - other.w_screen) + other.bb;
 	var yl = -layer_speed*(other.y - other.h_screen);
-	draw_sprite_ext(spr_redmts_mist, imagenr, xl+x, yl+y, 1+0.7*lay, 1+0.7*lay, 0, c_white, 1)
+	draw_sprite_ext(spr_redmts_mist, imagenr, xl+x, yl+y, 1+0.7*z, 1+0.7*z, 0, c_white, 1-abs(2*z-1))
 }

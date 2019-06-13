@@ -10,11 +10,11 @@ alarm[0] = 1;
 //settings
 max_width = 8;
 max_value = 25;
-spawn_chance = 1000;
-die_chance = 12000;
+spawn_chance = 500; //one in x spawn pr frame
+die_chance = 6000; //one in x chance for each bar pr frame
 max_speed = 16/60;
 fade_speed = 5/60;
-max_sense_range = 80;
+max_sense_range = 40;
 max_brake_power = 0.04;
 max_acceleration = 0.01;
 
