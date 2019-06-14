@@ -1,5 +1,4 @@
 var performance_boost = 2;
-var count = 0;
 var m = 0;
 repeat(instance_number(obj_bg_barcodebar)) {
 	var thisbar = instance_find(obj_bg_barcodebar, m)
@@ -11,7 +10,6 @@ repeat(instance_number(obj_bg_barcodebar)) {
 		repeat(instance_number(obj_bg_barcodebar)) {
 			var otherbar = instance_find(obj_bg_barcodebar, n);
 			if (otherbar != thisbar) {
-				count++;
 				if (abs(otherbar.x - (thisbar.x+thisbar.vel*dist*performance_boost)) <= abs(thisbar.vel*performance_boost)) {
 					fullbreak = true;
 					break;
@@ -28,7 +26,6 @@ repeat(instance_number(obj_bg_barcodebar)) {
 	
 	m++;
 }
-show_debug_message(count)
 with (obj_bg_barcodebar) {
 	x += vel;
 	

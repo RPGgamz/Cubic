@@ -632,8 +632,8 @@
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 1,
+    "gridY": 1,
     "height": 10,
     "layers": [
         {
@@ -650,8 +650,8 @@
     ],
     "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 60,
-    "playbackSpeedType": 0,
+    "playbackSpeed": 1,
+    "playbackSpeedType": 1,
     "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,

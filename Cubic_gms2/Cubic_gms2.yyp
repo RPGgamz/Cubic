@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "13d4adaf-707d-4bff-9322-6a72d8ff9ac5",
+            "Value": {
+                "id": "5c15ee19-d977-4215-aeaa-96f2f1dd5532",
+                "resourcePath": "rooms\\pz_red_mountains_puzzle_anton\\pz_red_mountains_puzzle_anton.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "13f45bed-0d6b-4701-8479-96215746a653",
             "Value": {
                 "id": "e45f528e-c001-4f20-bac2-f7131924e40f",
@@ -2402,7 +2410,7 @@
             "Key": "4e232323-e69e-4a9f-bd02-f91c7c843d83",
             "Value": {
                 "id": "12208c25-b439-4bf6-bfa6-f4b6e9dd6149",
-                "resourcePath": "sprites\\spr_chaos_particle\\spr_chaos_particle.yy",
+                "resourcePath": "sprites\\spr_pz_particle\\spr_pz_particle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3908,6 +3916,14 @@
                 "id": "369f083c-7855-44aa-94c0-8e9655e7185f",
                 "resourcePath": "sprites\\spr_wall_h_2\\spr_wall_h_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82438e71-d8c8-4857-a6cc-ef3251afb0fa",
+            "Value": {
+                "id": "ac12bd8c-783e-4c1e-bb5b-ad6dc545b408",
+                "resourcePath": "objects\\obj_zone_particle\\obj_zone_particle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
