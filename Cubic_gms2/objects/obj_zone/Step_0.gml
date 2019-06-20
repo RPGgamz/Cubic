@@ -10,9 +10,10 @@ if (idle_ready_teleport != "teleport") {
 }
 
 //make particle
-if (random(1) <= 1/90) {
+if (object_index != obj_zone_exit && !completed && random(1) <= 1/90) {
+	pp = -100;
 	if (idle_ready_teleport = "idle") {
-		var pp = irandom_range(-18,59);
+		pp = irandom_range(-18,59);
 		if (pp < 0) pp = -pp-1
 		repeat(1) {
 			if (pp <= 7 || pp > 51) {
@@ -47,7 +48,7 @@ if (random(1) <= 1/90) {
 		}
 	}
 	else if (idle_ready_teleport = "ready") {
-		var pp = irandom_range(-22,75);
+		pp = irandom_range(-22,75);
 		if (pp < 0) pp = -pp-1
 		repeat(1) {
 			if (pp <= 9 || pp > 65) {
@@ -55,7 +56,7 @@ if (random(1) <= 1/90) {
 				break;
 			}
 			if (pp <= 21 ||pp > 53) {
-				px = (pp mod 54)-9-6;
+				px = (pp mod 45)-9-6;
 				break;
 			}
 			px = choose(-6, -5, 4, 5)
@@ -81,5 +82,5 @@ if (random(1) <= 1/90) {
 			break;
 		}
 	}
-	instance_create(x+px, y+py, obj_zone_particle);
+	if (pp != -200) instance_create(x+px, y+py, obj_zone_particle);
 }

@@ -4,14 +4,12 @@ if (sprite_index != -1) {
     if (!instance_exists(obj_fade) && round(image_index) == 1) {
         switch (sprite_index) {
             case spr_wall_locked_h:
-                image_angle = 0;
+				sprite_index = spr_wall_unlock_h;
                 break;
             case spr_wall_locked_v:
-                image_angle = 90;
+				sprite_index = spr_wall_unlock_v;
                 break;
         }
-            
-        sprite_index = spr_wall_unlock_h;
         image_speed = unlock_spd;
         
         audio_sound_pitch(snd_unlock, 1.5);

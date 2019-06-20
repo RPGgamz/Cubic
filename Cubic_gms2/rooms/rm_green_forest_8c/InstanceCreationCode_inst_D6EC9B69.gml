@@ -1,4 +1,4 @@
-target_room = rm_red_mountains_1a;
+target_room = rm_red_mts_1a;
 target_door = 0;
 
 ID = 1;

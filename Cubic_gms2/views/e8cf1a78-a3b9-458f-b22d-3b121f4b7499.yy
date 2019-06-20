@@ -21,7 +21,9 @@
         "58b71510-fcbe-4154-8302-1455fa04c64a",
         "915ed005-c5f5-4590-9237-57b3f6c4e426",
         "e1eb31a7-805e-4c43-8a3b-c835b11d7ca7",
-        "924dc8bb-def3-48bd-9f01-e30dd00352ab"
+        "95342ad3-4d4e-410f-8fa6-4d20d0ae93b2",
+        "924dc8bb-def3-48bd-9f01-e30dd00352ab",
+        "118b9dd9-773e-4004-8258-6d77add457e5"
     ],
     "filterType": "GMSprite",
     "folderName": "walls",

@@ -38,6 +38,7 @@ else if (target_door != -1) {
                     if (this_zone.target_locked_wall == this_wall.ID && ds_map_find_value(obj_save_data.pzones, this_zone.target_room) == -1) {
                         this_wall.alarm[0] = 60;
                         state = scr_nothing;
+						this_zone.completed = true;
 						with (obj_save_data) event_user(0);
                         break;
                     }
