@@ -13,7 +13,9 @@
         "71f4097b-e110-4039-aa9f-c2ecd7d4c0bd",
         "8a3140cc-7771-4b76-ac9d-502e7b9758c1",
         "4dd19b2e-2d04-44ff-8b95-64900d314b6e",
-        "ab767010-f4a6-4378-b86d-5f04096a56fd"
+        "ab767010-f4a6-4378-b86d-5f04096a56fd",
+        "7da7046a-c607-4887-aa19-f918d4d841cd",
+        "02371ad9-e83c-415e-a57c-cdf93b1c56f4"
     ],
     "filterType": "GMObject",
     "folderName": "other level objects",

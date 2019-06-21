@@ -1,4 +1,4 @@
 
 event_inherited();
 
-sprite_index = spr_item_map;
+sprite_index = spr_item_key;

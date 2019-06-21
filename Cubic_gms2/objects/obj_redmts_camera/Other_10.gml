@@ -1,8 +1,7 @@
-/// @description set start pos
+/// @description set targ pos
 
-if			(x > room_width - w_screen)		x = lerp(x, room_width - w_screen, x_border_hardness);
-else if		(x < w_screen)					x = lerp(x, w_screen, x_border_hardness);
-if			(y > room_height - h_screen)	y = lerp(y, room_height - h_screen, y_border_hardness);
-else if		(y < h_screen)					y = lerp(y, h_screen, y_border_hardness);
-targ_x = x;
-targ_y = y;
+if		(targ_x > right_bor - w_screen)		targ_x = lerp(targ_x, right_bor - w_screen, right_border_hardness);
+else if	(targ_x < left_bor + w_screen)		targ_x = lerp(targ_x, left_bor + w_screen, left_border_hardness);
+if		(targ_y > bottom_bor - h_screen)	targ_y = lerp(targ_y, bottom_bor - h_screen, bottom_border_hardness);
+else if	(targ_y < top_bor  + h_screen)		targ_y = lerp(targ_y, top_bor + h_screen, top_border_hardness);
+

@@ -47,7 +47,7 @@
         "1906b57e-1a94-454e-bbc0-bb4963d6feb0"
     ],
     "filterType": "GMSprite",
-    "folderName": "Red Mountains 2",
+    "folderName": "Red Mountains",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

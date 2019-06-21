@@ -81,7 +81,6 @@ if instance_exists(new_cube) repeat (1) {
 		cm.x = new_cube.x;
 		cm.y = new_cube.y;
 		cm.player_cube = new_cube;
-		with (cm) event_user(0);
 		break;
 	}
 	var rmtype = "rm_red_mountains"
