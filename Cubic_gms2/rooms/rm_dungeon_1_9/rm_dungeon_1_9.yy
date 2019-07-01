@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_rpg_1_8b",
+    "name": "rm_dungeon_1_9",
     "id": "864c7059-4adb-423c-a571-2da86f2ae2b5",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
