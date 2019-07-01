@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_rpg_1_6b",
+    "name": "rm_rpg_1_8b",
     "id": "864c7059-4adb-423c-a571-2da86f2ae2b5",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
@@ -10,7 +10,6 @@
         "47d67b1e-095c-4fda-a2ce-33f40984927e",
         "246ac003-4ebd-47f3-8b60-3f71f5f887a4",
         "3c4a8557-48e9-4619-a577-e481a0e4863b",
-        "a6af16da-8504-41f2-84f4-27bdf53f5e5d",
         "0ffafd63-8ad5-44e9-84fb-d558e5b07909",
         "83281aed-00cb-4b70-b581-2333b2b4c2e9",
         "1fdcca03-dc2b-4a03-acbd-da5803124122",
@@ -33,7 +32,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_123F76F7","id": "a6af16da-8504-41f2-84f4-27bdf53f5e5d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_123F76F7","objId": "a2cc62ec-cf03-4655-a027-10a2e870bc36","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 36,"y": 54}
+
             ],
             "layers": [
 

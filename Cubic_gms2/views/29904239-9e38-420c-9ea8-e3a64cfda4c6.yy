@@ -8,13 +8,9 @@
         "89340549-1a18-48d6-ac1e-4bb95180fb3f",
         "287c7aa7-d27d-44fc-a6c3-4c58b0a56202",
         "56973a51-904b-4142-b0b6-8b121eb8a22f",
-        "dfcb44f6-4654-458e-ab0b-f6904b45fd52",
-        "ea2df367-bb63-4cc5-8dfd-e668dfee8eaf",
-        "8cc6793f-0d9b-4291-ae34-d32bc72db0a2",
-        "60265e94-6159-4a9c-98f8-057b86269fee",
-        "3376a8ad-5fd9-4703-bdef-9d204b7c523b",
-        "56cf0553-3fb5-4f31-b370-0e8d5c0dead5",
-        "864c7059-4adb-423c-a571-2da86f2ae2b5"
+        "fa3b13d0-f115-44b3-96a3-0f6b3675af88",
+        "a2a99163-1f6e-40a3-9d5a-dbd51750bb8b",
+        "7da9bf37-62a1-4618-b5f4-04562c58a887"
     ],
     "filterType": "GMRoom",
     "folderName": "rpg test",
