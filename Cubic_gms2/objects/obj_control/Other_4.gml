@@ -83,7 +83,7 @@ if instance_exists(new_cube) repeat (1) {
 		cm.player_cube = new_cube;
 		break;
 	}
-	var rmtype = "rm_red_mountains"
+	var rmtype = "rm_red_mts"
 	if (string_copy(room_get_name(room), 1, string_length(rmtype)) == rmtype) {
 		var cm = instance_create(new_cube.x, new_cube.y, obj_redmts_camera);
 		cm.player_cube = new_cube;

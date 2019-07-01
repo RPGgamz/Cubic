@@ -2,11 +2,7 @@
 //working variables
 bb = (obj_display_manager.ideal_width-120)/2
 surf_room = -1;
-w_screen = obj_display_manager.view_zoom*(display_get_gui_width()/2 - bb); //these are actually      00
-h_screen = obj_display_manager.view_zoom*display_get_gui_height()/2;	   //the halved dimensions  <__>
 first_frame = true;
-
-
 
 //views
 view_set_visible(1, false);

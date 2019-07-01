@@ -4,6 +4,13 @@ if (!instance_exists(player_cube)) {show_debug_message("camera object self destr
 
 if (first_frame) {
 	first_frame = false;
+	
+	//view zoom based setup
+	base_layer_speed = 1//obj_display_manager.view_zoom;
+	w_screen = obj_display_manager.view_zoom*(display_get_gui_width()/2 - bb); //these are actually      00
+	h_screen = obj_display_manager.view_zoom*display_get_gui_height()/2;	   //the halved dimensions  <__>
+	
+	//get borders and parallax origo
 	if (instance_number(obj_camera_borders) == 1) {
 		right_bor	= obj_camera_borders.x + obj_camera_borders.sprite_width/2;
 		left_bor	= obj_camera_borders.x - obj_camera_borders.sprite_width/2;
@@ -34,12 +41,13 @@ if (first_frame) {
 	x = targ_x;
 	y = targ_y;
 	
+	//cloud layers
 	var i = 0;
 	anyclouds = false;
 	repeat(array_length_1d(cloud_layers)) {
 		if (cloud_layers[i++]) {
 			anyclouds = true;
-			cloud_speed = 0.02
+			cloud_speed = 0.02;
 			cloud_time = irandom(room_width/cloud_speed);
 			break;
 		}
