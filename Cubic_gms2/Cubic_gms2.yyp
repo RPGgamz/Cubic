@@ -1639,6 +1639,14 @@
             }
         },
         {
+            "Key": "3376a8ad-5fd9-4703-bdef-9d204b7c523b",
+            "Value": {
+                "id": "a9003430-008b-47f9-b311-a295c8738fa3",
+                "resourcePath": "rooms\\rm_rpg_1_6\\rm_rpg_1_6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "339752cf-1264-4cc5-affb-613f1385d95c",
             "Value": {
                 "id": "2d4956f7-2714-45b3-ad52-f35c9396ab74",
@@ -2783,6 +2791,14 @@
             }
         },
         {
+            "Key": "56cf0553-3fb5-4f31-b370-0e8d5c0dead5",
+            "Value": {
+                "id": "5333e8e5-2cb1-42c8-a905-1d74e63174f0",
+                "resourcePath": "rooms\\rm_rpg_1_6a\\rm_rpg_1_6a.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "56f55c59-52c1-415b-b406-b2c04c61fdde",
             "Value": {
                 "id": "8d8f7ec1-f9d6-4e23-9139-13ae54f243ba",
@@ -3019,6 +3035,14 @@
             "Value": {
                 "id": "5825b62a-e6a0-40a9-b053-53d2209957e7",
                 "resourcePath": "rooms\\p_0cube2_5\\p_0cube2_5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "60265e94-6159-4a9c-98f8-057b86269fee",
+            "Value": {
+                "id": "b12704ca-532c-4e69-b8b1-a3e0193956b1",
+                "resourcePath": "rooms\\rm_rpg_1_4\\rm_rpg_1_4.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4343,6 +4367,14 @@
             }
         },
         {
+            "Key": "864c7059-4adb-423c-a571-2da86f2ae2b5",
+            "Value": {
+                "id": "226d44e7-a853-4c3c-9608-cafe72d04fbb",
+                "resourcePath": "rooms\\rm_rpg_1_6b\\rm_rpg_1_6b.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "86501735-37c8-4539-9081-07a57d00c91e",
             "Value": {
                 "id": "bfc7828c-f827-4f14-8f61-a8fb99714952",
@@ -4572,6 +4604,14 @@
                 "id": "953dc9ca-f8a7-4cd5-9654-ddf9f706b299",
                 "resourcePath": "views\\8cb21b59-e39e-4916-8e95-37e20b8cbfd0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cc6793f-0d9b-4291-ae34-d32bc72db0a2",
+            "Value": {
+                "id": "90850ea0-8ab4-4a70-8f66-091924c241e0",
+                "resourcePath": "rooms\\rm_rpg_1_3\\rm_rpg_1_3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -7167,6 +7207,14 @@
             }
         },
         {
+            "Key": "dfcb44f6-4654-458e-ab0b-f6904b45fd52",
+            "Value": {
+                "id": "1d6ba722-a747-4aaf-81a7-4be37eb51a4d",
+                "resourcePath": "rooms\\rm_rpg_1_1\\rm_rpg_1_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "dfef4f1a-c5df-4f91-90e2-f7f7546f23cd",
             "Value": {
                 "id": "f86e5bb1-25f6-4b18-8e82-a1c663e20ccc",
@@ -7547,6 +7595,14 @@
             "Value": {
                 "id": "ffe0ab5f-0e2c-4407-ae37-57195d4d7666",
                 "resourcePath": "rooms\\p_trash_2\\p_trash_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ea2df367-bb63-4cc5-8dfd-e668dfee8eaf",
+            "Value": {
+                "id": "9cdf8906-df70-4c03-af63-35e0a11f2c13",
+                "resourcePath": "rooms\\rm_rpg_1_2\\rm_rpg_1_2.yy",
                 "resourceType": "GMRoom"
             }
         },

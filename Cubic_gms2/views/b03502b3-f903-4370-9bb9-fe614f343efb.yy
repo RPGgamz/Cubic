@@ -10,9 +10,7 @@
         "aaae2ab7-5c44-4594-83db-ad707e7b0224",
         "ecff23c3-fc46-402c-9cda-ab4e4eb5ab2b",
         "224a6217-2cc4-4493-9895-0e904212462d",
-        "9e5f2fe7-6b45-480b-880b-17d9defabb12",
-        "29904239-9e38-420c-9ea8-e3a64cfda4c6",
-        "b8bdb236-8faf-4bb9-a71f-73fd449514a9"
+        "9e5f2fe7-6b45-480b-880b-17d9defabb12"
     ],
     "filterType": "GMRoom",
     "folderName": "start",
