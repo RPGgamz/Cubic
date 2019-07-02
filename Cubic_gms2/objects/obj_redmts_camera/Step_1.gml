@@ -6,7 +6,6 @@ if (first_frame) {
 	first_frame = false;
 	
 	//view zoom based setup
-	base_layer_speed = 1//obj_display_manager.view_zoom;
 	w_screen = obj_display_manager.view_zoom*(display_get_gui_width()/2 - bb); //these are actually      00
 	h_screen = obj_display_manager.view_zoom*display_get_gui_height()/2;	   //the halved dimensions  <__>
 	
