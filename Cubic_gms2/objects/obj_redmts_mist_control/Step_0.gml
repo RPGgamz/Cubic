@@ -11,11 +11,13 @@ while (i < instance_number(obj_redmts_mist)) {
 	} else i++;
 }
 
+
 repeat(killed) {
+	
 	held_mists++;
-	if (random(1) <= held_mists*cluster_chance) {
-		x = random_range(-mist_width,room_width+mist_width) + mist_creation_xoffset;
-		y = random_range(0, room_height);
+	if (random(1) <= prob_new) {
+		x = random_range(min_x-mist_width, max_x+mist_width) + mist_creation_xoffset;
+		y = random_range(min_y, max_y);
 		repeat(held_mists) {
 			var mist = instance_create(x, y, obj_redmts_mist);
 			mist.z = choose(0,1);
@@ -25,5 +27,7 @@ repeat(killed) {
 			x += random_range(-cluster_yvar, cluster_yvar);
 		}
 		held_mists = 0;
-	}
+		prob_new = cluster_chance;
+	} else prob_new += (1-prob_new)*cluster_chance;
+	
 }

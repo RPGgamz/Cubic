@@ -2,12 +2,16 @@
 if (!instance_exists(player_cube)) {show_debug_message("camera object self destruct! :D"); instance_destroy();}
 
 
-if (first_frame) {
+if (first_frame) { #region
 	first_frame = false;
 	
-	//view zoom based setup
-	w_screen = obj_display_manager.view_zoom*(display_get_gui_width()/2 - bb); //these are actually      00
-	h_screen = obj_display_manager.view_zoom*display_get_gui_height()/2;	   //the halved dimensions  <__>
+	//get the view zoom
+	view_zoom = obj_display_manager.view_zoom;
+	
+	//these are the halved dimensions of the screen in terms of in-game pixels...
+	//so basically the halved dimensions of the "window" inside the room, which is squished onto the screen
+	w_screen = obj_display_manager.view_zoom*(display_get_gui_width()/2 - bb); 
+	h_screen = obj_display_manager.view_zoom*display_get_gui_height()/2;
 	
 	//get borders and parallax origo
 	if (instance_number(obj_camera_borders) == 1) {
@@ -27,13 +31,20 @@ if (first_frame) {
 		parallax_origo_y = obj_parallax_origo.y;
 		instance_destroy(obj_parallax_origo);
 	} else {
-		parallax_origo_x = room_width/2;
-		parallax_origo_y = room_height/2;
+		parallax_origo_x = (right_bor-left_bor)/2;
+		parallax_origo_y = (bottom_bor-top_bor)/2;
 	}
+	//turn parallax origo into origo for camera, instead of origo for cube.
+	targ_x = parallax_origo_x;
+	targ_y = parallax_origo_y;
+	event_user(0);
+	parallax_origo_x = targ_x;
+	parallax_origo_y = targ_y;
 	
 	//mist
 	if (!instance_exists(obj_redmts_mist_control)) instance_create(0,0,obj_redmts_mist_control);
 	
+	//start pos
 	targ_x = x;
 	targ_y = y;
 	event_user(0);
@@ -52,12 +63,13 @@ if (first_frame) {
 		}
 	}
 	
+	#endregion
 } else {
 	targ_x = player_cube.x;
 	targ_y = player_cube.y;
 	event_user(0);
 	
 	if (anyclouds) {
-		if (++cloud_time >= room_width/cloud_speed) cloud_time = 0;
+		if (++cloud_time >= (room_width/view_zoom)/cloud_speed) cloud_time = 0;
 	}
 }
