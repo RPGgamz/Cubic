@@ -1,4 +1,4 @@
-/// @description Switch between idle/ready animation & make particle
+/// @description Switch animation & make particle
 var ww = sprite_width/2;
 if (idle_ready_teleport != "teleport") {
 	idle_ready_teleport = "";
@@ -11,7 +11,7 @@ if (idle_ready_teleport != "teleport") {
 
 //make particle
 if (object_index != obj_zone_exit && !completed && random(1) <= 1/90) {
-	pp = -100;
+	pp = -200;
 	if (idle_ready_teleport = "idle") {
 		pp = irandom_range(-18,59);
 		if (pp < 0) pp = -pp-1

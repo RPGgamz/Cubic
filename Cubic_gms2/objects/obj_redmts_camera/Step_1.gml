@@ -19,6 +19,18 @@ if (first_frame) { #region
 		left_bor	= obj_camera_borders.x - obj_camera_borders.sprite_width/2;
 		bottom_bor	= obj_camera_borders.y + obj_camera_borders.sprite_height/2;
 		top_bor		= obj_camera_borders.y - obj_camera_borders.sprite_height/2;
+		
+		if (obj_camera_borders.right_border_hardness != -1) right_border_hardness = obj_camera_borders.right_border_hardness;
+		if (obj_camera_borders.left_border_hardness != -1) left_border_hardness = obj_camera_borders.left_border_hardness;
+		if (obj_camera_borders.top_border_hardness != -1) top_border_hardness = obj_camera_borders.top_border_hardness;
+		if (obj_camera_borders.bottom_border_hardness != -1) bottom_border_hardness = obj_camera_borders.bottom_border_hardness;
+		
+		var i = 0;
+		repeat(array_length_1d(obj_camera_borders.cloud_layers)) {
+			if (obj_camera_borders.cloud_layers[i] == true) cloud_layers[i] = true;
+			i++;
+		}
+		
 		instance_destroy(obj_camera_borders);
 	} else {
 		right_bor	= room_width;
@@ -26,23 +38,25 @@ if (first_frame) { #region
 		bottom_bor	= room_height;
 		top_bor		= 0;
 	}
+	//put parallax origo in targ variables first, so we can use event0 to get the origo for the camera, rather than cube.
 	if (instance_number(obj_parallax_origo) == 1) {
-		parallax_origo_x = obj_parallax_origo.x;
-		parallax_origo_y = obj_parallax_origo.y;
+		targ_x = obj_parallax_origo.x;
+		targ_y = obj_parallax_origo.y;
 		instance_destroy(obj_parallax_origo);
 	} else {
-		parallax_origo_x = (right_bor-left_bor)/2;
-		parallax_origo_y = (bottom_bor-top_bor)/2;
+		targ_x = (right_bor-left_bor)/2;
+		targ_y = (bottom_bor-top_bor)/2;
 	}
-	//turn parallax origo into origo for camera, instead of origo for cube.
-	targ_x = parallax_origo_x;
-	targ_y = parallax_origo_y;
 	event_user(0);
 	parallax_origo_x = targ_x;
 	parallax_origo_y = targ_y;
 	
 	//mist
-	if (!instance_exists(obj_redmts_mist_control)) instance_create(0,0,obj_redmts_mist_control);
+	if (!instance_exists(obj_redmts_mist_control)) {
+		var mist = instance_create(0,0,obj_redmts_mist_control);
+		mist.image_xscale = room_width/mist.sprite_width;
+		mist.image_yscale = room_height/mist.sprite_height;
+	}
 	
 	//start pos
 	targ_x = x;

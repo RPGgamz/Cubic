@@ -14,7 +14,7 @@ while (i < instance_number(obj_redmts_mist)) {
 
 repeat(killed) {
 	
-	held_mists++;
+	/*held_mists++;
 	if (random(1) <= prob_new) {
 		x = random_range(min_x-mist_width, max_x+mist_width) + mist_creation_xoffset;
 		y = random_range(min_y, max_y);
@@ -28,6 +28,11 @@ repeat(killed) {
 		}
 		held_mists = 0;
 		prob_new = cluster_chance;
-	} else prob_new += (1-prob_new)*cluster_chance;
+	} else prob_new += (1-prob_new)*cluster_chance;*/
+	
+	var mist = instance_create(random_range(min_x-mist_width, max_x+mist_width) + mist_creation_xoffset, random_range(min_y, max_y), obj_redmts_mist);
+	mist.z = choose(0,1);
+	mist.dz = sign(0.5-mist.z)*random(max_dz);
+	mist.imagenr = irandom(sprite_get_number(spr_redmts_mist));
 	
 }

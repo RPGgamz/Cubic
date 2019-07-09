@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_camera_borders",
     "eventList": [
-        
+        {
+            "id": "6548ec79-b7c2-4b4b-abea-982f860563cd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "7da7046a-c607-4887-aa19-f918d4d841cd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
