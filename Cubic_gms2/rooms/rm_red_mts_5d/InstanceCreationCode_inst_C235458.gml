@@ -1,5 +1,5 @@
-target_room = rm_red_mts_2c;
-target_door = 0;
+target_room = rm_red_mts_2d;
+target_door = 2;
 
-ID = 1;
+ID = 0;
 dir = "down";

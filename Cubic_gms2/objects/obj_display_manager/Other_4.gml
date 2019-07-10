@@ -7,6 +7,7 @@ if (instance_exists(obj_rpg_control)) exit;
 if (!instance_exists(obj_pz)) switch (room) {
 	//case [Room name]: view_zoom = [val]; break;
 	case rm_green_forest_1a: view_zoom = 1; break;
+	case rm_red_mts_4d: view_zoom = 1; break;
 	default: view_zoom = max(room_width div 120, room_height div 108);
 }
 
