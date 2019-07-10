@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_red_mts_2b1",
+    "name": "rm_red_mts_2b",
     "id": "b2f3865d-d357-402b-8f9c-b6349ee60a00",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
