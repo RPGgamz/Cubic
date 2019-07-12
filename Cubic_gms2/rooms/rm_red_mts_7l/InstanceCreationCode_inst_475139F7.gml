@@ -1,0 +1,1 @@
+top_border_hardness = 1;

@@ -20,10 +20,10 @@ if (first_frame) { #region
 		bottom_bor	= obj_camera_borders.y + obj_camera_borders.sprite_height/2;
 		top_bor		= obj_camera_borders.y - obj_camera_borders.sprite_height/2;
 		
-		if (obj_camera_borders.right_border_hardness != -1) right_border_hardness = obj_camera_borders.right_border_hardness;
-		if (obj_camera_borders.left_border_hardness != -1) left_border_hardness = obj_camera_borders.left_border_hardness;
-		if (obj_camera_borders.top_border_hardness != -1) top_border_hardness = obj_camera_borders.top_border_hardness;
-		if (obj_camera_borders.bottom_border_hardness != -1) bottom_border_hardness = obj_camera_borders.bottom_border_hardness;
+		if (obj_camera_borders.right_border_hardness != -100) right_border_hardness = obj_camera_borders.right_border_hardness;
+		if (obj_camera_borders.left_border_hardness != -100) left_border_hardness = obj_camera_borders.left_border_hardness;
+		if (obj_camera_borders.top_border_hardness != -100) top_border_hardness = obj_camera_borders.top_border_hardness;
+		if (obj_camera_borders.bottom_border_hardness != -100) bottom_border_hardness = obj_camera_borders.bottom_border_hardness;
 		
 		var i = 0;
 		repeat(array_length_1d(obj_camera_borders.cloud_layers)) {
@@ -44,19 +44,20 @@ if (first_frame) { #region
 		targ_y = obj_parallax_origo.y;
 		instance_destroy(obj_parallax_origo);
 	} else {
-		targ_x = (right_bor-left_bor)/2;
-		targ_y = (bottom_bor-top_bor)/2;
+		targ_x = (right_bor+left_bor)/2;
+		targ_y = (bottom_bor+top_bor)/2;
 	}
 	event_user(0);
 	parallax_origo_x = targ_x;
 	parallax_origo_y = targ_y;
 	
-	//mist
+	/*/mist
 	if (!instance_exists(obj_redmts_mist_control)) {
 		var mist = instance_create(0,0,obj_redmts_mist_control);
 		mist.image_xscale = room_width/mist.sprite_width;
 		mist.image_yscale = room_height/mist.sprite_height;
 	}
+	//*/
 	
 	//start pos
 	targ_x = x;

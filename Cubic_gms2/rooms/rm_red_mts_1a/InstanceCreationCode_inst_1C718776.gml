@@ -1,6 +1,6 @@
-right_border_hardness = 0.97;
-left_border_hardness = 0.97;
+right_border_hardness = 1;
+left_border_hardness = 1;
 top_border_hardness = 1;
-bottom_border_hardness = 0.6;
+bottom_border_hardness = 0.8;
 
 cloud_layers[1] = true;

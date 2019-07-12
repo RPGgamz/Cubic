@@ -24,7 +24,14 @@
         "cca47082-37e2-4aa4-b771-9f5c3083ca62",
         "bec350cd-bd3a-4fb5-b17e-9a0de7a551f9",
         "09def7b2-b86d-44f8-bae5-74d70c0d0fe5",
-        "b193bceb-771d-4ad2-bda2-be90c1167160"
+        "b193bceb-771d-4ad2-bda2-be90c1167160",
+        "75c39098-3b71-4865-bc06-9296f643ff9e",
+        "e8515a5c-c13d-4b45-9fae-bee667cd40f5",
+        "663a01f5-6168-41bb-ade8-7a53c401f9d2",
+        "27a74da8-eafb-4c1c-bd4e-40d4f75c3b6d",
+        "320483cf-ba8a-4cc9-9972-b8f0e51e5338",
+        "7f519f8a-755e-4c93-a66c-445d56f177c9",
+        "62708e87-b031-4c14-81db-46a620512c8e"
     ],
     "filterType": "GMRoom",
     "folderName": "Red Mountains 2",

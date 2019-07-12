@@ -1,0 +1,1 @@
+//right_border_hardness = 0.5
