@@ -73,7 +73,7 @@ if (first_frame) { #region
 		if (cloud_layers[i++]) {
 			anyclouds = true;
 			cloud_speed = 0.02;
-			cloud_time = irandom(room_width/cloud_speed);
+			cloud_time = irandom((room_width/view_zoom)/cloud_speed);
 			break;
 		}
 	}
