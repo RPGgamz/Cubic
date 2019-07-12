@@ -1,6 +1,6 @@
 /// @description update dir
 var player = obj_rpg_control.player;
-var tilesize = 12 // Change the number if we change tilesize
+var tilesize = 12;
 var x_dist = round((player.x-x)/tilesize);
 var y_dist = round((player.y-y)/tilesize);
 

@@ -9,12 +9,9 @@ switch (state) {
 		
 			#region
 			//update enemyF
-			if (prev_state != idle) with (obj_rpg_enemyF) {
-				if (!position_meeting(x, y, other.cam)) continue;
-				scr_rpg_enemyF_updatedir();
-			}
+			if (prev_state != idle) with (obj_rpg_enemyF) scr_rpg_enemyF_updatedir();
 			
-			//attempt to go to playermove state
+			//go to playermove state
 			if (queued_dir = "left" || queued_dir = "right" || queued_dir = "up"|| queued_dir = "down") {
 				obj_control.slide_dir = queued_dir;
 				queued_dir = "";
@@ -78,14 +75,6 @@ switch (state) {
 			
 			//end playermove state
 			if (player.step >= player.max_steps) {
-				//move to other rooms
-				var prev_cam = cam;
-				cam = instance_position(player.x, player.y, obj_rpg_camera_zone);
-				if (prev_cam != cam) {
-					scr_rpg_cam_focus();
-					state = idle;
-					break;
-				}
 				//pick up items
 				with (player) {
 					var item = instance_place(x, y, obj_rpg_collectible);

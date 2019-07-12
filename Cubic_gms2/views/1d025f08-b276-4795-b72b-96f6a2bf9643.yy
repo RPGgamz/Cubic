@@ -17,11 +17,15 @@
         "62c79787-b48f-497e-9500-01131feda210",
         "6d427e57-d90f-4019-9086-dce13a967317",
         "db028945-9407-47e6-b5b6-b46ba4f7de5b",
+        "404109c1-9eb4-4d35-ae21-d6041a0ca14e",
         "d7f26563-e0cb-4ffa-b9e7-de175cb01c40",
         "dd237512-9f5d-4ae1-a344-a79597f6c588",
         "b9a64fb6-10b1-4003-a514-5578b0a3a8cb",
         "90fad28b-dc1f-4630-8edc-5b94c3ff5705",
-        "e3e1f383-4c6c-41e3-9295-b8e057e1b955"
+        "6e38445c-1b8d-4810-a129-48ebc61cb286",
+        "a7b2468c-9f56-4e90-baed-45525bf28053",
+        "f1b7da9c-5755-4921-af8c-26a34d29ce71",
+        "2bec0297-d785-425b-bc29-8156169da886"
     ],
     "filterType": "GMSprite",
     "folderName": "not yet implemented",

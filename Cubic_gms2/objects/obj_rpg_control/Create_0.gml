@@ -1,5 +1,5 @@
 
-//states enum
+//states "enum"
 idle = 0;
 playermove = 1;
 enemymove = 2;

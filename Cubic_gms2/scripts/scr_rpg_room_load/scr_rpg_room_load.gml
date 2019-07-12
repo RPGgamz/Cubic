@@ -1,6 +1,6 @@
 
 
-//load collectibles
+/*/load collectibles
 with (obj_rpg_collectible) instance_destroy();
 var i = array_height_2d(save_col);
 repeat(i) {
