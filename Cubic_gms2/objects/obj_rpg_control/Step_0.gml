@@ -20,18 +20,18 @@ switch (state) {
 					//collide with solids
 				    if (scr_collide_with_solid()) {
 						//unlock doors
-						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock_general)
+						var lock = instance_place(x+scr_dx(0), y+scr_dy(0), obj_rpg_lock_general);
 						if instance_exists(lock) {
 							if (object_is_ancestor(lock.object_index, obj_rpg_biglock)) {
 								if (other.bigkeys > 0) {
 									other.bigkeys --;
-									lock.alarm[0] = 1;
+									lock.image_speed = lock.unlock_speed;
 								}
 							}
 							else {
 								if (other.keys > 0) {
 									other.keys --;
-									lock.alarm[0] = 1;
+									lock.image_speed = lock.unlock_speed;
 								}
 							}
 						}

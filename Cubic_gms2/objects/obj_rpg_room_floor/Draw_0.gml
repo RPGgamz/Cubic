@@ -16,7 +16,7 @@ var w = sprite_width div 12;
 var h = sprite_height div 12;
 var i = 0;
 repeat(w*h) {
-	draw_sprite(spr_rpg_floor_tile, 0, x+ (i mod w)*12, y+ (i div w)*12)
+	draw_sprite(spr_rpg_floor_tile, 0, x+ (i mod w)*12, y+ (i div w)*12);
 	i++;
 }
 

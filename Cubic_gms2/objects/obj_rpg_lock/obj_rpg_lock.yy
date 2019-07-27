@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_rpg_lock",
     "eventList": [
-        
+        {
+            "id": "065e1043-4f98-4821-9752-27964e1d9d74",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "85968acc-7d2a-4c20-b279-5a256fd066fd"
+        },
+        {
+            "id": "170ead60-82a1-4bae-b133-bc00e83eb0b1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "85968acc-7d2a-4c20-b279-5a256fd066fd"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

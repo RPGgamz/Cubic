@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "1df01ece-eec5-42e4-bc3d-1b099e0ff5e4",
+            "Value": {
+                "id": "1cdf630b-c678-4c6e-828d-06f54925fa47",
+                "resourcePath": "objects\\obj_rpg_door_down\\obj_rpg_door_down.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1dfdc2d8-0b3b-4d15-919e-f60150d8310a",
             "Value": {
                 "id": "dc14e698-0cb5-40b4-8e04-3a089a74f12b",
@@ -1026,7 +1034,7 @@
             "Key": "1f23c0f3-1f34-439b-b662-509966122afc",
             "Value": {
                 "id": "0ce3bacb-b217-46a6-b8cc-e8bfc6c50f0a",
-                "resourcePath": "objects\\obj_rpg_lock_v\\obj_rpg_lock_v.yy",
+                "resourcePath": "objects\\obj_rpg_door_left\\obj_rpg_door_left.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1218,7 +1226,7 @@
             "Key": "2480a974-056d-4010-be09-4a64b6eee72c",
             "Value": {
                 "id": "d84d89e0-58ce-42b7-bfb8-24d8d50200a4",
-                "resourcePath": "objects\\obj_rpg_lock_h\\obj_rpg_lock_h.yy",
+                "resourcePath": "objects\\obj_rpg_door_right\\obj_rpg_door_right.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1540,6 +1548,14 @@
                 "id": "1797b2aa-fbd9-4404-a183-c1ae839e8f78",
                 "resourcePath": "scripts\\scr_goto_menu\\scr_goto_menu.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2f115470-9eb5-4aa0-be6b-56b5e7572ad8",
+            "Value": {
+                "id": "34a43f3c-8dba-41be-ab18-24f4ae8f3026",
+                "resourcePath": "objects\\obj_rpg_door_up\\obj_rpg_door_up.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2231,14 +2247,6 @@
             }
         },
         {
-            "Key": "404109c1-9eb4-4d35-ae21-d6041a0ca14e",
-            "Value": {
-                "id": "c3d1c953-4df9-4024-a612-80233c6db387",
-                "resourcePath": "sprites\\normalkey1\\normalkey1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4051025a-396c-4938-b42f-cf2fbc8e251d",
             "Value": {
                 "id": "c564f9da-129f-49fe-b7fd-670c93ee2a0a",
@@ -2338,7 +2346,7 @@
             "Key": "43796a7f-1cd3-4af9-815f-fd419163c832",
             "Value": {
                 "id": "a62c7765-2c8a-4478-a0e5-0abe9abf1388",
-                "resourcePath": "sprites\\dooropenanimation\\dooropenanimation.yy",
+                "resourcePath": "sprites\\spr_rpg_door_up\\spr_rpg_door_up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3459,6 +3467,14 @@
             "Value": {
                 "id": "074ed128-87e8-4402-9736-927a701b15da",
                 "resourcePath": "sprites\\bg_tree_top_lvl0_a\\bg_tree_top_lvl0_a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a66c94d-e31e-4630-adf5-450fc9948e0f",
+            "Value": {
+                "id": "ae8af946-668d-4438-8569-8a2f9ab9ff55",
+                "resourcePath": "sprites\\spr_rpg_door_down\\spr_rpg_door_down.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5251,6 +5267,14 @@
             "Value": {
                 "id": "cff1d09f-4e13-4b7e-8dc4-3a9415d188b4",
                 "resourcePath": "sprites\\spr_pause_SAVES_cube\\spr_pause_SAVES_cube.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "98f0a537-ea85-4efb-8964-228f2eea3e52",
+            "Value": {
+                "id": "d9659d42-003b-4dca-89e2-455de0803cd6",
+                "resourcePath": "sprites\\spr_rpg_door_left\\spr_rpg_door_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7692,6 +7716,14 @@
                 "id": "0b57bd45-3365-42b4-80b1-6d9db0c3edd1",
                 "resourcePath": "rooms\\rm_green_forest_7c\\rm_green_forest_7c.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e38be727-0318-4fc2-939e-4b895ca3c43a",
+            "Value": {
+                "id": "4105f2ff-3ef6-4dde-99bc-6b2231c06c2b",
+                "resourcePath": "sprites\\spr_rpg_door_right\\spr_rpg_door_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
