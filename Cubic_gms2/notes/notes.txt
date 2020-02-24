@@ -1,9 +1,9 @@
 lyden som spiller når en cube stopper, aktiverer ikke hvis den stoppes af en anden cube
 
 lvls: ----------------------------------------
-alle kan passere igennem andre af samme lvl
+alle farver kan passere igennem andre af samme farve
 
-1+ er farver
-0  er kun lvl 0 cubes
--1 er kun impassable walls
--2 er kun pushers
+ 0 < farver
+ 0 = kun lvl 0 cubes
+-1 = kun impassable walls
+-2 = kun pushers

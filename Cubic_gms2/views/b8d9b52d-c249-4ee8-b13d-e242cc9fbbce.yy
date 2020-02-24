@@ -19,7 +19,9 @@
         "9c693196-e325-4d2d-bc4e-aa6b1470bcd6",
         "d70abfb2-956f-4c8b-be54-0ed0ff7ef95a",
         "773c4f58-c6e0-4e9f-8213-0742ce1841f9",
-        "161e5032-70e4-44fe-9313-2e5adfd441ca"
+        "161e5032-70e4-44fe-9313-2e5adfd441ca",
+        "2f96dea2-e1f9-4c7c-bcf4-3df011312dce",
+        "25c7c449-2f3b-4e45-9571-b2029a5ee53d"
     ],
     "filterType": "GMSprite",
     "folderName": "pz_zones",

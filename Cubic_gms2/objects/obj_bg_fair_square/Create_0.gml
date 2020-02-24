@@ -9,7 +9,6 @@ square_lifetime = 60*20;
 max_value = 10;
 square_birth_chance = 400; //actual spawn prob is inverse of this number
 center_birth_concentration = 1.5; //positive reduces cubes away from center, negative increaces them. 
-alarm[0] = 1;
 
 
 

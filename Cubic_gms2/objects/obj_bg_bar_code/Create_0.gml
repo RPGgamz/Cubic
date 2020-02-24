@@ -5,7 +5,6 @@ obj_pz.bg_color = make_color_rgb(22,32,41);
 bg_hue = color_get_hue(obj_pz.bg_color);
 bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
-alarm[0] = 1;
 
 //settings
 max_width = 8;

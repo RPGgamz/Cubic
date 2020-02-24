@@ -2,7 +2,6 @@
 
 //variables
 obj_pz.bg_color = make_color_rgb(42,28,36);
-alarm[0] = 1;
 bg_hue = color_get_hue(obj_pz.bg_color);
 bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
