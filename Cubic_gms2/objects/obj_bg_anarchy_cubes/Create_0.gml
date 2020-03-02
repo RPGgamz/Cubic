@@ -5,7 +5,9 @@
 c_n = 50; //cube number
 c_s = 6; //cube size
 c_v = 1; //cube velocity (must divide into size)
-rest_max = 10;
+rest_max = 2*60; //times c_s/c_v
+surf_scaler = 1;
+anarchy = 0;
 
 //variables
 obj_pz.bg_color = make_color_rgb(22,32,41);
@@ -17,23 +19,35 @@ g_w = (120 div c_s) - 1; //grid height -1
 g_h = (108 div c_s) - 1; //grid width -1
 g_t = c_s div c_v; //grid time
 
+g_tt = 0;
+surf = -1;
+
 //local direction enum
 right = 0;
 up = 1;
 left = 2;
 down = 3;
 
-//surf
-surf = -1;
-surf_scaler = 1;
-
 //make start cubes
 
 var i = c_n
-while (--i != 0) {
+while (i-- > 0) {
 	c_x[i] = c_s*irandom(g_w);
 	c_y[i] = c_s*irandom(g_h);
-	c_t[i] = g_t*irandom(rest_max);
+	
+	var j = c_n
+	while (j != i) {
+		while (--j > i){
+			if (point_in_rectangle(c_x[i], c_y[i], c_x[j]-c_s+1, c_y[j]-c_s+1, c_x[j]+c_s-1, c_y[j]+c_s-1)) {
+				j = c_n;
+				c_x[i] = c_s*irandom(g_w);
+				c_y[i] = c_s*irandom(g_h);
+				break;
+			}
+		}
+	}
+	
+	c_t[i] = g_t*irandom(rest_max) + irandom(anarchy*g_t);
 	c_d[i] = irandom(3);
 }
 
