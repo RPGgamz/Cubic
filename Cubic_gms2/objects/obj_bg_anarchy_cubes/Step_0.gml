@@ -50,7 +50,7 @@ while(i-- > 0) {
 	}
 	
 	//collision cubes
-	var j = c_n
+	var j = c_n;
 	while (j-- > 0) {
 		if (j == i) continue;
 		

@@ -17,7 +17,7 @@ bg_sat = color_get_saturation(obj_pz.bg_color);
 bg_val = color_get_value(obj_pz.bg_color);
 
 g_w = (120 div c_s) - 1; //grid height -1	//Victor: Er det ikke width?
-g_h = (108 div c_s) - 1; //grid width -1	//		  Er det ikke height?
+g_h = (108 div c_s) - 1; //grid width -1	//Victor: Height?
 g_t = c_s div c_v; //grid time
 
 g_tt = 0;
@@ -31,12 +31,12 @@ down = 3;
 
 //make start cubes
 
-var i = c_n
+var i = c_n;
 while (i-- > 0) {
 	c_x[i] = c_s*irandom(g_w);
 	c_y[i] = c_s*irandom(g_h);
 	
-	var j = c_n
+	var j = c_n;
 	while (j != i) {
 		while (--j > i) {
 			if (point_in_rectangle(c_x[i], c_y[i], c_x[j]-c_s+1, c_y[j]-c_s+1, c_x[j]+c_s-1, c_y[j]+c_s-1)) {
