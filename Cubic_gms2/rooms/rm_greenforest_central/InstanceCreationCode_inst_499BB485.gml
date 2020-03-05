@@ -1,5 +1,5 @@
-target_room = rm_green_forest_2a;
-target_door = 1;
+target_room = rm_greenforest_r_1;
+target_door = 0;
 
-ID = 0;
-dir = "up";
+ID = 3;
+dir = "left";

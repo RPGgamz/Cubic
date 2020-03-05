@@ -34,13 +34,16 @@ if (keyboard_check_pressed(vk_f5)) {
 }
 
 //"0" go to the first junction in the forest
-if (keyboard_check_pressed(ord("0"))) scr_room_goto(rm_green_forest_6a, 0, traveling_cube_lvl)
+if (keyboard_check_pressed(ord("0"))) scr_room_goto(rm_green_forest_6a, 0, traveling_cube_lvl);
 
 //"1" go to the first junction in the red mountains
-if (keyboard_check_pressed(ord("1"))) scr_room_goto(rm_red_mts_1a, 0, traveling_cube_lvl)
+if (keyboard_check_pressed(ord("1"))) scr_room_goto(rm_red_mts_1a, 0, traveling_cube_lvl);
+
+//"5" go to the first junction in the forest
+if (keyboard_check_pressed(ord("5"))) scr_room_goto(rm_greenforest_central, 0, traveling_cube_lvl);
 
 //"DEL" slet alle cubes
-if (keyboard_check_pressed(vk_delete)) instance_destroy(obj_cube)
+if (keyboard_check_pressed(vk_delete)) instance_destroy(obj_cube);
 
 //"U" puzzle complete animation test
 if (keyboard_check_pressed(ord("U"))) {
